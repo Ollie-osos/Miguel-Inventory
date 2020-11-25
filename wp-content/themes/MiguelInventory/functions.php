@@ -99,7 +99,7 @@ add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 // customise the made by content
 function modify_footer_admin () {
-	echo 'Created by <a href="http://uniform.net">Uniform</a>. Powered by <a href="http://www.wordpress.org">WordPress</a>';
+	echo 'Created by <a href="http://olliesmith.net">OS Web development</a>';
 }
 add_filter('admin_footer_text', 'modify_footer_admin');
 
@@ -117,18 +117,60 @@ add_action('wp_head','header_items');
 add_action( 'init', 'create_post_type' );
 
 function create_post_type() {
-	register_post_type( 'collections',
+	register_post_type( 'works',
 		array(
 			'labels' => array(
-				'name' => __( 'Collections' ),
-				'singular_name' => __( 'Collections' )
+				'name' => __( 'Works/Oeuvres' ),
+				'singular_name' => __( 'Works/Oeuvres' )
 			),
 		'public' => true,
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
+		'menu_icon' => 'dashicons-images-alt2'
 		)
 	);
 
+	register_post_type( 'exhibitions',
+		array(
+			'labels' => array(
+				'name' => __( 'Expositions' ),
+				'singular_name' => __( 'Exhibitions' )
+			),
+		'public' => true,
+		'show_in_nav_menus' => true,
+		'has_archive' => true,
+		'menu_icon' => 'dashicons-admin-site-alt'
+		)
+	);
+
+	register_post_type( 'bibliographies',
+		array(
+			'labels' => array(
+				'name' => __( 'Bibliographies' ),
+				'singular_name' => __( 'Bibliographies' )
+			),
+		'public' => true,
+		'show_in_nav_menus' => true,
+		'has_archive' => true,
+		'menu_icon' => 'dashicons-book-alt'
+		)
+	);
+
+	register_post_type( 'subworks',
+		array(
+			'labels' => array(
+				'name' => __( 'Sub Works' ),
+				'singular_name' => __( 'Sub Works' )
+			),
+		'public' => true,
+		'show_in_nav_menus' => true,
+		'has_archive' => true,
+		'menu_icon' => 'dashicons-images-alt2'
+		)
+	);
+
+
+	
 	// example post
 	// register_post_type( 'how_do_i_use',
 	// 	array(
@@ -201,7 +243,7 @@ if( function_exists('acf_add_options_page') ) {
 
 // add custom image crop options. 
 // https://developer.wordpress.org/reference/functions/add_image_size/
-https://havecamerawilltravel.com/photographer/wordpress-thumbnail-crop
+// https://havecamerawilltravel.com/photographer/wordpress-thumbnail-crop
 add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
 function wpdocs_theme_setup() {
     add_image_size( 'hero_image', 1280, 720, true ); // (cropped)
@@ -233,3 +275,39 @@ function ar_responsive_image($image_id,$image_size,$max_width){
 
 	}
 }
+
+// add unique field
+  
+function acf_unique_value_field($valid, $value, $field, $input) {
+	if (!$valid || (!isset($_POST['post_ID']) && !isset($_POST['post_id']))) {
+		return $valid;
+	}
+	if (isset($_POST['post_ID'])) {
+		$post_id = intval($_POST['post_ID']);
+	} else {
+		$post_id = intval($_POST['post_id']);
+	}
+	if (!$post_id) {
+		return $valid;
+	}
+	$post_type = get_post_type($post_id);
+	$field_name = $field['name'];
+	$args = array(
+		'post_type' => $post_type,
+		'post_status' => 'publish, draft, trash',
+		'post__not_in' => array($post_id),
+		'meta_query' => array(
+			array(
+				'key' => $field_name,
+				'value' => $value
+			)
+		)
+	);
+	$query = new WP_Query($args);
+	if (count($query->posts)){
+		return 'This Value is not Unique. Please enter a unique '.$field['label'];
+	}
+	return true;
+}
+	
+add_filter('acf/validate_value/name=unique_bibliography_code', 'acf_unique_value_field', 10, 4);
