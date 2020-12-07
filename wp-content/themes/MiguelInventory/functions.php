@@ -171,10 +171,10 @@ function create_post_type() {
 
 }
 
-add_post_type_support( 'exhibitions', 'thumbnail' );
-add_post_type_support( 'works', 'thumbnail' );
-add_post_type_support( 'bibliographies', 'thumbnail' );
-add_post_type_support( 'subworks', 'thumbnail' );
+// add_post_type_support( 'exhibitions', 'thumbnail' );
+// add_post_type_support( 'works', 'thumbnail' );
+// add_post_type_support( 'bibliographies', 'thumbnail' );
+// add_post_type_support( 'subworks', 'thumbnail' );
 
 // remove admin items we don't use / need
 // $restricted = array(__('Links'), __('Comments'), __('Posts'),__('Tools'),__('Users'), __('Plugins'));
