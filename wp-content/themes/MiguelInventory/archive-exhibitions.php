@@ -17,11 +17,10 @@
 
 get_header(); ?>
 
+<h1>YOOOO</h1>
+
 <div id="page" role="main">
 	<article class="main-content">
-
-	<h1>YOOOO</h1>
-	<h1>YOOOO</h1>
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
@@ -48,3 +47,7 @@ get_header(); ?>
 </div>
 
 <?php get_footer();
+
+
+// Load field value and convert to numeric timestamp.
+// $unixtimestamp = strtotime( get_field('date') );

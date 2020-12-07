@@ -169,29 +169,12 @@ function create_post_type() {
 		)
 	);
 
-
-	
-	// example post
-	// register_post_type( 'how_do_i_use',
-	// 	array(
-	// 		'labels' => array(
-	// 			'name' => __( 'How do I use' ),
-	// 			'singular_name' => __( 'How do I use' )
-	// 		),
-	// 	'public' => true,
-	// 	'show_in_nav_menus' => true,
-	// 	'has_archive' => true,
-	// 	'menu_icon' => get_template_directory_uri() . '/assets/images/theme/admin-icons/icon-howtouse.svg',
-	// 	'capability_type' => 'post',
-	// 	'capabilities' => array(
-	// 			'create_posts' => 'do_not_allow',
-	// 		),
-	// 	'map_meta_cap' => true,
-	// 	)
-	// );
 }
 
-
+add_post_type_support( 'exhibitions', 'thumbnail' );
+add_post_type_support( 'works', 'thumbnail' );
+add_post_type_support( 'bibliographies', 'thumbnail' );
+add_post_type_support( 'subworks', 'thumbnail' );
 
 // remove admin items we don't use / need
 // $restricted = array(__('Links'), __('Comments'), __('Posts'),__('Tools'),__('Users'), __('Plugins'));
@@ -311,3 +294,6 @@ function acf_unique_value_field($valid, $value, $field, $input) {
 }
 	
 add_filter('acf/validate_value/name=unique_bibliography_code', 'acf_unique_value_field', 10, 4);
+add_filter('acf/validate_value/name=unique_exhibition_code', 'acf_unique_value_field', 10, 4);
+add_filter('acf/validate_value/name=unique_work_code', 'acf_unique_value_field', 10, 4);
+add_filter('acf/validate_value/name=unique_subwork_code', 'acf_unique_value_field', 10, 4);
