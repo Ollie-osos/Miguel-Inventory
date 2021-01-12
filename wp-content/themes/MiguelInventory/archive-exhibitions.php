@@ -15,28 +15,35 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
-
+$img = get_field('main_image');
 get_header(); ?>
 
-
-
 <div id="page" role="main">
-	<article class="main-content">
-		<h1>YOOOO</h1>
+	<div class="main-content">
+		<h1>Exhibitions</h1>
 		<?php if (have_posts()) : ?>
-			<?php while (have_posts()) : the_post(); ?>
-								
-				<a href="<?php the_permalink(); ?>">
-					<?php $img = get_field('main_image') ?>
-					<img src="<?php echo $img['url'];?>" alt="<?php echo $img['alt'];?>">
-					<?php the_title(); ?>
-					<?php the_field('location'); ?>
-					<?php the_field('start_date'); ?>
-					<?php the_field('end_date'); ?>
-					<?php the_field('unique_exhibition_code'); ?>
-				</a>
-
-			<?php endwhile; ?>
+			<table class="hover">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Title</th>
+						<th>Location</th>
+						<th>Dates</th>
+						<th>Exhibition number</th>
+					</tr>
+				</thead>
+				<tbody>	
+					<?php while (have_posts()) : the_post(); ?>
+					<tr>
+						<td><a href="<?php the_permalink(); ?>"><img src="<?php echo $img['url'];?>" alt="<?php echo $img['alt'];?>"></a></td>
+						<td><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
+						<td><a href="<?php the_permalink(); ?>"><?php the_field('location'); ?></a></td>
+						<td><a href="<?php the_permalink(); ?>"><?php the_field('start_date'); ?> - <?php the_field('end_date'); ?></a></td>
+						<td><a href="<?php the_permalink(); ?>"><?php the_field('unique_exhibition_code'); ?></a></td>
+					</tr>
+					<?php endwhile; ?>
+				</tbody>
+			</table>
 			<?php /* Display navigation to next/previous pages when applicable */ ?>
 			<?php if (function_exists('foundationpress_pagination')) {
 				foundationpress_pagination();
@@ -47,7 +54,7 @@ get_header(); ?>
 				</nav>
 			<?php } ?>
 		<?php endif; ?>
-	</article>
+	</div>
 
 </div>
 

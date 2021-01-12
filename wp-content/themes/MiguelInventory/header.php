@@ -16,40 +16,33 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
 	</head>
-	<body <?php body_class(); ?>>
-	<?php do_action( 'foundationpress_after_body' ); ?>
-
-	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
-	<div class="off-canvas-wrapper">
-		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-		<?php get_template_part( 'template-parts/mobile-off-canvas' ); ?>
-	<?php endif; ?>
-
-	<?php do_action( 'foundationpress_layout_start' ); ?>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="title-bar" data-responsive-toggle="site-navigation">
-			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
-			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</div>
-		</div>
-
-		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
-				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
-				</ul>
-			</div>
-			<div class="top-bar-right">
-				<?php foundationpress_top_bar_r(); ?>
-
-				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
-					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
-				<?php endif; ?>
-			</div>
-		</nav>
+	<body <?php body_class(); ?> >
+				
+	<header id="navbar" role="banner" class="navbar container navbar-default">
+   <div id="navbar" class="row">
+      <div class="col-auto mr-auto left">
+         <div class="img-col"><a href="index.html" id="logo-title"><img src="../../assets/img/logo_MC_carre.gif" alt="Home"></a></div>
+         <div class="text-col">
+            <a href="index.html" id="logo-title2"><img src="../../assets/img/logo_MC_nom.gif" class="logo-header"></a>
+						<?php foundationpress_top_bar_r(); ?>
+            <!-- <ul id="main-menu" class="">
+               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/newslist/" ng-reflect-router-link="/newslist/" ng-reflect-router-link-active="active" href="/newslist">News</a></li>
+               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/works/" ng-reflect-router-link="/works/" ng-reflect-router-link-active="active" href="/works">Works</a></li>
+               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/biography/" ng-reflect-router-link="/biography/" ng-reflect-router-link-active="active" href="/biography">Biography</a></li>
+               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/texts/" ng-reflect-router-link="/texts/" ng-reflect-router-link-active="active" href="/texts">Texts</a></li>
+               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/publications/" ng-reflect-router-link="/publications/" ng-reflect-router-link-active="active" href="/publications">Publications</a></li>
+               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/contact/" ng-reflect-router-link="/contact/" ng-reflect-router-link-active="active" href="/contact">Contact</a></li>
+            </ul> -->
+         </div>
+      </div>
+      <div class="col-auto right">
+         <div class="link-social"><a href="http://vimeo.com/channels/miguelchevalier" target="_blank"><i class="fab fa-vimeo"></i></a><a href="http://www.facebook.com/Miguel.Chevalier.studio" target="_blank"><i class="fab fa-facebook-square"></i></a><a href="http://twitter.com/ChevalierMiguel" target="_blank"><i class="fab fa-twitter-square"></i></a><a href="https://www.youtube.com/user/claudemossessian" target="_blank"><i class="fab fa-youtube-square"></i></a><a href="https://instagram.com/miguel_chevalier/" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
+      </div>
+      <div id="menu-icon" class=""><span class="c-hamburger"><span></span></span></div>
+   </div>
 	</header>
 
-	<section class="container">
+	<div class="main">
 		<?php do_action( 'foundationpress_after_header' );
+
+

@@ -165,9 +165,24 @@ function create_post_type() {
 		'public' => true,
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
+		'menu_icon' => 'dashicons-images-alt2' 
+		)
+	);
+
+	register_post_type( 'oeuvre',
+		array(
+			'labels' => array(
+				'name' => __( 'oeuvre' ),
+				'singular_name' => __( 'oeuvre' )
+			),
+		'public' => true,
+		'show_in_nav_menus' => true,
+		'has_archive' => true,
 		'menu_icon' => 'dashicons-images-alt2'
 		)
 	);
+
+	
 
 }
 
