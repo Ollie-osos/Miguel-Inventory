@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -10,42 +11,24 @@
 
 ?>
 
-		</div>
-		
-
-		<?php do_action( 'foundationpress_layout_end' ); ?>
-
-<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
-		</div><!-- Close off-canvas wrapper inner -->
-	</div><!-- Close off-canvas wrapper -->
-</div><!-- Close off-canvas content wrapper -->
-<?php endif; ?>
-
-
-
-
+</div>
 
 <footer class="footer container">
-    
-  <div class="row content-bottom">
-    <div class="col-xs-12">
-      © Miguel Chevalier 2020
-    </div>
+	<div id="back-top">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/up-arrow.svg" alt="Scroll To Top">
 	</div>
-	
-	<div class="row">
-		<div class="fixed-inline-right">
-			<div style='position: fixed; z-index: 2'>
-				<p id="back-top">
-					<a href="#top"><img src="<?php echo get_template_directory_uri();?>/assets/images/icons/up-arrow.svg" alt="Scroll To Top"></a>
-				</p>
-			</div>
+	<div class="row content-bottom">
+		<div class="col-xs-12">
+			© Miguel Chevalier <?php echo date('Y'); ?>
 		</div>
 	</div>
+
+
 
 </footer>
 
 <?php wp_footer(); ?>
-<?php do_action( 'foundationpress_before_closing_body' ); ?>
+<?php do_action('foundationpress_before_closing_body'); ?>
 </body>
+
 </html>

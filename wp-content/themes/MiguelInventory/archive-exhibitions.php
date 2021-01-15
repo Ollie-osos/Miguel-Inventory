@@ -19,7 +19,6 @@ $img = get_field('main_image');
 get_header(); ?>
 
 <div id="page" role="main">
-	<div class="main-content">
 		<h1>Exhibitions</h1>
 		<?php if (have_posts()) : ?>
 			<table class="hover">
@@ -54,7 +53,6 @@ get_header(); ?>
 				</nav>
 			<?php } ?>
 		<?php endif; ?>
-	</div>
 
 </div>
 

@@ -21,18 +21,12 @@
 	<header id="navbar" role="banner" class="navbar container navbar-default">
    <div id="navbar" class="row">
       <div class="col-auto mr-auto left">
-         <div class="img-col"><a href="index.html" id="logo-title"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_carre.gif" alt="Home"></a></div>
+         <div class="img-col"><a href="<?php echo get_home_url();?>" id="logo-title"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_carre.gif" alt="Home"></a></div>
          <div class="text-col">
-            <a href="index.html" id="logo-title2"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_nom.gif" class="logo-header"></a>
-						<?php foundationpress_top_bar_r(); ?>
-            <!-- <ul id="main-menu" class="">
-               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/newslist/" ng-reflect-router-link="/newslist/" ng-reflect-router-link-active="active" href="/newslist">News</a></li>
-               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/works/" ng-reflect-router-link="/works/" ng-reflect-router-link-active="active" href="/works">Works</a></li>
-               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/biography/" ng-reflect-router-link="/biography/" ng-reflect-router-link-active="active" href="/biography">Biography</a></li>
-               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/texts/" ng-reflect-router-link="/texts/" ng-reflect-router-link-active="active" href="/texts">Texts</a></li>
-               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/publications/" ng-reflect-router-link="/publications/" ng-reflect-router-link-active="active" href="/publications">Publications</a></li>
-               <li class="main-menu-item"><a routerlinkactive="active" routerlink="/contact/" ng-reflect-router-link="/contact/" ng-reflect-router-link-active="active" href="/contact">Contact</a></li>
-            </ul> -->
+            <a href="<?php echo get_home_url();?>" id="logo-title2"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_nom.gif" class="logo-header"></a>
+            <?php foundationpress_top_bar_r(); ?>
+            <?php foundationpress_sub_nav(); ?>
+            
          </div>
       </div>
       <div class="col-auto right">
@@ -42,7 +36,7 @@
    </div>
 	</header>
 
-	<div class="main">
-		<?php do_action( 'foundationpress_after_header' );
+	<div class="main container">
+	
 
 

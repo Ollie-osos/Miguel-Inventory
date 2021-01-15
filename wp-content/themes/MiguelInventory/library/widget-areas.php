@@ -11,7 +11,7 @@ function foundationpress_sidebar_widgets() {
 	register_sidebar(array(
 	  'id' => 'sidebar-widgets',
 	  'name' => __( 'Sidebar widgets', 'foundationpress' ),
-	  'description' => __( 'Drag widgets to this sidebar container.', 'foundationpress' ),
+	  'description' => __( 'Drag widgets here sidebar container.', 'foundationpress' ),
 	  'before_widget' => '<article id="%1$s" class="widget %2$s">',
 	  'after_widget' => '</article>',
 	  'before_title' => '<h6>',

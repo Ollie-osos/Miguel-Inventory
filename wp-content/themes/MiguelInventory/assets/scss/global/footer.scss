@@ -6,36 +6,6 @@ footer.footer{
     }
 }
 
-div#mc_embed_signup_scroll {
-    text-align: center;
-    margin-bottom: 40px;
-    @include respond-to(md){
-        text-align: left;
-        margin-bottom: 0;
-    }
-}
-
-input#mce-EMAIL {
-    border: none;
-    box-shadow: none;
-    padding: 6px 10px;
-    font-size: 16px;
-    margin: 10px 0 20px;
-}
-
-input#mc-embedded-subscribe {
-    background-color: white;
-    border: none;
-    box-shadow: none;
-    padding: 6px 10px;
-    border-radius: 3px;
-    color: black;
-    transition: 0.3s all linear;
-    &:hover{
-        background-color: #bbb;
-        text-decoration: underline;
-    }
-}
 
 .footer .link-social a i{
     &:hover{
@@ -60,4 +30,10 @@ input#mc-embedded-subscribe {
         }
 
     }
+}
+
+#back-top{
+    position: fixed;
+    width: 30px;
+    height: 30px;
 }

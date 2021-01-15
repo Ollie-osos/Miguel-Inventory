@@ -12,16 +12,16 @@ $(window).scroll(function () {
 $(function() {
     // back to top button
   // hide #back-top first
-  // $("#back-top").hide();
+  $("#back-top").hide();
 
-  // // scroll body to 0px on click
-  // $('#back-top a').click(function () {
-  //   $('body,html').animate({
-  //     scrollTop: 0
-  //   }, 800);
-  //   return false;
-  // });
-  // $('body').fadeTo(300, 1);  
+  // scroll body to 0px on click
+  $('#back-top a').click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
+  $('body').fadeTo(300, 1);  
 
   $('#menu-icon').click(function (){
     $('#menu-icon').toggleClass('open');
