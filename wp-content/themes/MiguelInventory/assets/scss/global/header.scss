@@ -1,0 +1,238 @@
+
+#logo-title2 {
+    max-width: 225px;
+    @include respond-to(md){
+        margin-left: 10px;
+        max-width: 100%;
+    }
+}
+  
+  #navbar{
+    height: auto;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    top: 0;
+    @include respond-to(md){
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        display: flex;
+        top: unset;
+        padding-top: 12px;
+    }
+    .left{
+        flex-direction: row;
+        display: flex;
+        .img-col{
+            margin-right: 20px;
+            display: none;
+            @include respond-to(md){
+                display: flex;
+            }
+        }
+        .text-col{
+            display: flex;
+            flex-direction: column
+        }
+    }
+    .right{
+        display: none;
+        @include respond-to(lg){
+            display: flex;
+            padding-right: 0;
+        }
+    }
+    ul#main-menu {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        display: inline-block;
+        position: fixed;
+        top: 52px;
+        left: 0;
+        width: 100%;
+        display: none;
+        font-size: 0;
+        text-align: center;
+        &.is-open{
+            display: inline-block;
+        }
+        @include respond-to(md){
+            display: block;
+            position: relative;
+            top: 60px;
+            width: auto;
+            margin-left: 10px;
+            text-align: left;
+            &.is-open{
+                display: block;
+            }
+        }
+        li.main-menu-item{
+            border-bottom: thin solid #999;
+            background-color: $black;
+            padding: 20px;
+            &:last-child{
+                border-bottom: none;
+            }
+            a:link, a:visited{ 
+                text-transform: uppercase;
+                color: white;
+                text-decoration: none;
+                width: 100%;
+                font-size: 30px;
+                &.active{
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+            }
+            @include respond-to(md){
+                text-align: center;
+                display: inline-block;
+                border-bottom: none;
+                background-color: transparent;
+                padding: 10px 5px;
+                a:link, a:visited{ 
+                    font-family: Roboto,Helvetica,Arial,Sans-serif;
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            
+        }
+    }
+    #menu-icon{
+        position: absolute;
+        right: 15px;
+        top: 12px;    
+        @include respond-to('md'){
+            display: none;
+            top: 20px;  
+        }
+    }
+    
+}
+.link-social a {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 3px;
+    transition: all 0.3s linear;
+    i{
+      font-size: 40px;
+      color: black;
+      transition: all 0.3s linear;
+    }
+    .footer &{
+      text-align: right;
+      i{
+        color: white;
+        transition: all 0.3s linear;
+      }
+    }
+    header &{
+        margin-top: -2px;
+    }
+}
+.c-hamburger {
+
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    margin: -2px 0 0 7px;
+    width: 26px;
+    height: 30px;
+    transition: all 0.3s ease;
+    background: 0 0;
+    z-index: 200;
+
+    > span {
+
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        transition: all 0.3s ease;
+        background-color: $black;
+
+        &:after,
+        &:before {
+            position: absolute;
+            display: block;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            content: "";
+            transition: all 0.3s ease;
+            background-color: $black;
+        }
+
+        &:before {
+            top: -9px;
+        }
+
+        &:after {
+            bottom: -9px;
+        }
+    }
+}
+
+// open animation
+.open .c-hamburger { 
+
+    > span {
+
+        background: none !important;
+
+        &:after,
+        &:before {
+            transition: all 0.3s ease;
+            background: $black;
+        }
+
+        &:before {
+            top: 0;
+            transform: rotate(45deg);
+        }
+
+        &:after {
+            bottom: 0;
+            transform: rotate(-45deg);
+        }
+
+    }
+}
+
+// language select
+#lang{
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    display: none;
+    @include respond-to(md){
+        right: -60px;
+        top: -4px;
+        display: block;
+    }
+    a{
+        text-transform: uppercase;
+        &.active, &:hover{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+    }
+}

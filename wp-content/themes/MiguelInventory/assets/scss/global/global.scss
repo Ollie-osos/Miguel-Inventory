@@ -1,0 +1,35 @@
+html,body {
+	box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    @include Roboto;
+    color: $black;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: 400;
+}
+
+.main{
+    position: relative;
+    margin-top: 65px;
+    @include respond-to(md){
+        margin-top: unset;
+    }
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    &:link, &:visited{
+        text-decoration: none;
+    }
+    &:hover, &:focus{
+        text-decoration: underline;
+    }
+}
+
+.whitespaces{
+    white-space: pre;
+}

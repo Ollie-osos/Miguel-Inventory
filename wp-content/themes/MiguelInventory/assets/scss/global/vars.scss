@@ -1,0 +1,19 @@
+$black-80: #222222;
+$black: #000000;
+$white: #ffffff; 
+$light-grey: #F9F9F9;
+
+// BREAKPOINTS -------
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+$breakpoints: (
+	'sm': $sm,
+	'md': $md,
+	'lg': $lg,
+	'xl': $xl
+);

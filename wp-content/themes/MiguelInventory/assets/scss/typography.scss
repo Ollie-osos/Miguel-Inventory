@@ -1,0 +1,75 @@
+h1{
+    &.page-header{
+        margin-bottom: 60px;
+        &.page-template{
+            margin-bottom: 10px;
+        }
+    }
+    &.page-header.details{
+        margin: 20px 73px;
+        border: none;
+        text-align: center;
+        display: block;
+        @include respond-to(md){
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 47px;
+            margin-top: 10px;
+            padding-bottom: 0;
+        }
+    }
+}
+h2.page-template, .h2.page-template{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    border-bottom: 1px solid #000;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    .download-file{
+        font-size: 14px;
+    }
+}
+
+h5{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+p{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.rte{
+    p{
+        margin: 0 0 10px;
+    }
+}
+
+
+.rteindent1 {
+    margin-left: 40px;
+}
+
+.rte.extra{
+    p{
+        margin: 0 0 10px;
+    }
+}
+
+.rtee{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    p{
+        margin: 0 0 10px;
+        padding: 0 0 4px;
+    }
+}
+
+.subtitle{
+    font-weight: lighter;
+    color: #555;
+    text-transform: uppercase;
+}

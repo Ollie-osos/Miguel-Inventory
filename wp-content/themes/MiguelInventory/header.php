@@ -21,9 +21,9 @@
 	<header id="navbar" role="banner" class="navbar container navbar-default">
    <div id="navbar" class="row">
       <div class="col-auto mr-auto left">
-         <div class="img-col"><a href="index.html" id="logo-title"><img src="../../assets/img/logo_MC_carre.gif" alt="Home"></a></div>
+         <div class="img-col"><a href="index.html" id="logo-title"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_carre.gif" alt="Home"></a></div>
          <div class="text-col">
-            <a href="index.html" id="logo-title2"><img src="../../assets/img/logo_MC_nom.gif" class="logo-header"></a>
+            <a href="index.html" id="logo-title2"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_nom.gif" class="logo-header"></a>
 						<?php foundationpress_top_bar_r(); ?>
             <!-- <ul id="main-menu" class="">
                <li class="main-menu-item"><a routerlinkactive="active" routerlink="/newslist/" ng-reflect-router-link="/newslist/" ng-reflect-router-link-active="active" href="/newslist">News</a></li>

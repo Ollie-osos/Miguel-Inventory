@@ -1,0 +1,36 @@
+.carousel {
+    .carousel-control-prev-icon {
+      background-image: url('assets/img/left_poppin.png') !important;
+      width: 18px !important;
+      height: 26px !important;
+    }
+  
+    .carousel-control-next-icon {
+      background-image: url('assets/img/right_poppin.png') !important;
+      width: 18px !important;
+      height: 26px !important;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        top: -60px;
+        width: 50px;
+    }
+}
+
+.carousel-inner{
+    margin-bottom: 30px;
+}
+  
+#homepageCarousel{
+  .carousel-indicators{
+    display: none;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    height: 81%; 
+    width: 13%;
+  }
+}
+
+.carousel-item img{
+  width: 100%;
+  height: auto;
+}

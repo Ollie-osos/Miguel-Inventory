@@ -1,0 +1,28 @@
+// Bootstrap
+@import 'bootstrap/bootstrap.scss';
+
+// Old CSS
+@import 'global/oldcss';
+
+// GLOBAL ----- VARS ---
+
+@import 'global/vars';
+
+/// MIXINS -----------
+
+@import 'global/mixins/fonts';
+@import 'global/mixins/breakpoints';
+
+// GLOBAL -----
+
+@import 'global/global';
+@import 'global/header';
+@import 'global/footer';
+
+
+// Page componenets
+
+@import 'carousel';
+@import 'sections';
+@import 'page-templates';
+@import 'typography';
