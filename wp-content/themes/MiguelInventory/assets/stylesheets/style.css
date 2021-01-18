@@ -9525,7 +9525,7 @@ a:hover, a:focus {
         display: -ms-flexbox;
         display: flex;
         padding-right: 0; } }
-  #navbar ul#main-menu {
+  #navbar ul#menu-main-menu {
     padding: 0;
     list-style: none;
     margin: 0;
@@ -9535,50 +9535,49 @@ a:hover, a:focus {
     left: 0;
     width: 100%;
     display: none;
-    font-size: 0;
     text-align: center; }
-    #navbar ul#main-menu.is-open {
+    #navbar ul#menu-main-menu.is-open {
       display: inline-block; }
     @media (min-width: 768px) {
-      #navbar ul#main-menu {
+      #navbar ul#menu-main-menu {
         display: block;
         position: relative;
         top: 60px;
         width: auto;
         margin-left: 10px;
         text-align: left; }
-        #navbar ul#main-menu.is-open {
+        #navbar ul#menu-main-menu.is-open {
           display: block; } }
-    #navbar ul#main-menu li.main-menu-item {
+    #navbar ul#menu-main-menu li {
       border-bottom: thin solid #999;
       background-color: #000000;
       padding: 20px; }
-      #navbar ul#main-menu li.main-menu-item:last-child {
+      #navbar ul#menu-main-menu li:last-child {
         border-bottom: none; }
-      #navbar ul#main-menu li.main-menu-item a:link, #navbar ul#main-menu li.main-menu-item a:visited {
+      #navbar ul#menu-main-menu li a:link, #navbar ul#menu-main-menu li a:visited {
         text-transform: uppercase;
         color: white;
         text-decoration: none;
         width: 100%;
         font-size: 30px; }
-        #navbar ul#main-menu li.main-menu-item a:link.active, #navbar ul#main-menu li.main-menu-item a:visited.active {
+        #navbar ul#menu-main-menu li a:link.active, #navbar ul#menu-main-menu li a:visited.active {
           font-weight: bold;
           text-decoration: underline; }
       @media (min-width: 768px) {
-        #navbar ul#main-menu li.main-menu-item {
+        #navbar ul#menu-main-menu li {
           text-align: center;
           display: inline-block;
           border-bottom: none;
           background-color: transparent;
           padding: 10px 5px; }
-          #navbar ul#main-menu li.main-menu-item a:link, #navbar ul#main-menu li.main-menu-item a:visited {
+          #navbar ul#menu-main-menu li a:link, #navbar ul#menu-main-menu li a:visited {
             font-family: Roboto,Helvetica,Arial,Sans-serif;
             color: #000;
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
             text-transform: uppercase; }
-            #navbar ul#main-menu li.main-menu-item a:link:hover, #navbar ul#main-menu li.main-menu-item a:visited:hover {
+            #navbar ul#menu-main-menu li a:link:hover, #navbar ul#menu-main-menu li a:visited:hover {
               text-decoration: underline; } }
   #navbar #menu-icon {
     position: absolute;

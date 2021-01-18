@@ -1,8 +1,6 @@
 <?php get_header(); ?>
 
-<div id="content" class="row justify-content-center">
-
-	<div id="main" class="" role="main">
+<div id="content" class="row">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		
@@ -17,11 +15,7 @@
 		</article>
 		
 		<?php endif; ?>
-
-	</div>
-
-	<?php get_sidebar("sidebar"); ?>
-
+		
 </div>
 
 <?php get_footer(); ?>

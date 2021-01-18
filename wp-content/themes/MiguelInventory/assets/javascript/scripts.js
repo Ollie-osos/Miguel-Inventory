@@ -21,11 +21,11 @@ $(function() {
     }, 800);
     return false;
   });
-  $('body').fadeTo(300, 1);  
+  // $('body').fadeTo(300, 1);  
 
   $('#menu-icon').click(function (){
     $('#menu-icon').toggleClass('open');
-    $('#main-menu').toggleClass('is-open');
+    $('#menu-main-menu').toggleClass('is-open');
   })
   
 });

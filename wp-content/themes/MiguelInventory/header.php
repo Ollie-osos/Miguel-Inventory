@@ -37,6 +37,10 @@
 	</header>
 
 	<div class="main container">
+      <div class="row">
+         <?php get_sidebar("sidebar"); ?>
+      
+      
 	
 
 

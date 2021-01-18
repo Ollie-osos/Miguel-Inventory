@@ -66,8 +66,8 @@ get_header(); ?>
       </div>
     </div>
 
-    <?php include_once(get_template_directory() . '/template-parts/media.tpl'); ?>
-   
+    <?php get_template_part('/template-parts/media.tpl'); ?>
+    
   </div>
 </div>
 

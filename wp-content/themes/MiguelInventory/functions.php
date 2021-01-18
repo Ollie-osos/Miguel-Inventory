@@ -126,7 +126,8 @@ function create_post_type() {
 		'public' => true,
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
-		'menu_icon' => 'dashicons-images-alt2'
+		'menu_icon' => 'dashicons-images-alt2',
+		'taxonomies' => array( 'category','post_tag' )
 		)
 	);
 
@@ -139,7 +140,8 @@ function create_post_type() {
 		'public' => true,
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
-		'menu_icon' => 'dashicons-admin-site-alt'
+		'menu_icon' => 'dashicons-admin-site-alt',
+		// 'taxonomies' => array( 'category','post_tag' ),
 		)
 	);
 
@@ -152,7 +154,8 @@ function create_post_type() {
 		'public' => true,
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
-		'menu_icon' => 'dashicons-book-alt'
+		'menu_icon' => 'dashicons-book-alt',
+		'taxonomies' => array( 'category' ),
 		)
 	);
 
@@ -165,7 +168,8 @@ function create_post_type() {
 		'public' => true,
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
-		'menu_icon' => 'dashicons-images-alt2' 
+		'menu_icon' => 'dashicons-images-alt2',
+		'taxonomies' => array( 'category' )
 		)
 	);
 

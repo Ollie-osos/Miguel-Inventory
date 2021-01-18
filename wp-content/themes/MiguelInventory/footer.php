@@ -10,7 +10,7 @@
  */
 
 ?>
-
+</div>
 </div>
 
 <footer class="footer container">

@@ -47,7 +47,7 @@
             padding-right: 0;
         }
     }
-    ul#main-menu {
+    ul#menu-main-menu {
         padding: 0;
         list-style: none;
         margin: 0;
@@ -57,7 +57,7 @@
         left: 0;
         width: 100%;
         display: none;
-        font-size: 0;
+        // font-size: 0;
         text-align: center;
         &.is-open{
             display: inline-block;
@@ -73,7 +73,7 @@
                 display: block;
             }
         }
-        li.main-menu-item{
+        li{
             border-bottom: thin solid #999;
             background-color: $black;
             padding: 20px;

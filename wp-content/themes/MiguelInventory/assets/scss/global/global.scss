@@ -16,6 +16,9 @@ html,body {
     @include respond-to(md){
         margin-top: unset;
     }
+    #sidebar{
+        
+    }
 }
 img{
     max-width: 100%;
