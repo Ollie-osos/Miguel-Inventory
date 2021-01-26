@@ -69,32 +69,6 @@
     }
 }
 
-.carousel-content{
-    
-    @include respond-to(md){
-      margin-bottom: 90px;
-    }
-
-}
-.carousel-indicators{
-    bottom: -120px;
-    justify-content: center;
-    padding-left: 0;
-    margin-right: -3px;
-    margin-left: -3px;
-    display: none;
-    @include respond-to(md){
-      display: flex;
-    }
-}
-.carousel .carousel-indicators li{
-    border-radius: unset;
-    width: 130px !important;
-    height: 100% !important;
-    border-radius: unset;
-    cursor: pointer;
-}
-
 .intro{
     h2{
         text-transform: uppercase;
@@ -110,11 +84,6 @@ div#st-1 {
     }
 }
 
-.content-repeater{
-  margin-top:20px;
-  margin-bottom: 20px;
-}
-
 .year{
   font-weight: bold;
   margin-top: 10px;
@@ -128,8 +97,13 @@ div#st-1 {
   }
 }
 
+// tables
 
-img.ng-lazyloaded {
-  text-align: center;
-  margin: 0 auto;
+#table{
+  td{
+    width: 20%;
+  }
+  &__exposition{
+    
+  }
 }

@@ -117,7 +117,7 @@ add_action('wp_head','header_items');
 add_action( 'init', 'create_post_type' );
 
 function create_post_type() {
-	register_post_type( 'works',
+	register_post_type( 'oeuvre',
 		array(
 			'labels' => array(
 				'name' => __( 'Works/Oeuvres' ),
@@ -131,11 +131,11 @@ function create_post_type() {
 		)
 	);
 
-	register_post_type( 'exhibitions',
+	register_post_type( 'exposition',
 		array(
 			'labels' => array(
-				'name' => __( 'Expositions' ),
-				'singular_name' => __( 'Exhibitions' )
+				'name' => __( 'Exposition' ),
+				'singular_name' => __( 'Exposition' )
 			),
 		'public' => true,
 		'show_in_nav_menus' => true,
@@ -172,21 +172,6 @@ function create_post_type() {
 		'taxonomies' => array( 'category' )
 		)
 	);
-
-	register_post_type( 'oeuvre',
-		array(
-			'labels' => array(
-				'name' => __( 'oeuvre' ),
-				'singular_name' => __( 'oeuvre' )
-			),
-		'public' => true,
-		'show_in_nav_menus' => true,
-		'has_archive' => true,
-		'menu_icon' => 'dashicons-images-alt2'
-		)
-	);
-
-	
 
 }
 
