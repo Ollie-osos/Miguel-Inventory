@@ -1,4 +1,3 @@
--- attempt 3
 SELECT 
 t1.`title`, 
 t2.`field_expo_lieu_value`,

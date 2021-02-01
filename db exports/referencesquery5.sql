@@ -1,4 +1,3 @@
--- attempt 5
 SELECT 
 t1.`title`, 
 t2.`field_biblio_auteur_value`,
@@ -33,4 +32,4 @@ t2.`field_biblio_isbn_value`,
 t2.`field_biblio_prix_value`,
 t5.`field_expo_note_value`,
 t6.`field_expo_sous_titre_value`,
-t7.`field_oeuvre_adresse_web_url`,
+t7.`field_oeuvre_adresse_web_url`

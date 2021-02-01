@@ -1,4 +1,3 @@
--- attempt 5
 SELECT 
 t1.`title`,
 t2.`field_oeuvre_code_value`, 
