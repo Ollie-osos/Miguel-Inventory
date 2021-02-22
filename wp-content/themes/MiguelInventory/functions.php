@@ -132,7 +132,7 @@ function create_post_type() {
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-images-alt2',
 		'taxonomies' => array( 'category','post_tag' ),
-		'supports' => array('title', 'editor', 'thumbnail')
+		'supports' => array('title', 'thumbnail')
 		)
 	);
 
@@ -146,7 +146,7 @@ function create_post_type() {
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-admin-site-alt',
-		// 'taxonomies' => array( 'category','post_tag' ),
+		'supports' => array('title', 'thumbnail')
 		)
 	);
 
@@ -161,6 +161,7 @@ function create_post_type() {
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-book-alt',
 		'taxonomies' => array( 'category' ),
+		'supports' => array('title', 'thumbnail')
 		)
 	);
 
@@ -174,7 +175,8 @@ function create_post_type() {
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-images-alt2',
-		'taxonomies' => array( 'category' )
+		'taxonomies' => array( 'category' ),
+		'supports' => array('title', 'thumbnail')
 		)
 	);
 
