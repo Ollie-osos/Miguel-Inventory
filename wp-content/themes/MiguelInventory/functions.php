@@ -116,6 +116,10 @@ add_action('wp_head','header_items');
 // to add custom post types to the sites menu
 add_action( 'init', 'create_post_type' );
 
+// featured image on ACF
+// add_theme_support('post-thumbnails');
+// add_post_type_support( 'oeuvre', 'thumbnail' ); 
+
 function create_post_type() {
 	register_post_type( 'oeuvre',
 		array(
@@ -127,7 +131,8 @@ function create_post_type() {
 		'show_in_nav_menus' => true,
 		'has_archive' => true,
 		'menu_icon' => 'dashicons-images-alt2',
-		'taxonomies' => array( 'category','post_tag' )
+		'taxonomies' => array( 'category','post_tag' ),
+		'supports' => array('title', 'editor', 'thumbnail')
 		)
 	);
 
@@ -228,13 +233,6 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page();	
 }
 
-// add custom image crop options. 
-// https://developer.wordpress.org/reference/functions/add_image_size/
-// https://havecamerawilltravel.com/photographer/wordpress-thumbnail-crop
-add_action( 'after_setup_theme', 'wpdocs_theme_setup' );
-function wpdocs_theme_setup() {
-    add_image_size( 'hero_image', 1280, 720, true ); // (cropped)
-}
 
 /**
  * Responsive Image Helper Function
