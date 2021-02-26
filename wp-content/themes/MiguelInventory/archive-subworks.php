@@ -19,11 +19,31 @@ $img = get_field('main_image');
 get_header(); ?>
 
 <div id="page" role="main" class="col-sm-12 col-md-12">
-		<h1>Exhibitions</h1>
 
-		<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=exposition columns="image: &nbsp;,title:Title,cf:city:Ville,cf:start_date:Dates,cf:unique_exhibition_code:Code exposition" search_box="top"]'); ?>
 
-			
+
+
+
+
+
+
+
+		<h1>Sous-Oeuvres</h1>
+
+
+<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=subworks columns="image: &nbsp;,title:Title,cf:creation_date:Date,category:Catégorie,cf:unique_work_code:Numéro d\'inventaire" search_box="top"]'); ?>
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 

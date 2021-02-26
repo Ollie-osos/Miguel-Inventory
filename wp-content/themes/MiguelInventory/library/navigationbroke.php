@@ -18,12 +18,40 @@ register_nav_menus(array(
  *
  * @link http://codex.wordpress.org/Function_Reference/wp_nav_menu
  */
+// if ( ! function_exists( 'foundationpress_top_bar_r' ) ) {
+// 	function foundationpress_top_bar_r() {
+// 		wp_nav_menu( array(
+// 			'container'      => false,
+// 			'menu_class'     => 'dropdown menu',
+// 			'items_wrap'     => '<ul id="%1$s" class="%2$s desktop-menu" data-dropdown-menu>%3$s</ul>',
+// 			'theme_location' => 'top-bar-r',
+// 			'depth'          => 3,
+// 			'fallback_cb'    => false,
+// 			'walker'         => new Foundationpress_Top_Bar_Walker(),
+// 		));
+// 	}
+// }
+
+
 if ( ! function_exists( 'foundationpress_top_bar_r' ) ) {
 	function foundationpress_top_bar_r() {
+		$search = '<li class="search-toggle menu-item menu-item-has-children">
+			<a href="#searchbar">
+				<i class="fa fa-search"></i>
+			</a>
+			<ul class="menu submenu dropdown vertical">
+				<li>
+					<form action="/" class="searchform" role="search" method="get">
+						<input class="searchform_input" type="text" name="s" id="s" placeholder="What are you looking for?">
+						<input class="searchform_submit" type="submit" value="→ Search">
+					</form>
+				</li>
+			</ul>
+		</li>';
 		wp_nav_menu( array(
 			'container'      => false,
 			'menu_class'     => 'dropdown menu',
-			'items_wrap'     => '<ul id="%1$s" class="%2$s desktop-menu" data-dropdown-menu>%3$s</ul>',
+			'items_wrap'     => '<ul id="%1$s" class="%2$s desktop-menu" data-dropdown-menu>%3$s'.$search.'</ul>',
 			'theme_location' => 'top-bar-r',
 			'depth'          => 3,
 			'fallback_cb'    => false,
@@ -31,6 +59,7 @@ if ( ! function_exists( 'foundationpress_top_bar_r' ) ) {
 		));
 	}
 }
+
 
 /**
  * Mobile navigation - topbar (default) or offcanvas

@@ -129,7 +129,7 @@ function create_post_type() {
 			),
 		'public' => true,
 		'show_in_nav_menus' => true,
-		'has_archive' => true,
+		'has_archive' => 'oeuvres',
 		'menu_icon' => 'dashicons-images-alt2',
 		'taxonomies' => array( 'category','post_tag' ),
 		'supports' => array('title', 'thumbnail')
@@ -144,7 +144,7 @@ function create_post_type() {
 			),
 		'public' => true,
 		'show_in_nav_menus' => true,
-		'has_archive' => true,
+		'has_archive' => 'expositions',
 		'menu_icon' => 'dashicons-admin-site-alt',
 		'supports' => array('title', 'thumbnail')
 		)
@@ -165,7 +165,7 @@ function create_post_type() {
 		)
 	);
 
-	register_post_type( 'subworks',
+	register_post_type('subworks',
 		array(
 			'labels' => array(
 				'name' => __( 'Sub Works' ),
@@ -301,3 +301,12 @@ add_filter('acf/validate_value/name=unique_bibliography_code', 'acf_unique_value
 add_filter('acf/validate_value/name=unique_exhibition_code', 'acf_unique_value_field', 10, 4);
 add_filter('acf/validate_value/name=unique_work_code', 'acf_unique_value_field', 10, 4);
 add_filter('acf/validate_value/name=unique_subwork_code', 'acf_unique_value_field', 10, 4);
+
+
+add_action('init','wpse46108_register_param');
+function wpse46108_register_param() { 
+    global $wp; 
+    $wp->add_query_var('c'); 
+        $wp->add_query_var('t'); 
+
+}

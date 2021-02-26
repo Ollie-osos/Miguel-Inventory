@@ -18,10 +18,28 @@
 $img = get_field('main_image');
 get_header(); ?>
 
-<div id="page" role="main" class="col-sm-12 col-md-12">
-		<h1>Exhibitions</h1>
 
-		<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=exposition columns="image: &nbsp;,title:Title,cf:city:Ville,cf:start_date:Dates,cf:unique_exhibition_code:Code exposition" search_box="top"]'); ?>
+<div class="col-md-2">
+	<?php global $current_user; wp_get_current_user(); ?>
+<?php if ( is_user_logged_in() ) { 
+ echo '<h5>' . $current_user->display_name . "</h5>"; } 
+else { wp_loginout(); } ?>
+	<a href="<?php echo get_home_url() ?>/my-account">My account</a><br>
+	<a href="<?php echo get_home_url() ?>/favorites">Favorites</a><br>
+	<a href="<?php echo get_home_url() ?>/wp-login.php?action=logout">Logout</a>
+
+
+<div>
+	<h5>Calendar</h5>
+</div>
+</div>
+
+
+
+<div id="page" role="main" class="col-sm- col-md-8">
+		<h1>Favorites</h1>
+
+		<?php echo do_shortcode('[user_favorites include_links="true" include_buttons="true" include_thumbnails="true"]'); ?>
 
 			
 

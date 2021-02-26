@@ -14,8 +14,10 @@ get_header(); ?>
 		<h1><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h1>
 
 	<?php if ( have_posts() ) : ?>
+			<?php get_search_form(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
+			
 			<div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry'); ?>>
 				<header>
 					<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>

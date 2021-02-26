@@ -18,54 +18,74 @@
 $img = get_field('main_image');
 get_header(); ?>
 
-<div id="page" role="main" class="col-sm-12 col-md-9">
-		<h1>Ouvres/Works</h1>
-		<?php if (have_posts()) : ?>
-			<table class="table thead-light table-hover main-list" id="table__works">
-				<thead>
-					<tr>
-						<th></th>
-						<th>Title</th>
-						<th>Dates</th>
-						<th>Categorie</th>
-						<th>Series</th>
-						<th>inventory number</th>
-					</tr>
-				</thead>
-				<tbody>	
-					<?php while (have_posts()) : the_post(); ?>
-					<tr>
-						<td>
-							<a href="<?php the_permalink(); ?>">
-							<?php if (!isset($img) || $img == ""){
-								echo '<img src="'.get_template_directory_uri().'/assets/img/logo_MC_carre.gif" alt="no image found, placeholder used">';
-								// print_r($img);
-							}else{
-								echo '<img src="'.$img['url'].'" alt="'.$img['alt'].'"></a></td>';
-							}
-							?>
-							</a>
-						</td>
-						<td><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></td>
-						<td><a href="<?php the_permalink(); ?>"><?php the_field('start_date'); ?> - <?php the_field('end_date'); ?></a></td>
-						<td><a href="<?php the_permalink(); ?>"><?php if(get_categories()){echo get_categories();}else{ echo 'N/A';} ?></a></td>
-						<td><a href="<?php the_permalink(); ?>"><?php if(get_tags()){echo get_tags();}else{ echo 'N/A';} ?></a></td>
-						<td><a href="<?php the_permalink(); ?>"><?php the_field('unique_works_code'); ?></a></td>
-          </tr>
-          
-					<?php endwhile; ?>
-				</tbody>
-			</table>
-			<?php /* Display navigation to next/previous pages when applicable */ ?>
-			<?php if (function_exists('foundationpress_pagination')) {
-				foundationpress_pagination();
-			} else if (is_paged()) { ?>
-				<nav id="post-nav">
-					<div class="post-previous"><?php next_posts_link(__('&larr; Older posts', 'foundationpress')); ?></div>
-					<div class="post-next"><?php previous_posts_link(__('Newer posts &rarr;', 'foundationpress')); ?></div>
-				</nav>
-			<?php } ?>
-		<?php endif; ?>
+<div id="page" role="main" class="col-sm-12 col-md-12">
+
+
+
+
+
+
+
+
+
+		<h1>Oeuvres/Works</h1>
+<div class='float-right'>
+	
+
+<?php wp_dropdown_categories(array('show_option_all'=>'All','value_field'=> 'slug','selected' => get_query_var('c'))) ?>
+<?php wp_dropdown_categories(array('show_option_all'=>'All','taxonomy'=> 'post_tag','value_field'=> 'slug','hide_empty' => 0,'selected' => get_query_var('t'), 'name' => 'my_tags')); ?>
+
+
+<br>
+<button id='reset'>Reset</button>
+</div>
+
+
+
+<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: &nbsp;,title:Title,cf:creation_date:Date,category:Catégorie,tags:Série,cf:unique_work_code:Numéro d\'inventaire" search_box="top" tag="'.get_query_var('t').'" category='.get_query_var('c').']'); ?>
+
+
+
+<script>
+	
+	 $(".postform").change(function () {
+        var end = this.value;
+        var cat_val = $('#cat').val();
+        var tag_val = $('#my_tags').val();
+
+        var url = window.location.href;    
+		
+        var cat = '';
+        var tag = '';
+
+		if(cat_val != 0)
+		cat = "c=" + cat_val;
+		if(tag_val != 0)
+		tag ="t=" + tag_val;
+
+		window.location.href = window.location.href.replace( /[\?#].*|$/, "?" + cat + "&" + tag );
+    });
+
+
+	 $("#reset").click(function (){
+	 $('#cat option:eq(0)').prop('selected','selected');
+	$('#my_tags option:eq(0)').prop('selected','selected');
+			window.location.href = window.location.href.replace( /[\?#].*|$/, "" );
+
+
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+
 
 </div>
 

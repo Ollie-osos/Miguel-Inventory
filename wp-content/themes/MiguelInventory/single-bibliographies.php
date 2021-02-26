@@ -1,6 +1,6 @@
 </div><?php
 /**
- * The template for displaying single exhibitions
+ * The template for displaying single biblio
  */
 
 $description = get_field('description');
@@ -24,7 +24,7 @@ get_header(); ?>
         <h2><?php the_field('sub_title'); ?></h2>
 
   </div>
-  <div class="col-md-2">      <?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
+  <div class="col-md-2">    	<?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
 </div>
 </div>
     <div class="row">
@@ -42,8 +42,8 @@ get_header(); ?>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <strong>Code de l'exposition</strong>
-            <p><?php the_field('unique_exhibition_code'); ?></p>
+            <strong>Code de la référence bibliographique</strong>
+            <p><?php the_field('unique_bibliography_code'); ?></p>
           </div>
         </div>
       </div>
@@ -54,25 +54,27 @@ get_header(); ?>
       <div class="columns col-md-12"><h2>Informations De Base</h2></div>
 
 
-      <div class="col-md-12"><h5>Date</h5></div>
 
-      <div class="col-md-4"><strong>Date de début</strong></div><div class="col-md-8"><span><?php the_field(' start_date'); ?></span></div>
-      <div class="col-md-4"><strong>Date de fin</strong></div><div class="col-md-8"><span><?php the_field(' end_date'); ?></span></div>
+      <div class="col-md-4"><strong>Auteur(s) - Nom, Prénom</strong></div><div class="col-md-8"><span><?php the_field('author'); ?></span></div>
+      <div class="col-md-4"><strong>Date</strong></div><div class="col-md-8"><span><?php the_field('publication_date'); ?></span></div>
 
-      <div class="col-md-4"><strong>Type d'exposition</strong></div><div class="col-md-8"><span><?php the_field(' type_of_exhibition'); ?></span></div>
+      <div class="col-md-4"><strong>Categorie</strong></div><div class="col-md-8"><span><?php the_category(','); ?></span></div>
 
 
-      <div class="col-md-12"><h5>Lieu</h5></div>
 
-        <div class="col-md-4"><strong>Adresse</strong></div><div class="col-md-8"><span><?php the_field('address'); ?></span></div>
-        <div class="col-md-4"><strong>Structure/Institutions</strong></div><div class="col-md-8"><span><?php the_field('structure'); ?></span></div>
-        <div class="col-md-4"><strong>Ville</strong></div><div class="col-md-8"><span><?php the_field('city'); ?></span></div>
-        <div class="col-md-4"><strong>Pays</strong></div><div class="col-md-8"><span><?php the_field('country'); ?></span></div>
+        <div class="col-md-4"><strong>Editeur</strong></div><div class="col-md-8"><span><?php the_field('editor'); ?></span></div>
+        <div class="col-md-4"><strong>Graphiste</strong></div><div class="col-md-8"><span><?php the_field('graphic_designer'); ?></span></div>
+        <div class="col-md-4"><strong>Ville d'édition</strong></div><div class="col-md-8"><span><?php the_field('city_of_the_editor'); ?></span></div>
+        <div class="col-md-4"><strong>Langue</strong></div><div class="col-md-8"><span><?php the_field('number_of_pages'); ?></span></div>
         
+        <div class="col-md-4"><strong>Nombre des pages</strong></div><div class="col-md-8"><span><?php the_field('languages'); ?></span></div>
+
+        <div class="col-md-4"><strong>Format</strong></div><div class="col-md-8"><span><?php the_field('format'); ?></span></div>
+<br><br><br>
         <div class="col-md-4"><strong>Description</strong></div><div class="col-md-8"><span><?php the_field('description'); ?></span></div>
 
-        <div class="col-md-4"><strong>Curator</strong></div><div class="col-md-8"><span><?php the_field('curator'); ?></span></div>
-
+        <div class="col-md-4"><strong>ISBN</strong></div><div class="col-md-8"><span><?php the_field('isbn'); ?></span></div>
+        <div class="col-md-4"><strong>Prix</strong></div><div class="col-md-8"><span><?php the_field('price'); ?></span></div>
         <div class="col-md-4"><strong>URL</strong></div><div class="col-md-8"><span><?php the_field('url'); ?></span></div>
 
         <?php 
@@ -94,7 +96,7 @@ get_header(); ?>
 
 
       <div class="columns col-md-12"><h2>Historique</h2></div>
-      <div class="col-md-4"><strong>Réferences bibliographiques</strong></div><div class="col-md-8"><span><?php the_field('bibliographic_category'); ?></span></div>
+      <div class="col-md-4"><strong>Expositions</strong></div><div class="col-md-8"><span><?php the_field('expositions'); ?></span></div>
 
 
 

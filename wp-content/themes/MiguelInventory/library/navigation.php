@@ -9,7 +9,7 @@
 
 register_nav_menus(array(
 	'top-bar-r'  => 'Right Top Bar',
-	'sub-nav' => 'Sub Nav',
+	'sub_nav' => 'Sub Nav',
 ));
 
 
@@ -42,7 +42,7 @@ if ( ! function_exists( 'foundationpress_sub_nav' ) ) {
 			'menu'           => __( 'sub-nav', 'foundationpress' ),
 			'menu_class'     => 'vertical menu',
 			'theme_location' => 'sub-nav',
-			'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+			'items_wrap'     => '<ul id="%1$s" class="navbar-nav %2$s">%3$s</ul>',
 			'fallback_cb'    => false,
 			'walker'         => new Foundationpress_Mobile_Walker(),
 		));

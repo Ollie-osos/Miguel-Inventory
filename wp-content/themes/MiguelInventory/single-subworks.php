@@ -1,6 +1,6 @@
 </div><?php
 /**
- * The template for displaying single oeuvres
+ * The template for displaying single sub-oeuvres
  */
 
 $description = get_field('description');
@@ -24,10 +24,14 @@ get_header(); ?>
         <h2><?php the_field('sub_title'); ?></h2>
 
   </div>
-  <div class="col-md-2">      <?php echo do_shortcode('[favorite_button]'); ?>
-    <?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
+  <div class="col-md-2">      <?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>
 </div>
 </div>
+    <div class="row">
+      <div class="columns col-md-12"><h2>OEUVRE PARENTE</h2></div>
+
+</div>
+
     <div class="row">
       <div class="columns col-md-6">
 
@@ -63,7 +67,6 @@ get_header(); ?>
 
 
       <div class="col-md-4"><strong>Date/Année</strong></div><div class="col-md-8"><span><?php the_field('creation_date'); ?></span></div>
-      <div class="col-md-4"><strong>Série</strong></div><div class="col-md-8"><span><?php the_tags(''); ?></span></div>
       <div class="col-md-4"><strong>Catégorie</strong></div><div class="col-md-8"><span><?php the_category(','); ?></span></div>
       <div class="col-md-12"><h5>Dimension</h5></div>
 
@@ -246,22 +249,7 @@ if( $file ):
 
       </div>
 
-        <?php 
-        if( have_rows('affiliated_works') ):
-?>
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Sous-Oeuvres</h2>
-        <?php 
-        if( have_rows('affiliated_works') ):
-          while( have_rows('affiliated_works') ) : the_row();
-            $works = get_sub_field('subworks');
-            echo "<a href='". $works['url']."'>".$works['title']."</a>";
-          endwhile;
-        endif; ?>
-      </div>
-    </div>
-<?php          endif; ?>
+
     <?php get_template_part('/template-parts/media.tpl'); ?>
     
   </div>

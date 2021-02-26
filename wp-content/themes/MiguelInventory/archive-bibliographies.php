@@ -19,9 +19,9 @@ $img = get_field('main_image');
 get_header(); ?>
 
 <div id="page" role="main" class="col-sm-12 col-md-12">
-		<h1>Exhibitions</h1>
+		<h1>Réferences Bibliographiques</h1>
 
-		<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=exposition columns="image: &nbsp;,title:Title,cf:city:Ville,cf:start_date:Dates,cf:unique_exhibition_code:Code exposition" search_box="top"]'); ?>
+		<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=bibliographies columns="image: &nbsp;,cf:author:Author,title:Title,cf: publication_date:Date,cf:editor:Editeur,cf:unique_bibliography_code:Code référence" search_box="top"]'); ?>
 
 			
 

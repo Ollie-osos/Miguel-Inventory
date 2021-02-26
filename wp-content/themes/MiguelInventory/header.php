@@ -24,11 +24,18 @@
          <div class="img-col"><a href="<?php echo get_home_url();?>" id="logo-title"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_carre.gif" alt="Home"></a></div>
          <div class="text-col">
             <a href="<?php echo get_home_url();?>" id="logo-title2"><img src="<?php echo get_template_directory_uri() ?>/assets/img/logo_MC_nom.gif" class="logo-header"></a>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+     <div class="container-fluid">
             <?php foundationpress_top_bar_r(); ?>
             <?php foundationpress_sub_nav(); ?>
+         </div>
+            </nav>
             
          </div>
+
       </div>
+
       <div class="col-auto right">
          <div class="link-social"><a href="http://vimeo.com/channels/miguelchevalier" target="_blank"><i class="fab fa-vimeo"></i></a><a href="http://www.facebook.com/Miguel.Chevalier.studio" target="_blank"><i class="fab fa-facebook-square"></i></a><a href="http://twitter.com/ChevalierMiguel" target="_blank"><i class="fab fa-twitter-square"></i></a><a href="https://www.youtube.com/user/claudemossessian" target="_blank"><i class="fab fa-youtube-square"></i></a><a href="https://instagram.com/miguel_chevalier/" target="_blank"><i class="fab fa-instagram-square"></i></a></div>
       </div>
