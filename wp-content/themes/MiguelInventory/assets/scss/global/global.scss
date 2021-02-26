@@ -13,11 +13,12 @@ html,body {
 .main{
     position: relative;
     margin-top: 65px;
+    padding-bottom: 80px;
     @include respond-to(md){
         margin-top: unset;
     }
     #sidebar{
-        
+        display: block;
     }
 }
 img{

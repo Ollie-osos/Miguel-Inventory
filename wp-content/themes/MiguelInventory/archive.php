@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying archive pages
  *
@@ -15,36 +16,58 @@
  * @since FoundationPress 1.0.0
  */
 
-get_header(); ?>
+get_header();
 
-<div id="page" role="main">
-	<article class="main-content">
+get_sidebar();
 
-	<h1>YOOOO</h1>
-	<h1>YOOOO</h1>
-	<?php if ( have_posts() ) : ?>
+?>
 
-		<?php /* Start the Loop */ ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
-		<?php endwhile; ?>
+<div id="page" role="main" class="col-sm-8 col-md-9">
 
-		<?php else : ?>
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+    <div class="block block-title">
+        <h1 class="archive_title">
+            <?php echo get_the_archive_title() ?>
+        </h1>
+    </div>
 
-		<?php endif; // End have_posts() check. ?>
+    <?php if (have_posts()) : ?>
 
-		<?php /* Display navigation to next/previous pages when applicable */ ?>
-		<?php if ( function_exists( 'foundationpress_pagination' ) ) { foundationpress_pagination(); } else if ( is_paged() ) { ?>
-			<nav id="post-nav">
-				<div class="post-previous"><?php next_posts_link( __( '&larr; Older posts', 'foundationpress' ) ); ?></div>
-				<div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'foundationpress' ) ); ?></div>
-			</nav>
-		<?php } ?>
+        <?php while (have_posts()) : the_post(); ?>
 
-	</article>
-	<?php //get_sidebar(); ?>
+            <article id="post-<?php the_ID(); ?>" <?php post_class("block"); ?> role="article">
 
+                <div class="article-header">
+                    <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
+                </div>
+                <?php if (has_post_thumbnail()) { ?>
+                    <div class="featured-image col-sm-6">
+                        <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('simple_boostrap_featured'); ?></a>
+                    </div>
+                <?php } ?>
+
+
+                <section class="post_content">
+                    <?php
+                    if ($multiple_on_page) {
+                        the_excerpt();
+                    } else {
+                        the_content();
+                        wp_link_pages();
+                    }
+                    ?>
+                </section>
+
+            </article>
+
+        <?php endwhile; ?>
+
+    <?php else : ?>
+
+        <article id="post-not-found" class="block">
+            <p><?php _e("No items found.", "simple-bootstrap"); ?></p>
+        </article>
+
+    <?php endif; ?>
 </div>
 
 <?php get_footer();
