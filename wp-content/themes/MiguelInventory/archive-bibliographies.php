@@ -21,7 +21,7 @@ get_header(); ?>
 <div id="page" role="main" class="col-sm-12 col-md-12">
 	<h1>Réferences Bibliographiques</h1>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=bibliographies columns="image: &nbsp;,cf:author:Author,title:Title,cf: publication_date:Date,cf:editor:Editeur,cf:unique_bibliography_code:Code référence" search_box="top"]'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=bibliographies columns="image: &nbsp;,cf:author:Author,title:Title,cf: publication_date:Date,category:Catégorie,cf:unique_bibliography_code:Code référence" search_box="top"]'); ?>
 
 </div>
 

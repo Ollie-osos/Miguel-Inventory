@@ -21,7 +21,7 @@ get_header(); ?>
 <div id="page" role="main" class="col-sm-12 col-md-12">
 	<h1>Exhibitions</h1>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=exposition columns="image: &nbsp;,title:Title,cf:city:Ville,cf:start_date:Dates,cf:unique_exhibition_code:Code exposition" search_box="top"]'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=exposition columns="image: &nbsp;,title:Title,cf:city:Ville,cf:country:Pays,cf:type_of_exhibition:Type d exposition,cf:unique_exhibition_code:Code exposition" search_box="top"]'); ?>
 
 </div>
 

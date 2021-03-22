@@ -39,6 +39,18 @@ else { wp_loginout(); } ?>
 <div id="page" role="main" class="col-sm- col-md-8">
 		<h1>Favorites</h1>
 
+		<h4>Generate PDF</h4>
+		<form target="_blank" action="<?php echo get_home_url() ?>/favs" method="post" id="models-form" name="models-form">
+		 <label for="models">Choose a model:</label>
+		<select id="models" name="models">
+		  <option value="galerie">Galerie</option>
+		  <option value="exposition">Exposition</option>
+		  <option value="transporteur">Transporteur</option>
+		</select>
+		  <input type="submit" value="Download" name="download">
+		</form>
+
+
 		<?php echo do_shortcode('[user_favorites include_links="true" include_buttons="true" include_thumbnails="true"]'); ?>
 
 			

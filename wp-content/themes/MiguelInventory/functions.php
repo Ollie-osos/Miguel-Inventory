@@ -48,6 +48,9 @@ require_once('library/sticky-posts.php');
 /** Configure responsive image sizes */
 require_once('library/responsive-images.php');
 
+require_once('dompdf/autoload.inc.php' );
+
+
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
 
@@ -109,7 +112,7 @@ add_filter('admin_footer_text', 'modify_footer_admin');
 // add scripts to head
 function header_items()
 {
-	$output = '<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>';
+	$output = '<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" integrity="sha512-s/XK4vYVXTGeUSv4bRPOuxSDmDlTedEpMEcAQk0t/FMd9V6ft8iXdwSBxV0eD60c6w/tjotSlKu9J2AAW1ckTA==" crossorigin="anonymous"></script>';
 	echo $output;
 }
 
@@ -323,6 +326,8 @@ function wpse46108_register_param()
 	global $wp;
 	$wp->add_query_var('c');
 	$wp->add_query_var('t');
+	$wp->add_query_var('r');
+
 }
 
 // add cpt to category pages

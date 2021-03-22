@@ -1,0 +1,47 @@
+<div id="page" class="col-md-12" role="main">
+		<?php $posts = get_user_favorites(); 
+		$count = 0;
+		?>
+
+		<div id="print">	
+		<header id="header" class="">
+					<img class="" src="../wp-content/uploads/2021/03/entête.png" alt="">
+
+		</header><!-- /header -->
+
+		</div>sxddd
+		<h1 class="text-center mt-5 mb-5">LISTE D'OEUVRES DE MIGUEL CHEVALIER POUR</h1>
+<a id="clickbind" href="#">Click</a>
+
+		<?php foreach ($posts as $post) {
+			$count++;?>
+			<div class="row">
+			<div class="col-md-6">
+
+			<h5 class="count"><span><?php echo $count ?>.</span></h5>
+			<h5><?php echo get_the_title($post) ?></h5>
+			<h5><?php echo get_field('creation_date',$post) ?></h5>
+			<h5><?php echo get_field('technical_elements',$post) ?></h5>
+			<h5><?php echo get_field('dimension_cm',$post) ?></h5>
+			<h5><?php echo get_field('dimension_cm_frame',$post) ?></h5>
+			<h5><?php echo get_field('dimensions_box',$post) ?></h5>
+			<h5><?php echo get_field('weight_kg',$post) ?></h5>
+			<h5><?php echo get_field('weight_packaged',$post) ?></h5>
+			<h5><?php echo get_field('edition',$post) ?></h5>
+			<h5><?php echo get_field('public_notes',$post) ?></h5>
+			<h5><?php echo get_field('price_sale_euro',$post) ?></h5>
+			<h5><?php echo get_field('price_assurance_euro',$post) ?></h5>
+
+			</div>
+
+			<div class="col-md-6">
+			<?php the_post_thumbnail("medium_large") ?>
+			</div>
+			<div class="col-md-12"><p><?php echo get_field('description',$post) ?></p></div>
+	</div>
+				<br>
+			<br>
+
+		<?php } ?>	
+		
+	</div>
