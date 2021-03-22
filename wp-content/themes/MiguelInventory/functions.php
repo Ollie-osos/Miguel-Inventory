@@ -321,6 +321,8 @@ add_filter('acf/validate_value/name=unique_subwork_code', 'acf_unique_value_fiel
 
 
 add_action('init', 'wpse46108_register_param');
+
+// this is where you add get vars
 function wpse46108_register_param()
 {
 	global $wp;

@@ -28,15 +28,15 @@ get_header(); ?>
 		</div>
 		<div class="d-inline-block">
 			<h5>Série</h5>
-		<?php wp_dropdown_categories(array('show_option_all' => 'All', 'taxonomy' => 'post_tag', 'value_field' => 'slug', 'hide_empty' => 0, 'selected' => get_query_var('t'), 'name' => 'my_tags')); ?>
+			<?php wp_dropdown_categories(array('show_option_all' => 'All', 'taxonomy' => 'post_tag', 'value_field' => 'slug', 'hide_empty' => 0, 'selected' => get_query_var('t'), 'name' => 'my_tags')); ?>
 		</div>
 		<div class="d-inline-block">
-		<h5>Oeuvre réalisée</h5>
-		<select name="work_real" id="work_real" class="postform">
-			<option value="0">All</option>
-			<option class="level-0" <?php if(get_query_var('r') == 'oui') echo 'selected' ?> value="oui">Oui</option>
-			<option class="level-0" <?php if(get_query_var('r') == 'non') echo 'selected' ?> value="non">Non</option>
-		</select>
+			<h5>Oeuvre réalisée</h5>
+			<select name="work_real" id="work_real" class="postform">
+				<option value="0">All</option>
+				<option class="level-0" <?php if (get_query_var('r') == 'oui') echo 'selected' ?> value="oui">Oui</option>
+				<option class="level-0" <?php if (get_query_var('r') == 'non') echo 'selected' ?> value="non">Non</option>
+			</select>
 		</div>
 
 
@@ -45,14 +45,16 @@ get_header(); ?>
 		<button id='reset'>Reset</button>
 	</div>
 
-	<?php if(get_query_var('r')) 
-			$filter =  'cf="work_realised:'.get_query_var('r').'"';
-			else
-				$filter = '';
+	<?php if (get_query_var('r'))
+		$filter =  'cf="work_realised:' . get_query_var('r') . '"';
+	else
+		$filter = '';
+
+	// to add more filters add to the filter string, just use spaces to differenciate. 
 
 	?>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: &nbsp;,title:Title,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" '.$filter.' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: &nbsp;,title:Title,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
 
 	<script>
 		$(".postform").change(function() {

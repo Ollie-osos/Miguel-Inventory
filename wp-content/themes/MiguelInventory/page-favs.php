@@ -20,27 +20,38 @@ $count = 0;
 			<b>".get_the_title($post)."</b>";
 			$posts_html.= get_field('creation_date') ? "<li>".get_field('technical_elements',$post)."</li>" : '';
 			$posts_html.= get_field('technical_elements') ? "<li>".get_field('technical_elements',$post)."</li>" : '';
-			$posts_html.= get_field('dimension_cm') ? "<li>".get_field('dimension_cm',$post)."</li>" : '' ;
-			$posts_html.= get_field('dimension_cm_frame') ? "<li>".get_field('dimension_cm_frame',$post)."</li>" : '' ;
+			if($_POST['models'] != 'transporteur')
+				$posts_html.= get_field('dimension_cm') ? "<li>".get_field('dimension_cm',$post)."</li>" : '' ;
+			if($_POST['models'] != 'transporteur')
+				$posts_html.= get_field('dimension_cm_frame') ? "<li>".get_field('dimension_cm_frame',$post)."</li>" : '' ;
 			$posts_html.= get_field('dimensions_box') ? "<li>".get_field('dimensions_box',$post)."</li>" : '' ;
-			$posts_html.= get_field('weight_kg') ? "<li>".get_field('weight_kg',$post)."</li>" : '' ;
+			if($_POST['models'] != 'transporteur')
+				$posts_html.= get_field('weight_kg') ? "<li>".get_field('weight_kg',$post)."</li>" : '' ;
 			$posts_html.= get_field('weight_packaged') ? "<li>".get_field('weight_packaged',$post)."</li>" : '' ;
-			$posts_html.= get_field('edition') ? "<li>".get_field('edition',$post)."</li>" : '' ;
-			$posts_html.= get_field('public_notes') ? "<li>".get_field('public_notes',$post)."</li>" : '' ;
-			$posts_html.= get_field('price_sale_euro') ? "<li>".get_field('price_sale_euro',$post)."</li>" : '' ;
-			$posts_html.= get_field('price_assurance_euro') ? "<li>".get_field('price_assurance_euro',$post)."</li>" : '' ;
+			if($_POST['models'] != 'transporteur')			
+				$posts_html.= get_field('edition') ? "<li>".get_field('edition',$post)."</li>" : '' ;
+			if($_POST['models'] != 'transporteur')
+				$posts_html.= get_field('public_notes') ? "<li>".get_field('public_notes',$post)."</li>" : '' ;
+			if($_POST['models'] != 'transporteur')
+				$posts_html.= get_field('price_sale_euro') ? "<li>".get_field('price_sale_euro',$post)."</li>" : '' ;
+			if($_POST['models'] != 'transporteur')
+				$posts_html.= get_field('price_assurance_euro') ? "<li>".get_field('price_assurance_euro',$post)."</li>" : '' ;
+			//exception for the transporteur model
+			if($_POST['models'] == 'transporteur')
+				$posts_html.= get_field('type_of_packaging') ? "<li>".get_field('type_of_packaging',$post)."</li>" : '' ;
 			$posts_html.="</ul>
-			</td>
+			</td>";
 
-			<td class='image'>
+			if($_POST['models'] != 'transporteur')
+			$posts_html .= "<td class='image'>
 			".get_the_post_thumbnail($post,'medium')."
-			</td>
-			</tr>";
+			</td>";
+
+			$posts_html.="</tr>";
 			if($_POST['models'] == 'galerie')
 			$posts_html .= "<tr><td colspan='2' class='description'>".get_field('description',$post) ."</td></tr>";
 
 		}
-
 
 
 $html = 	"

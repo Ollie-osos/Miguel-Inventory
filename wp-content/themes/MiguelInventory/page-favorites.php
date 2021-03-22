@@ -47,7 +47,7 @@ else { wp_loginout(); } ?>
 		  <option value="exposition">Exposition</option>
 		  <option value="transporteur">Transporteur</option>
 		</select>
-		  <input type="submit" value="Download" name="download">
+		  <input type="submit" value="Download">
 		</form>
 
 
