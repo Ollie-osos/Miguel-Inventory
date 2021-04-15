@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts Data Table\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-09 13:11+0100\n"
+"PO-Revision-Date: 2016-09-09 13:11+0100\n"
+"Last-Translator: Thor Johannes Wang <thor.j@wango.no>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: posts-data-table.php\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: nb_NO\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-admin-posts-table-settings.php:34
+#: includes/class-admin-posts-table-settings.php:45
+msgid "Posts Table Pro Settings"
+msgstr "Posts Table Pro innstillinger"
+
+#. Plugin Name of the plugin/theme
+#: includes/class-admin-posts-table-settings.php:35
+msgid "Posts Table Pro"
+msgstr "Posts Table Pro"
+
+#: includes/class-admin-posts-table-settings.php:51
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: includes/class-admin-posts-table-settings.php:61
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: includes/class-admin-posts-table-settings.php:76
+msgid "The license key is contained in your order confirmation email."
+msgstr "Lisensnøkkelen finnes i eposten med bestillingsbekreftelsen"
+
+#: includes/class-admin-posts-table-settings.php:79
+msgid "License key successfully activated!"
+msgstr "Lisensnøkkel aktivert!"
+
+#: includes/class-admin-posts-table-settings.php:81
+#, php-format
+msgid "Error: %s"
+msgstr "Feil: %s"
+
+#: includes/class-admin-posts-table-settings.php:81
+msgid "There was an error saving your license key, please try again."
+msgstr "Det oppstod en feil med å lagre lisensnøkkelen. Vennligst prøv igjen."
+
+#: includes/class-posts-data-table.php:123
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-posts-data-table.php:124
+msgid "Title"
+msgstr "Tittel"
+
+#: includes/class-posts-data-table.php:125
+msgid "Content"
+msgstr "Innhold"
+
+#: includes/class-posts-data-table.php:126
+msgid "Date"
+msgstr "Dato"
+
+#: includes/class-posts-data-table.php:127
+msgid "Author"
+msgstr "Forfatter"
+
+#: includes/class-posts-data-table.php:128
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/class-posts-data-table.php:129
+msgid "Tags"
+msgstr "Stikkord"
+
+#: includes/class-posts-data-table.php:130
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-posts-data-table.php:131
+msgid "Image"
+msgstr "Bilde"
+
+#: includes/class-posts-data-table.php:417
+msgid "True"
+msgstr "Sann"
+
+#: includes/class-posts-data-table.php:417
+msgid "False"
+msgstr "Usann"
+
+#: includes/class-posts-data-table.php:470
+msgid "Uncategorized"
+msgstr "Ukategorisert"
+
+#: includes/license/class-b2-plugin-license.php:104
+#: includes/license/class-b2-plugin-license.php:136
+#: includes/license/class-b2-plugin-license.php:167
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:117
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:122
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:126
+msgid "Your license key is invalid."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:130
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/license/class-b2-plugin-license.php:133
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: posts-data-table-pro.php:105
+msgid "Settings"
+msgstr "Innstillinger"
+
+#. Description of the plugin/theme
+msgid ""
+"Provides a shortcode to show a list of your website content (posts, pages, "
+"custom post types, etc) in a searchable and sortable table."
+msgstr ""
+"Gir en kortkode for å vise en liste med nettsidens innhold (innlegg, sider, "
+"egendefinerte innleggstyper etc.) i en søkbar og sorterbar tabell."
+
+#. Author of the plugin/theme
+msgid "Barn2 Media"
+msgstr "Barn2 Media"
+
+#. Author URI of the plugin/theme
+msgid "http://barn2.co.uk"
+msgstr "http://barn2.co.uk"
+
+#~ msgid "Your license key is invalid, please try again."
+#~ msgstr "Din lisensnøkkel er ugyldig. Vennligst prøv igjen."
+
+#~ msgid "Posts Table with Search & Sort"
+#~ msgstr "Innleggstabell med søk og sortering"
+
+#~ msgid ""
+#~ "This plugin provides a shortcode to show a list of your site's posts in a "
+#~ "searchable and sortable table."
+#~ msgstr ""
+#~ "Dette tillegget lar deg bruke en kortkode for å vise en liste av innlegg "
+#~ "i en søkbar og sorterbar tabell.\n"
+
+#~ msgid "Posts by %s"
+#~ msgstr "Innlegg av %s"

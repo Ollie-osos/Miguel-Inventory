@@ -1,0 +1,21 @@
+
+
+{
+    "sProcessing": "Bezig...",
+    "sLengthMenu": "_MENU_ resultaten weergeven",
+    "sZeroRecords": "Geen resultaten gevonden",
+    "sInfo": "Toont _START_ tot _END_ van _TOTAL_ regels",
+    "sInfoEmpty": "Geen resultaten om weer te geven",
+    "sInfoFiltered": " (gefilterd uit in totaal _MAX_ regels)",
+    "sInfoPostFix": "",
+    "sSearch": "Zoek:",
+    "sEmptyTable": "Geen resultaten aanwezig in de tabel",
+    "sInfoThousands": ".",
+    "sLoadingRecords": "Een moment geduld aub - bezig met laden...",
+    "oPaginate": {
+        "sFirst": "Eerste",
+        "sLast": "Laatste",
+        "sNext": "Volgende",
+        "sPrevious": "Vorige"
+    }
+}
