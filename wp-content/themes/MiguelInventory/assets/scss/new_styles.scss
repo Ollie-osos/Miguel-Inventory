@@ -1,0 +1,51 @@
+.home {
+
+  .dataTables_length,
+  .dataTables_filter {
+    display: none;
+  }
+}
+
+.fixed {
+  position: fixed;
+}
+
+
+
+.nested {
+  flex-direction: row;
+  display: flex;
+  position: absolute;
+  list-style: none;
+  padding-left: 2px;
+  margin-top: 5px;
+
+  a {
+    font-weight: normal !important;
+
+  }
+}
+
+.navbar-nav li a {
+  padding: 15px;
+  font-weight: bold;
+
+}
+
+.single strong {
+  margin-left: 15px;
+}
+
+.single h2 {
+  border-bottom: 2px solid black;
+}
+
+.posts-data-table img {
+  max-width: none;
+}
+
+.count span {
+  background: black;
+  color: white;
+  padding: 5px;
+}
