@@ -49,3 +49,11 @@
   color: white;
   padding: 5px;
 }
+
+
+// fix for placeholder image
+
+img.attachment-thumbnail.default-featured-img {
+  width: 100%;
+  height: auto;
+}

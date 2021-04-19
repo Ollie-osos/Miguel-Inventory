@@ -13,8 +13,10 @@ html,body {
 .main{
     position: relative;
     margin-top: 65px;
+    padding-bottom: 20px;
     @include respond-to(md){
         margin-top: unset;
+        padding-bottom: 50px;
     }
     #sidebar{
         
