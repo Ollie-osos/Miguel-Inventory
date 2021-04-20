@@ -11368,6 +11368,16 @@ html, body {
     padding-bottom: 50px;
   }
 }
+.main #sidebar {
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .main #sidebar {
+    margin-top: unset;
+    padding-bottom: 50px;
+  }
+}
+
 img {
   max-width: 100%;
 }
@@ -11961,14 +11971,14 @@ p {
   position: absolute;
   list-style: none;
   padding-left: 2px;
-  margin-top: 5px;
+  margin-top: 13px;
 }
 .nested a {
   font-weight: normal !important;
 }
 
 .navbar-nav li a {
-  padding: 15px;
+  padding: 6px 15px;
   font-weight: bold;
 }
 
@@ -12043,6 +12053,26 @@ img.attachment-thumbnail.default-featured-img {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
+}
+
+.featured-image {
+  padding-right: 10px;
+}
+.featured-image img {
+  height: auto;
+  width: 100%;
+}
+
+.archive-result {
+  padding-bottom: 10px;
+  border-bottom: thin solid black;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+.archive-result h4 {
+  font-weight: normal;
+  text-decoration: underline;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

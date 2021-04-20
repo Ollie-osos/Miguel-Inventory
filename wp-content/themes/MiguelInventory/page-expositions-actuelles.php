@@ -17,7 +17,10 @@
  */
 $img = get_field('main_image');
 get_header(); 
-get_sidebar(); ?>
+get_sidebar(); 
+
+// on this page I will get all exhibitions 30 days previous, and 30 days past todays date. Overdue in red, coming up in green. 
+?>
 
 <div id="page" class="main col-sm-8 col-md-8">
 
@@ -27,6 +30,7 @@ get_sidebar(); ?>
 		
 	</div>
 </div>
+
 
 
 <?php get_footer();

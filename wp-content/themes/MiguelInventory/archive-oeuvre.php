@@ -53,39 +53,38 @@ get_header(); ?>
 	?>
 
 	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: Photo;,title:Title,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
-
-	<script>
-		$(".postform").change(function() {
-			var end = this.value;
-			var cat_val = $('#cat').val();
-			var tag_val = $('#my_tags').val();
-			var realised_val = $('#work_real').val();
-
-			var url = window.location.href;
-
-			var cat = '';
-			var tag = '';
-			var realised = '';
-
-			if (cat_val != 0)
-				cat = "c=" + cat_val;
-			if (tag_val != 0)
-				tag = "t=" + tag_val;
-			if (realised_val != 0)
-				realised = "r=" + realised_val;
-
-			window.location.href = window.location.href.replace(/[\?#].*|$/, "?" + cat + "&" + tag + "&" + realised);
-		});
-
-
-		$("#reset").click(function() {
-			$('#cat option:eq(0)').prop('selected', 'selected');
-			$('#my_tags option:eq(0)').prop('selected', 'selected');
-			$('#work_real option:eq(0)').prop('selected', 'selected');
-			window.location.href = window.location.href.replace(/[\?#].*|$/, "");
-		});
-	</script>
-
 </div>
+
+<script>
+	$(".postform").change(function() {
+		var end = this.value;
+		var cat_val = $('#cat').val();
+		var tag_val = $('#my_tags').val();
+		var realised_val = $('#work_real').val();
+
+		var url = window.location.href;
+
+		var cat = '';
+		var tag = '';
+		var realised = '';
+
+		if (cat_val != 0)
+			cat = "c=" + cat_val;
+		if (tag_val != 0)
+			tag = "t=" + tag_val;
+		if (realised_val != 0)
+			realised = "r=" + realised_val;
+
+		window.location.href = window.location.href.replace(/[\?#].*|$/, "?" + cat + "&" + tag + "&" + realised);
+	});
+
+
+	$("#reset").click(function() {
+		$('#cat option:eq(0)').prop('selected', 'selected');
+		$('#my_tags option:eq(0)').prop('selected', 'selected');
+		$('#work_real option:eq(0)').prop('selected', 'selected');
+		window.location.href = window.location.href.replace(/[\?#].*|$/, "");
+	});
+</script>
 
 <?php get_footer();

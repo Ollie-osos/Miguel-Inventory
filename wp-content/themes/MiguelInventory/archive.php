@@ -17,9 +17,7 @@
  */
 
 get_header();
-
 get_sidebar();
-
 ?>
 
 <div id="page" class="main col-sm-8 col-md-9">
@@ -29,43 +27,24 @@ get_sidebar();
       <?php echo get_the_archive_title() ?>
     </h1>
   </div>
-
+  <div class="row">
   <?php if (have_posts()) : ?>
-
     <?php while (have_posts()) : the_post(); ?>
-
-      <article id="post-<?php the_ID(); ?>" <?php post_class("block"); ?> role="article">
-
-        <div class="article-header">
-          <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
-        </div>
+      <div class="col-sm-12 d-flex archive-result row">
         <?php if (has_post_thumbnail()) { ?>
-          <div class="featured-image col-sm-3">
+          <div class="featured-image col-sm-4">
             <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('simple_boostrap_featured'); ?></a>
           </div>
         <?php } ?>
-
-
-        <section class="post_content">
-          <?php
-          if ($multiple_on_page) {
-            the_excerpt();
-          } else {
-            the_content();
-            wp_link_pages();
-          }
-          ?>
-        </section>
-
-      </article>
-
-    <?php endwhile; ?>
-
-  <?php else : ?>
-
-    <article id="post-not-found" class="block">
-      <p><?php _e("No items found.", "simple-bootstrap"); ?></p>
-    </article>
+        <div class="col-sm-8">
+          <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
+        </div>
+      </div>
+      <?php endwhile; ?>
+    <?php else : ?>
+    <div class="col-sm-12">
+      <h4><?php _e("No items found.", "simple-bootstrap"); ?></h4>
+    </div>
 
   <?php endif; ?>
 </div>

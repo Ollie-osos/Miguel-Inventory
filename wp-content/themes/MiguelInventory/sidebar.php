@@ -1,4 +1,4 @@
-<div class="col-md-3 col-sm-2">
+<div class="col-md-3 col-sm-2" id="sidebar">
 	<h5>Recherche</h5>
 	<?php get_search_form(); ?>
 	<br>

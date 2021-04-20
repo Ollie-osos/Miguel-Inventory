@@ -21,7 +21,9 @@
   <div class="row">
     <div class="col-md-10">
       <h1><?php the_title(); ?></h1>
-      <h2><?php the_field('sub_title'); ?></h2>
+      <?php if(get_field('subtitle')) { ?>
+        <h2><?php echo get_field('sub_title'); ?></h2>
+      <?php } ?>
       <hr class="top-title">
     </div>
     <div class="col-md-2 text-right" id="selection-tools"> 

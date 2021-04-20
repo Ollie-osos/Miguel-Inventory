@@ -16,25 +16,10 @@
  * @since FoundationPress 1.0.0
  */
 $img = get_field('main_image');
-get_header(); ?>
+get_header(); 
+get_sidebar(); ?>
 
-
-<div class="col-md-2">
-	<?php global $current_user;
-	wp_get_current_user(); ?>
-	<?php if (is_user_logged_in()) {
-		echo '<h5>' . $current_user->display_name . "</h5>";
-	} else {
-		wp_loginout();
-	} ?>
-	<a href="<?php echo get_home_url() ?>/my-account">My account</a><br>
-	<a href="<?php echo get_home_url() ?>/favorites">Favorites</a><br>
-	<a href="<?php echo get_home_url() ?>/wp-login.php?action=logout">Logout</a>
-</div>
-
-
-
-<div id="page" class="main col-sm- col-md-8">
+<div id="page" class="main col-sm-8 col-md-9">
 	<h1>Favorites</h1>
 
 	<h4>Generate PDF</h4>

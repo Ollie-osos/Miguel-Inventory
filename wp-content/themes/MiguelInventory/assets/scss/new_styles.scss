@@ -18,7 +18,7 @@
   position: absolute;
   list-style: none;
   padding-left: 2px;
-  margin-top: 5px;
+  margin-top: 13px;
 
   a {
     font-weight: normal !important;
@@ -27,9 +27,8 @@
 }
 
 .navbar-nav li a {
-  padding: 15px;
+  padding: 6px 15px;
   font-weight: bold;
-
 }
 
 .single strong {
@@ -106,3 +105,24 @@ img.attachment-thumbnail.default-featured-img {
   padding-left: 0;
 }
 // .simplefavorite-button.preset
+
+.featured-image {
+  padding-right: 10px;
+  img{
+    height: auto;
+    width: 100%;
+  }
+}
+
+.archive-result {
+  padding-bottom: 10px;
+  border-bottom: thin solid black;
+  margin-bottom: 15px;
+  // height: 180px;
+  padding-top: 20px;
+  h4{
+    font-weight: normal;
+    text-decoration: underline;
+    margin-top: 5px;
+  }
+}
