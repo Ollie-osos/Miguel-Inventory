@@ -1,11 +1,11 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 :root {
   blue: #007bff;
   indigo: #6610f2;
@@ -11760,6 +11760,13 @@ section.padding-bottom {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  letter-spacing: 0.75px;
+}
+
 .image-row img {
   height: 90px;
   margin-right: 20px;
@@ -11966,11 +11973,7 @@ p {
 }
 
 .single strong {
-  margin-left: 15px;
-}
-
-.single h2 {
-  border-bottom: 2px solid black;
+  margin-left: 5px;
 }
 
 .posts-data-table img {
@@ -11986,6 +11989,60 @@ p {
 img.attachment-thumbnail.default-featured-img {
   width: 100%;
   height: auto;
+  max-width: 150px;
+}
+
+#reset {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  flex-direction: unset;
+  flex-wrap: wrap;
+}
+.list-group .list-group-item {
+  flex-basis: 48%;
+  margin-right: 2%;
+  margin-top: 5px;
+}
+
+.list-group-item + .list-group-item {
+  border-top-width: 1px;
+}
+
+.top-title {
+  border-bottom: 2px solid black;
+  border-top: unset;
+  padding-bottom: 10px;
+}
+
+.simplefavorite-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#selection-tools {
+  margin-top: -4px;
+}
+
+.favorites-list li {
+  width: 33%;
+  display: inline-flex;
+  border-top: unset !important;
+}
+.favorites-list li img {
+  float: left;
+  margin-right: 1em;
+  max-height: 120px;
+  width: auto !important;
+  padding-bottom: 5px;
+}
+
+.favorites-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

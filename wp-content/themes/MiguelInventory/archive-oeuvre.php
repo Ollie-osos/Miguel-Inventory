@@ -18,7 +18,7 @@
 $img = get_field('main_image');
 get_header(); ?>
 
-<div id="page" role="main" class="col-sm-12 col-md-12">
+<div id="page" class="main col-sm-12 col-md-12">
 
 	<h1>Oeuvres/Works</h1>
 	<div class='float-right'>
@@ -39,8 +39,6 @@ get_header(); ?>
 			</select>
 		</div>
 
-
-
 		<br>
 		<button id='reset'>Reset</button>
 	</div>
@@ -54,7 +52,7 @@ get_header(); ?>
 
 	?>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: &nbsp;,title:Title,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: Photo;,title:Title,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
 
 	<script>
 		$(".postform").change(function() {

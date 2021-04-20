@@ -18,10 +18,10 @@
 $img = get_field('main_image');
 get_header(); ?>
 
-<div id="page" role="main" class="col-sm-12 col-md-12">
+<div id="page" class="main col-sm-12 col-md-12">
 	<h1>Sous-Oeuvres</h1>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=subworks columns="image: &nbsp;,title:Title,cf:creation_date:Date,category:Catégorie,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:localisation,cf:logicel" search_box="top"]'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=subworks columns="image: Photo,title:Title,cf:creation_date:Date,category:Catégorie,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:localisation,cf:logicel" search_box="top"]'); ?>
 
 </div>
 

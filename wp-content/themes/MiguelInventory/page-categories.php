@@ -22,7 +22,7 @@ get_sidebar();
 
 ?>
 
-<div id="page" role="main" class="col-sm-10 col-md-9">
+<div id="page" class="main col-sm-10 col-md-9">
 
 	<h1><?php the_title() ?></h1>
 

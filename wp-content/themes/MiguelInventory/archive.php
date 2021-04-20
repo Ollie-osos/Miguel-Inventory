@@ -22,52 +22,52 @@ get_sidebar();
 
 ?>
 
-<div id="page" role="main" class="col-sm-8 col-md-9">
+<div id="page" class="main col-sm-8 col-md-9">
 
-    <div class="block block-title">
-        <h1 class="archive_title">
-            <?php echo get_the_archive_title() ?>
-        </h1>
-    </div>
+  <div class="block block-title">
+    <h1 class="archive_title">
+      <?php echo get_the_archive_title() ?>
+    </h1>
+  </div>
 
-    <?php if (have_posts()) : ?>
+  <?php if (have_posts()) : ?>
 
-        <?php while (have_posts()) : the_post(); ?> 
+    <?php while (have_posts()) : the_post(); ?>
 
-            <article id="post-<?php the_ID(); ?>" <?php post_class("block"); ?> role="article">
+      <article id="post-<?php the_ID(); ?>" <?php post_class("block"); ?> role="article">
 
-                <div class="article-header">
-                    <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
-                </div>
-                <?php if (has_post_thumbnail()) { ?>
-                    <div class="featured-image col-sm-6">
-                        <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('simple_boostrap_featured'); ?></a>
-                    </div>
-                <?php } ?>
+        <div class="article-header">
+          <h4><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
+        </div>
+        <?php if (has_post_thumbnail()) { ?>
+          <div class="featured-image col-sm-3">
+            <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('simple_boostrap_featured'); ?></a>
+          </div>
+        <?php } ?>
 
 
-                <section class="post_content">
-                    <?php
-                    if ($multiple_on_page) {
-                        the_excerpt();
-                    } else {
-                        the_content();
-                        wp_link_pages();
-                    }
-                    ?>
-                </section>
+        <section class="post_content">
+          <?php
+          if ($multiple_on_page) {
+            the_excerpt();
+          } else {
+            the_content();
+            wp_link_pages();
+          }
+          ?>
+        </section>
 
-            </article>
+      </article>
 
-        <?php endwhile; ?>
+    <?php endwhile; ?>
 
-    <?php else : ?>
+  <?php else : ?>
 
-        <article id="post-not-found" class="block">
-            <p><?php _e("No items found.", "simple-bootstrap"); ?></p>
-        </article>
+    <article id="post-not-found" class="block">
+      <p><?php _e("No items found.", "simple-bootstrap"); ?></p>
+    </article>
 
-    <?php endif; ?>
+  <?php endif; ?>
 </div>
 
 <?php get_footer();

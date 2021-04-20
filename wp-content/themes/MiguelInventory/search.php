@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-<div id="page" role="main" class="col-sm-12 col-md-9">
+<div id="page" class="main col-sm-12 col-md-9">
 
 
 		<h1><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h1>

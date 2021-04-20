@@ -12,8 +12,4 @@
 	<a href="<?php echo get_home_url() ?>/my-account">My account</a><br>
 	<a href="<?php echo get_home_url() ?>/favorites">Favorites</a><br>
 	<a href="<?php echo get_home_url() ?>/wp-login.php?action=logout">Logout</a>
-	<div class="mt-5">
-		<h5>Agenda</h5>
-		<?php get_calendar(); ?>
-	</div>
 </div>

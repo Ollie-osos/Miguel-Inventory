@@ -19,7 +19,7 @@ $img = get_field('main_image');
 get_header(); 
 get_sidebar(); ?>
 
-<div id="page" role="main" class="col-sm-8 col-md-8">
+<div id="page" class="main col-sm-8 col-md-8">
 
 	<h1><?php the_title() ?></h1>
 
