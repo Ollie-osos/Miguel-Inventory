@@ -122,13 +122,21 @@
 
 
 
-    <div class="columns col-md-12">
-      <h2>Notes</h2>
-    </div>
-    <div class="col-md-4"><strong>Notes publiques</strong></div>
-    <div class="col-md-8"><span><?php the_field('public_notes'); ?></span></div>
-    <div class="col-md-4"><strong>Notes privées</strong></div>
-    <div class="col-md-8"><span><?php the_field('private_notes'); ?></span></div>
+    <?php if (get_field('public_notes') || get_field('private_notes')) { ?>
+      <div class="columns col-md-12">
+        <h2>Notes</h2>
+      </div>
+    <?php } ?>
+
+    <?php if (get_field('public_notes')) { ?>
+      <div class="col-md-4"><strong>Notes publiques</strong></div>
+      <div class="col-md-8"><span><?php the_field('public_notes'); ?></span></div>
+    <?php } ?>
+
+    <?php if (get_field('private_notes') && is_user_logged_in()) { ?>
+      <div class="col-md-4"><strong>Notes privées</strong></div>
+      <div class="col-md-8"><span><?php the_field('private_notes'); ?></span></div>
+    <?php } ?>
 
 
 
@@ -248,7 +256,7 @@
     </div>
 
 
-    <?php if (the_field('vimeo')) { ?>
+    <?php if (the_field('vimeo') && is_user_logged_in()) { ?>
 
       <div class="col-md-12">
         <h5>Vidéos</h5>

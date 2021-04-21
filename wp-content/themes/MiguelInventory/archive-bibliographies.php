@@ -33,7 +33,7 @@ get_header(); ?>
 		<button id='reset'>Reset</button>
 	</div>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=bibliographies columns="image: Photo,cf:author:Author,title:Title,cf: publication_date:Date,category:Catégorie,cf:unique_bibliography_code:Code référence" search_box="top" tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=bibliographies columns="image: Photo,title:Title,cf:author:Author,cf: publication_date:Date,category:Catégorie,cf:unique_bibliography_code:Code référence" search_box="top" tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
 
 </div>
 

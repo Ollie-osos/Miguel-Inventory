@@ -291,7 +291,7 @@
       <div class="col-md-8"><span><?php the_field('public_notes'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('private_notes')) { ?>
+    <?php if (get_field('private_notes') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Notes privées</strong></div>
       <div class="col-md-8"><span><?php the_field('private_notes'); ?></span></div>
     <?php } ?>
@@ -351,13 +351,8 @@
     <?php if (get_field('images')) { ?>
       <div class="col-md-12">
         <h5><strong>Images</strong></h5>
-
-
-        <div class="row">
-
-
-
-
+        
+        <div class="row slick-carousel">
           <?php // load selected file (from post)
           $images = get_field('images');
 
@@ -458,4 +453,11 @@
 </div>
 </div>
 
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick-carousel').slick({
+        slidesToShow: 5,
+      });
+    });
+  </script>
 <?php get_footer();
