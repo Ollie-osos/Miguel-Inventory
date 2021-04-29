@@ -7,9 +7,12 @@ $dompdf = new Dompdf(array('enable_remote' => true));
 $posts = get_user_favorites(); 
 $count = 0;
 
+if(isset($_POST['eventName'])) { $pdf_name = $_POST['eventName']; } else { $pdf_name = "";}
+if(isset($_POST['location'])) { $pdf_location = '@ '. $_POST['location']; } else { $pdf_location = "";}
+
 
 		foreach ($posts as $post) {
-
+			
 			$count++;
 			$posts_html .= 
 			"
@@ -141,7 +144,7 @@ $html = 	"
 
 				<div class='main'>
 
-		<h2>LISTE D'OEUVRES DE MIGUEL CHEVALIER POUR [INSERT NAME/EVENT] [INSERT LOCATION]</h2>
+		<h2>LISTE D'OEUVRES DE MIGUEL CHEVALIER POUR ".$pdf_name." ".$pdf_location."</h2>
         <table>                 
 		".$posts_html."
 		</table>

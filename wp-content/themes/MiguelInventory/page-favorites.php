@@ -16,7 +16,7 @@
  * @since FoundationPress 1.0.0
  */
 $img = get_field('main_image');
-get_header(); 
+get_header();
 get_sidebar(); ?>
 
 <div id="page" class="main col-sm-8 col-md-9">
@@ -24,13 +24,27 @@ get_sidebar(); ?>
 
 	<h4>Generate PDF</h4>
 	<form target="_blank" action="<?php echo get_home_url() ?>/favs" method="post" id="models-form" name="models-form">
-		<label for="models">Choose a model:</label>
-		<select id="models" name="models">
-			<option value="galerie">Galerie</option>
-			<option value="exposition">Exposition</option>
-			<option value="transporteur">Transporteur</option>
-		</select>
-		<input type="submit" value="Download">
+		<div class="row">
+			<div class="col-sm-4">
+				<label for="models">Choose a model:</label>
+				<select id="models" name="models">
+					<option value="galerie">Galerie</option>
+					<option value="exposition">Exposition</option>
+					<option value="transporteur">Transporteur</option>
+				</select>
+			</div>
+			<div class="col-sm-4">
+				<label for="name">Event Name:</label>
+				<input type="text" name="eventName"></div>
+			<div class="col-sm-4">
+				<label for="location">Event Location:</label>
+				<input type="text" name="location">
+			</div>
+		</div>
+
+
+		<br>
+		<input type="submit" class="btn btn-dark" value="Download">
 	</form>
 
 
