@@ -272,32 +272,42 @@
     <?php } ?>
 
 
-    <?php if (get_field('expositions')) { ?>
-
-      <div class="columns col-md-12">
+    <?php if (get_field('affiliated_exhibitions') || get_field('public_notes') || get_field('private_notes')) { ?>
+      <div class="col-md-12">
         <h2>Historique</h2>
       </div>
 
-      <div class="col-md-4"><strong>Expositions</strong></div>
-      <div class="col-md-8"><span><?php the_field('expositions'); ?></span></div>
-    <?php } ?>
+      <?php
+      if (have_rows('affiliated_exhibitions')) :
+      ?>
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Sous-Oeuvres</h2>
+            <?php
+            while (have_rows('affiliated_exhibitions')) : the_row();
+              $exhibition = get_sub_field('exhibitions');
+              echo "<a href='" . $exhibition['url'] . "'>" . $exhibition['title'] . "</a>";
+            endwhile;?>
+          </div>
+        </div>
+      <?php endif; ?>
 
-    <?php if (get_field('public_notes') || get_field('private_notes')) { ?>
-      <div class="columns col-md-12">
-        <h2>Notes</h2>
-      </div>
-    <?php } ?>
+      <?php if (get_field('public_notes') || get_field('private_notes')) { ?>
+        <div class="col-md-12">
+          <h2>Notes</h2>
+        </div>
+      <?php } ?>
 
-    <?php if (get_field('public_notes')) { ?>
-      <div class="col-md-4"><strong>Notes publiques</strong></div>
-      <div class="col-md-8"><span><?php the_field('public_notes'); ?></span></div>
-    <?php } ?>
+      <?php if (get_field('public_notes')) { ?>
+        <div class="col-md-4"><strong>Notes publiques</strong></div>
+        <div class="col-md-8"><span><?php the_field('public_notes'); ?></span></div>
+      <?php } ?>
 
-    <?php if (get_field('private_notes') && is_user_logged_in()) { ?>
-      <div class="col-md-4"><strong>Notes privées</strong></div>
-      <div class="col-md-8"><span><?php the_field('private_notes'); ?></span></div>
+      <?php if (get_field('private_notes') && is_user_logged_in()) { ?>
+        <div class="col-md-4"><strong>Notes privées</strong></div>
+        <div class="col-md-8"><span><?php the_field('private_notes'); ?></span></div>
+      <?php } ?>
     <?php } ?>
-
   </div>
 
   <?php
