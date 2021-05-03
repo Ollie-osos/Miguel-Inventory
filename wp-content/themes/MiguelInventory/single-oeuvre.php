@@ -182,58 +182,60 @@
       <div class="col-md-4"><strong>URL</strong></div>
       <div class="col-md-8"><span><?php the_field('url'); ?></span></div>
     <?php } ?>
+    
+    <?php if (is_user_logged_in()) { ?>
+      <?php if (get_field('price_production_euro') || get_field('price_production_us') || get_field('price_assurance_euro') || get_field('price_assurance_us') || get_field('price_sale_euro') || get_field('price_sale_us')) { ?>
+        <div class="col-md-12">
+          <h2>Prix</h2>
+        </div>
+      <?php } ?>
 
-    <?php if (get_field('price_production_euro') || get_field('price_production_us') || get_field('price_assurance_euro') || get_field('price_assurance_us') || get_field('price_sale_euro') || get_field('price_sale_us')) { ?>
-      <div class="col-md-12">
-        <h2>Prix</h2>
-      </div>
-    <?php } ?>
+      <?php if (get_field('price_production_euro') || get_field('price_production_us')) { ?>
+        <div class="col-md-12">
+          <h5>Coût de production</h5>
+        </div>
+      <?php } ?>
 
-    <?php if (get_field('price_production_euro') || get_field('price_production_us')) { ?>
-      <div class="col-md-12">
-        <h5>Coût de production</h5>
-      </div>
-    <?php } ?>
+      <?php if (get_field('price_production_euro')) { ?>
+        <div class="col-md-4"><strong>En euros</strong></div>
+        <div class="col-md-8"><span><?php the_field('price_production_euro'); ?></span></div>
+      <?php } ?>
 
-    <?php if (get_field('price_production_euro')) { ?>
-      <div class="col-md-4"><strong>En euros</strong></div>
-      <div class="col-md-8"><span><?php the_field('price_production_euro'); ?></span></div>
-    <?php } ?>
+      <?php if (get_field('price_production_us')) { ?>
+        <div class="col-md-4"><strong>En dollars US</strong></div>
+        <div class="col-md-8"><span><?php the_field('price_production_us'); ?></span></div>
+      <?php } ?>
 
-    <?php if (get_field('price_production_us')) { ?>
-      <div class="col-md-4"><strong>En dollars US</strong></div>
-      <div class="col-md-8"><span><?php the_field('price_production_us'); ?></span></div>
-    <?php } ?>
+      <?php if (get_field('price_assurance_euro') || get_field('price_assurance_us')) { ?>
+        <div class="col-md-12">
+          <h5>Coût d'assurance</h5>
+        </div>
+      <?php } ?>
 
-    <?php if (get_field('price_assurance_euro') || get_field('price_assurance_us')) { ?>
-      <div class="col-md-12">
-        <h5>Coût d'assurance</h5>
-      </div>
-    <?php } ?>
+      <?php if (get_field('price_assurance_euro')) { ?>
+        <div class="col-md-4"><strong>En euros</strong></div>
+        <div class="col-md-8"><span><?php the_field('price_assurance_euro'); ?></span></div>
+      <?php } ?>
 
-    <?php if (get_field('price_assurance_euro')) { ?>
-      <div class="col-md-4"><strong>En euros</strong></div>
-      <div class="col-md-8"><span><?php the_field('price_assurance_euro'); ?></span></div>
-    <?php } ?>
+      <?php if (get_field('price_assurance_us')) { ?>
+        <div class="col-md-4"><strong>En dollars US</strong></div>
+        <div class="col-md-8"><span><?php the_field('price_assurance_us'); ?></span></div>
+      <?php } ?>
 
-    <?php if (get_field('price_assurance_us')) { ?>
-      <div class="col-md-4"><strong>En dollars US</strong></div>
-      <div class="col-md-8"><span><?php the_field('price_assurance_us'); ?></span></div>
-    <?php } ?>
+      <?php if (get_field('price_sale_euro') || get_field('price_sale_us')) { ?>
+        <div class="col-md-12">
+          <h5>Prix de vente</h5>
+        </div>
+      <?php } ?>
 
-    <?php if (get_field('price_sale_euro') || get_field('price_sale_us')) { ?>
-      <div class="col-md-12">
-        <h5>Prix de vente</h5>
-      </div>
-    <?php } ?>
-
-    <?php if (get_field('price_sale_euro')) { ?>
-      <div class="col-md-4"><strong>En euros</strong></div>
-      <div class="col-md-8"><span><?php the_field('price_sale_euro'); ?></span></div>
-    <?php } ?>
-    <?php if (get_field('price_sale_us')) { ?>
-      <div class="col-md-4"><strong>En dollars US</strong></div>
-      <div class="col-md-8"><span><?php the_field('price_sale_us'); ?></span></div>
+      <?php if (get_field('price_sale_euro')) { ?>
+        <div class="col-md-4"><strong>En euros</strong></div>
+        <div class="col-md-8"><span><?php the_field('price_sale_euro'); ?></span></div>
+      <?php } ?>
+      <?php if (get_field('price_sale_us')) { ?>
+        <div class="col-md-4"><strong>En dollars US</strong></div>
+        <div class="col-md-8"><span><?php the_field('price_sale_us'); ?></span></div>
+      <?php } ?>
     <?php } ?>
 
     <?php if (get_field('localisation') || get_field('emplacement')) { ?>
@@ -247,24 +249,24 @@
       <div class="col-md-8"><span><?php the_field('localisation'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('emplacement')) { ?>
+    <?php if (get_field('emplacement') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Emplacement</strong></div>
       <div class="col-md-8"><span><?php the_field('emplacement'); ?></span></div>
     <?php } ?>
 
 
-    <?php //check this code!
-    if (get_field('something')) { ?>
+    <?php
+    if (get_field('something') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Dates de prêt de l'oeuvre</strong></div>
       <div class="col-md-8"><span><?php the_field(''); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('collection')) { ?>
+    <?php if (get_field('collection') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Collection</strong></div>
       <div class="col-md-8"><span><?php the_field('collection'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('anonyme')) { ?>
+    <?php if (get_field('anonyme') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Anonyme</strong></div>
       <div class="col-md-8"><span><?php the_field('anonyme'); ?></span></div>
     <?php } ?>
@@ -296,140 +298,6 @@
       <div class="col-md-8"><span><?php the_field('private_notes'); ?></span></div>
     <?php } ?>
 
-
-    <?php if (have_rows('repeater_docs') || get_field('images') || have_rows('repeater_audio') || have_rows('vimeo')) { ?>
-      <div class="columns col-md-12">
-        <h2>Mediateque</h2>
-      </div>
-    <?php } ?>
-
-    <?php if (have_rows('repeater_docs')) : ?>
-
-      <div class="col-md-12">
-        <h5><strong>Documents</strong></h5>
-
-
-        <div class="row">
-
-
-
-          <?php while (have_rows('repeater_docs')) : the_row(); ?>
-
-
-
-            <?php // load selected file (from post)
-            $file = get_sub_field('docs');
-
-            if ($file) :
-
-              // load selected thumbnail (from attachment)
-              $thumbnail = get_sub_field('docs', $file['ID']);
-
-            ?>
-              <div class="file col-md-3">
-                <a target='_blank' href="<?php echo $file['url']; ?>" download=<?php echo $file['filename'];  ?>>
-                  <?php if ($thumbnail) : ?>
-                    <img class="thumbnail" src="../../wp-includes/images/media/document.png" alt="<?php echo $thumbnail['alt']; ?>" />
-                  <?php endif; ?>
-                  <br>
-                  <span><?php echo $file['filename']; ?></span>
-                </a>
-              </div>
-            <?php endif; ?>
-
-
-
-          <?php endwhile; ?>
-
-
-        </div>
-      </div>
-
-    <?php endif; ?>
-
-
-    <?php if (get_field('images')) { ?>
-      <div class="col-md-12">
-        <h5><strong>Images</strong></h5>
-        
-        <div class="row slick-carousel">
-          <?php // load selected file (from post)
-          $images = get_field('images');
-
-          if ($images) : ?>
-            <?php foreach ($images as $image) : ?>
-              <div class="col-md-3">
-                <a target='_blank' href="<?php echo esc_url($image['url']); ?>">
-                  <img src="<?php echo esc_url($image['sizes']['medium']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                </a>
-                <p><?php echo esc_html($image['caption']); ?></p>
-              </div>
-            <?php endforeach; ?>
-          <?php endif; ?>
-
-
-
-        </div>
-      </div>
-    <?php } ?>
-    <?php if (have_rows('repeater_audio')) : ?>
-      <div class="col-md-12">
-        <h5><strong>Audios</strong></h5>
-
-
-        <div class="row">
-
-
-
-          <?php while (have_rows('repeater_audio')) : the_row(); ?>
-
-
-
-            <?php // load selected file (from post)
-            $file = get_sub_field('audio');
-
-            if ($file) :
-
-              // load selected thumbnail (from attachment)
-              $thumbnail = get_sub_field('audio', $file['ID']);
-
-            ?>
-              <div class="file col-md-3">
-                <a target='_blank' href="<?php echo $file['url']; ?>" download=<?php echo $file['filename'];  ?>>
-                  <?php if ($thumbnail) : ?>
-                    <img class="thumbnail" src="../../wp-includes/images/media/audio.png" alt="<?php echo $thumbnail['alt']; ?>" />
-                  <?php endif; ?>
-                  <br>
-                  <span><?php echo $file['filename']; ?></span>
-                </a>
-              </div>
-            <?php endif; ?>
-
-
-
-          <?php endwhile; ?>
-
-
-        </div>
-      </div>
-    <?php endif; ?>
-
-
-
-    <?php if (get_field('vimeo')) { ?>
-      <div class="col-md-12">
-        <h5>Vidéos</h5>
-      </div>
-      <div class="col-md-12">
-
-        <iframe src="<?php the_field('vimeo'); ?>?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        <p><a href="<?php the_field('vimeo'); ?>"></a></p>
-      </div>
-    <?php } ?>
-
-
-
-
   </div>
 
   <?php
@@ -453,11 +321,4 @@
 </div>
 </div>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-      $('.slick-carousel').slick({
-        slidesToShow: 5,
-      });
-    });
-  </script>
 <?php get_footer();
