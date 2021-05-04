@@ -73,6 +73,17 @@
           </div>
         </div>
       <?php } ?>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <strong>Publiable en ligne</strong>
+          <?php if (get_field('publiable')) { ?>
+            <p>Oui</p>
+          <?php } else { ?>
+            <p>Non</p>
+          <?php } ?>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -254,7 +265,6 @@
       <div class="col-md-8"><span><?php the_field('emplacement'); ?></span></div>
     <?php } ?>
 
-
     <?php
     if (get_field('something') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Dates de prêt de l'oeuvre</strong></div>
@@ -282,7 +292,7 @@
       ?>
         <div class="row">
           <div class="col-md-12">
-            <h2>Sous-Oeuvres</h2>
+            <h5>Exposition</h5>
             <?php
             while (have_rows('affiliated_exhibitions')) : the_row();
               $exhibition = get_sub_field('exhibitions');
@@ -294,7 +304,7 @@
 
       <?php if (get_field('public_notes') || get_field('private_notes')) { ?>
         <div class="col-md-12">
-          <h2>Notes</h2>
+          <h5>Notes</h5>
         </div>
       <?php } ?>
 

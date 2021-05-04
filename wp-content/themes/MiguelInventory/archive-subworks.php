@@ -47,6 +47,10 @@ get_header(); ?>
 	else
 		$filter = '';
 
+	if (!is_user_logged_in()){
+		$filter .= ' cf="publiable: 1"';
+	}
+
 	// to add more filters add to the filter string, just use spaces to differenciate. 
 
 	?>
