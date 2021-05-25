@@ -43,16 +43,21 @@ get_header(); ?>
 		<button id='reset'>Reset</button>
 	</div>
 
-	<?php if (get_query_var('r'))
+	<?php
+	if (get_query_var('r')){
 		$filter =  'cf="work_realised:' . get_query_var('r') . '"';
-	else
+	} else { 
 		$filter = '';
-
-	// to add more filters add to the filter string, just use spaces to differenciate. 
+	}
+	// https://wordpress.stackexchange.com/questions/108765/if-admin-is-logged-in 
+	// if admin logged in
+	if (!is_user_logged_in()){
+		$filter .= ' cf="publiable: 1"';
+	}
 
 	?>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: Photo;,title:Title,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: Photo,title:Title,publiable:Publiable,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
 </div>
 
 <script>

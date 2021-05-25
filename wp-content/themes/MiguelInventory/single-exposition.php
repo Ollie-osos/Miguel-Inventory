@@ -51,6 +51,18 @@
           <p><?php the_field('unique_exhibition_code'); ?></p>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <strong>Publiable en ligne</strong>
+          <?php if (get_field('publiable')) { ?>
+            <p>Oui</p>
+          <?php } else { ?>
+            <p>Non</p>
+          <?php } ?>
+        </div>
+      </div>
+      
     </div>
   </div>
 

@@ -1,0 +1,27 @@
+		title -> Title
+		field_biblio_auteur_value -> Author 
+		field_biblio_editeur_value -> Editor
+		field_biblio_pp_value -> Number of pages
+		field_biblio_code_value -> Unique Bibliography Code
+		field_biblio_collection_value -> ?? missing
+		field_biblio_langues_value -> Languages
+		field_biblio_isbn_value -> ISBN
+		field_biblio_prix_value -> price
+		field_expo_note_value -> public notes or private notes?
+		field_expo_sous_titre_value -> Subtitle
+		field_oeuvre_adresse_web_url -> URL
+		filepaths -> media?? only images or also audio & docs?
+
+- Missing Fields
+Main Image
+Legend
+Publication Date
+Graphic Designer
+City of the Editor
+Format
+Description
+Docs
+Audio
+Vimeo
+Affiliated Exhibitions
+Private Notes
