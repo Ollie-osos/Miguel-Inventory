@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rows>
+
+
+	<row>
+		<field name="title">Arcadie </field>
+		<field name="field_biblio_auteur_value">Miguel Chevalier, Sina avec un texte de Carl Friedrich Schnöder</field>
+		<field name="field_biblio_editeur_value">Ars technica</field>
+		<field name="field_biblio_pp_value">78 pages</field>
+		<field name="field_biblio_code_value">1993-CB-ARCADIE</field>
+		<field name="field_biblio_collection_value" xsi:nil="true" />
+		<field name="field_biblio_langues_value">français</field>
+		<field name="field_biblio_isbn_value" xsi:nil="true" />
+		<field name="field_biblio_prix_value" xsi:nil="true" />
+		<field name="field_expo_note_value">Le jardin eau numérique est le projet d' un espace séquentiel, où les règles joueront de la superposition et du télescopage des lieux, des images et des matériaux. Tout comme le XIXe siècle a joué de la Folie, Arcadie ne sera pas une extravagance éclectique de style mais au contraire une juxtaposition composée d'espaces et de programmes sans précédent par l'utilisation de la technologie mise à notre disposition.</field>
+		<field name="field_expo_sous_titre_value">Jardin eau numérique</field>
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="filepaths">uploads/media/1992-cp-arcadiemaquette2.png,uploads/media/1992-cp-arcadiemaquette1.png</field>
+	</row>
+
+</rows>
