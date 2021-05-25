@@ -25,8 +25,8 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2015-cb-bitbook.jpg,sites/default/files/media/images_thumb/2015-cb-bitbook.jpg</field>
-		<field name="documents">sites/default/files/media/documents/1bit_book_maquette_final.pdf,sites/default/files/media/documents/communique_presse_livre.pdf</field>
+		<field name="featured_image">media/images_thumb/2015-cb-bitbook.jpg,media/images_thumb/2015-cb-bitbook.jpg</field>
+		<field name="documents">media/documents/1bit_book_maquette_final.pdf,media/documents/communique_presse_livre.pdf</field>
 	</row>
  
 	<row>
@@ -43,7 +43,7 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_sous_titre_value">Festival international d'art contemporain</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/festival-apart-2010-couverture-artiste-placide-zephyr-960x960.jpg</field>
+		<field name="featured_image">media/images_thumb/festival-apart-2010-couverture-artiste-placide-zephyr-960x960.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -61,7 +61,7 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_marakech.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_marakech.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -78,8 +78,8 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_note_value">Le jardin eau numérique est le projet d' un espace séquentiel, où les règles joueront de la superposition et du télescopage des lieux, des images et des matériaux. Tout comme le XIXe siècle a joué de la Folie, Arcadie ne sera pas une extravagance éclectique de style mais au contraire une juxtaposition composée d'espaces et de programmes sans précédent par l'utilisation de la technologie mise à notre disposition.</field>
 		<field name="field_expo_sous_titre_value">Jardin eau numérique</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1992-cp-arcadiemaquette2.png,sites/default/files/media/images/1992-cp-arcadiemaquette1.png</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/arcadie_jardineaunumerique.jpg,sites/default/files/media/images_thumb/arcadie_jardineaunumerique.jpg</field>
+		<field name="gallery_images">media/images/1992-cp-arcadiemaquette2.png,media/images/1992-cp-arcadiemaquette1.png</field>
+		<field name="featured_image">media/images_thumb/arcadie_jardineaunumerique.jpg,media/images_thumb/arcadie_jardineaunumerique.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -98,7 +98,7 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_sous_titre_value">Regards d'artistes contemporains</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2019-cb-artebotanica.jpg</field>
+		<field name="featured_image">media/images_thumb/2019-cb-artebotanica.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -116,7 +116,7 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2018-cb-artrob.jpg</field>
+		<field name="featured_image">media/images_thumb/2018-cb-artrob.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -133,8 +133,8 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_note_value">Booklet issu à l'occasion de l'exposition &quot;Artists &amp; Robots&quot; qui eut lieu au Astana Contemporary Art Center (ACAC) du 10/06/2017 au 10/09/2017, à Astana, Kazakhstan.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2017-cb-artrobomc.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-artistsrobots.jpg</field>
+		<field name="gallery_images">media/images/2017-cb-artrobomc.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-artistsrobots.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -151,8 +151,8 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_note_value">Catalogue issu à l'occasion de l'exposition &quot;Artists &amp; Robots&quot; organisée par la Réunion des musées nationaux - Grand palais et &quot;Astana EXPO-2017&quot;, qui a été présentée au Contemporary Art Center de Astana du 10 juin au 10 septembre 2017.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2017-cb-artistsrobotsv.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-artistesrobots.jpg</field>
+		<field name="gallery_images">media/images/2017-cb-artistsrobotsv.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-artistesrobots.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -169,8 +169,8 @@ Commentaire de Christine Buci-Glucksmann, philosophe, spécialiste de l'art con
 		<field name="field_expo_note_value">L'ouvrage a été conçue dans le cadre de l'ouverture de l'Espace Culture Multimédia, cette exposition et ce catalogue sont réalisés avec le soutien de la Direction Régionale des Affaires Culturelles d'Ile-de-France, le Conseil Régional d'Ile-de-France, le Conseil Général de la Seine-Saint-Denis, et la vielle de Montreuil.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2001-cb-autresnatures4frag.jpg,sites/default/files/media/images/2001-cb-autresnatures3frag.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2001-cb-autresnaturesc.jpg,sites/default/files/media/images_thumb/2001-cb-autresnaturesc.jpg</field>
+		<field name="gallery_images">media/images/2001-cb-autresnatures4frag.jpg,media/images/2001-cb-autresnatures3frag.jpg</field>
+		<field name="featured_image">media/images_thumb/2001-cb-autresnaturesc.jpg,media/images_thumb/2001-cb-autresnaturesc.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -189,7 +189,7 @@ Logiciel AAAseed Emmanuel Berriet, texte Norbert Hillaire.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_montreuil.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_montreuil.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -206,8 +206,8 @@ Logiciel AAAseed Emmanuel Berriet, texte Norbert Hillaire.</field>
 		<field name="field_expo_note_value">Catalogue paru à l'occasion de l'exposition 3Cette culture qui vient de la rue&quot;, galerie municipale de Vitry-sur-Seine</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2000-cb-culturerue2.jpg,sites/default/files/media/images/2000-cb-culturerue1_0.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2000-cb-culturedelarue.jpg,sites/default/files/media/images_thumb/2000-cb-culturedelarue.jpg</field>
+		<field name="gallery_images">media/images/2000-cb-culturerue2.jpg,media/images/2000-cb-culturerue1_0.jpg</field>
+		<field name="featured_image">media/images_thumb/2000-cb-culturedelarue.jpg,media/images_thumb/2000-cb-culturedelarue.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -225,7 +225,7 @@ Logiciel AAAseed Emmanuel Berriet, texte Norbert Hillaire.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_crossborder.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_crossborder.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -244,8 +244,8 @@ pp.42-47chapitre sur Miguel Chevalier: &quot;Miguel Chevalier, Cluster Media Art
 		<field name="field_expo_note_value">Ouvrage publié à l'occasion de la XIe Réunion Annuelle du Réseau des Villes Créatives de l'UNESCO et de deux expositions collectives &quot;Data City&quot; (21,04/13,07,2017) du cluster Arts numériques et &quot;Are you talking to me?&quot; (06,30/07,13,2017) du cluster Design.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2017-cb-datacitiesv.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-datacities_0.jpg</field>
+		<field name="gallery_images">media/images/2017-cb-datacitiesv.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-datacities_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -263,7 +263,7 @@ pp.42-47chapitre sur Miguel Chevalier: &quot;Miguel Chevalier, Cluster Media Art
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/analogique_numerique_0.jpg</field>
+		<field name="featured_image">media/images_thumb/analogique_numerique_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -281,7 +281,7 @@ pp.42-47chapitre sur Miguel Chevalier: &quot;Miguel Chevalier, Cluster Media Art
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2018-cb-digitab.png</field>
+		<field name="featured_image">media/images_thumb/2018-cb-digitab.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -299,8 +299,8 @@ pp.42-47chapitre sur Miguel Chevalier: &quot;Miguel Chevalier, Cluster Media Art
 Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau, Miguel Chevalier, Christine Buci-Glucksmann, Vincent Huguet, Miguel Matos, David Rosenberg</field>
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2014-cb-digitpar2.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2014-cb-digitpar1.jpg</field>
+		<field name="gallery_images">media/images/2014-cb-digitpar2.jpg</field>
+		<field name="featured_image">media/images_thumb/2014-cb-digitpar1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -318,7 +318,7 @@ Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/digital_supernova_2019.jpg</field>
+		<field name="featured_image">media/images_thumb/digital_supernova_2019.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -335,8 +335,8 @@ Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau
 		<field name="field_expo_note_value">Catalogue issue à l'occasion de l'exposition de groupe &quot;Fractal art&quot; qui eut lieu à La Seyne-sur-Mer du 26/03/1999 au 30/05/1999.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1999-cb-.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1999-e-seynesmer_0.jpg</field>
+		<field name="gallery_images">media/images/1999-cb-.jpg</field>
+		<field name="featured_image">media/images_thumb/1999-e-seynesmer_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -353,8 +353,8 @@ Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau
 		<field name="field_expo_note_value">Catalogue issu à l'occasion de le double exposition &quot;Art Fractal&quot; à l'Espace Paul Ricard du 22 avril au 24 mai 1997 et à l'espace Mabel Semmler du 14 mai au 28 juin 1997.</field>
 		<field name="field_expo_sous_titre_value">Berko, Chevalier, Dombis, Ginzburg, Meynard, Miller, Nechvatal, Zarcate</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1997-cb-fractalartv.png</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1997-cb-fractalart_0.jpg</field>
+		<field name="gallery_images">media/images/1997-cb-fractalartv.png</field>
+		<field name="featured_image">media/images_thumb/1997-cb-fractalart_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -372,7 +372,7 @@ Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_imal.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_imal.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -432,8 +432,8 @@ Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau
 		<field name="field_expo_note_value">L'ouvrage est issue à l'occasion de l'exposition &quot;fractalisations&quot; organisée à la Villa Tamaris, avenue de la Grande Maison 83500 La Seyne-sur-Mer, du 27/03 au 30/05/1999.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1999-cb-fractalisationsv.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1999-cb-fractalisations.jpg</field>
+		<field name="gallery_images">media/images/1999-cb-fractalisationsv.jpg</field>
+		<field name="featured_image">media/images_thumb/1999-cb-fractalisations.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -451,7 +451,7 @@ Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-geometriedanslespace_0.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-geometriedanslespace_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -469,7 +469,7 @@ Textes de Adriana Alvarez-Nichol, Cemren Altan, Pierre Restany, Serge Fauchereau
 		<field name="field_expo_sous_titre_value">art contemporain latino-américain</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2010-cb-geometriehors_limites.png</field>
+		<field name="featured_image">media/images_thumb/2010-cb-geometriehors_limites.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -492,7 +492,7 @@ http://www.rougier-atelier.com/?product=ficelle-127-geometries-eclairees</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-geometrieseclaireesr.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-geometrieseclaireesr.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -510,7 +510,7 @@ http://www.rougier-atelier.com/?product=ficelle-127-geometries-eclairees</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_herbarius.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_herbarius.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -527,8 +527,8 @@ http://www.rougier-atelier.com/?product=ficelle-127-geometries-eclairees</field>
 		<field name="field_expo_note_value">Catalogue issu à l'occasion de l'exposition Hortus 2.0 qui eut lieu à Avignon du 02/06/2017 au 27/08/2017.</field>
 		<field name="field_expo_sous_titre_value">Exposition Art des nouveaux médias</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2017-cb-hortus2.0tx.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-hortus2.0.jpg</field>
+		<field name="gallery_images">media/images/2017-cb-hortus2.0tx.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-hortus2.0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -546,7 +546,7 @@ http://www.rougier-atelier.com/?product=ficelle-127-geometries-eclairees</field>
 		<field name="field_expo_sous_titre_value">Digitale Welten</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2019-cb-illusion_natur.jpg</field>
+		<field name="featured_image">media/images_thumb/2019-cb-illusion_natur.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -563,8 +563,8 @@ http://www.rougier-atelier.com/?product=ficelle-127-geometries-eclairees</field>
 		<field name="field_expo_note_value">Catalogue issu à l'occasion de l'exposition &quot;Images furtives&quot; qui eut lieu à l'Abbaye de Ronceray du 06/10/2000 au 12/11/2000.</field>
 		<field name="field_expo_sous_titre_value">L'art vous interpelle</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2000-cb-imagesfurtives4.jpg,sites/default/files/media/images/2000-cb-imagesfurtives3_0.jpg,sites/default/files/media/images/2000-cb-imagesfurtives2.jpg,sites/default/files/media/images/2000-cb-imagesfurtives1.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2000-cb-imagesfurtives1.jpg,sites/default/files/media/images_thumb/2000-cb-imagesfurtives1.jpg,sites/default/files/media/images_thumb/2000-cb-imagesfurtives1.jpg,sites/default/files/media/images_thumb/2000-cb-imagesfurtives1.jpg</field>
+		<field name="gallery_images">media/images/2000-cb-imagesfurtives4.jpg,media/images/2000-cb-imagesfurtives3_0.jpg,media/images/2000-cb-imagesfurtives2.jpg,media/images/2000-cb-imagesfurtives1.jpg</field>
+		<field name="featured_image">media/images_thumb/2000-cb-imagesfurtives1.jpg,media/images_thumb/2000-cb-imagesfurtives1.jpg,media/images_thumb/2000-cb-imagesfurtives1.jpg,media/images_thumb/2000-cb-imagesfurtives1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -584,7 +584,7 @@ Jacques Sauvageot, pp.107-108</field>
 		<field name="field_expo_sous_titre_value">L'aventure du regard</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/1997-cb-imagesnumeriques.png</field>
+		<field name="featured_image">media/images_thumb/1997-cb-imagesnumeriques.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -602,7 +602,7 @@ Jacques Sauvageot, pp.107-108</field>
 		<field name="field_expo_sous_titre_value">A Brief History of Computing Art</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/photo_05-11-2020_13_02_37.jpg</field>
+		<field name="featured_image">media/images_thumb/photo_05-11-2020_13_02_37.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -621,7 +621,7 @@ Cet ouvrage dresse un panorama de cette quatrième révolution industrielle. Du 
 		<field name="field_expo_sous_titre_value">L'usine du futur 70 créations innovantes</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2016-cb-impression3d.png</field>
+		<field name="featured_image">media/images_thumb/2016-cb-impression3d.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -645,7 +645,7 @@ Par cette immersion au cœur de cette architecture demi-sphérique enveloppante,
 		<field name="field_expo_sous_titre_value">Paradis artificiels</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-inoutparadisartificiels.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-inoutparadisartificiels.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -663,7 +663,7 @@ Par cette immersion au cœur de cette architecture demi-sphérique enveloppante,
 		<field name="field_expo_sous_titre_value">22 artistes déstructurent l'économie contemporaine</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/scan0003.jpg</field>
+		<field name="featured_image">media/images_thumb/scan0003.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -682,7 +682,7 @@ Chaque ouvrage est accompagné d'une estampe numérique se trouvant sur le CD-RO
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/livr_art_jannink.jpg</field>
+		<field name="featured_image">media/images_thumb/livr_art_jannink.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -700,8 +700,8 @@ Pandore 3. PANDORE est une édition hors-série de Topographie de l'art</field>
 		<field name="field_expo_note_value">Article sur Miguel: Jean-Pierre Frimbois, Miguel Chevalier/Créateur de sensations, pp.58-61.</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2017-cb-lartenroute3.jpg,sites/default/files/media/images/2017-cb-lartenroute1_0.jpg,sites/default/files/media/images/2017-cb-lartenroute2_0.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-lartenroute.jpg,sites/default/files/media/images_thumb/2017-cb-lartenroute.jpg,sites/default/files/media/images_thumb/2017-cb-lartenroute.jpg</field>
+		<field name="gallery_images">media/images/2017-cb-lartenroute3.jpg,media/images/2017-cb-lartenroute1_0.jpg,media/images/2017-cb-lartenroute2_0.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-lartenroute.jpg,media/images_thumb/2017-cb-lartenroute.jpg,media/images_thumb/2017-cb-lartenroute.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -723,7 +723,7 @@ Botanique numérique.
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2009-cb-lherbier.png</field>
+		<field name="featured_image">media/images_thumb/2009-cb-lherbier.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -741,7 +741,7 @@ Botanique numérique.
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2000-cb-tempsfractal.jpg</field>
+		<field name="featured_image">media/images_thumb/2000-cb-tempsfractal.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -758,8 +758,8 @@ Botanique numérique.
 		<field name="field_expo_note_value">Dans le cadre de l'exposition Living Codes du 18 Décembre 2010 au 8 Février 2011 avec Miguel Chevalier, Alessandro Capozzo, Alex Dragulescu à Brescia (Italie)</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2010-cb-livcodes3.jpg,sites/default/files/media/images/2010-cb-livcodes2.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/scan0014-1.jpg,sites/default/files/media/images_thumb/scan0014-1.jpg</field>
+		<field name="gallery_images">media/images/2010-cb-livcodes3.jpg,media/images/2010-cb-livcodes2.jpg</field>
+		<field name="featured_image">media/images_thumb/scan0014-1.jpg,media/images_thumb/scan0014-1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -778,7 +778,7 @@ Les oeuvres de Miguel apparaissent p. 178</field>
 		<field name="field_expo_sous_titre_value">in der Kunst des 20. Jahrhunderts</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/1997-cb-magiederzahl.png</field>
+		<field name="featured_image">media/images_thumb/1997-cb-magiederzahl.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -796,7 +796,7 @@ Les oeuvres de Miguel apparaissent p. 178</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/1991-e-nantesmarine.png</field>
+		<field name="featured_image">media/images_thumb/1991-e-nantesmarine.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -814,8 +814,8 @@ Les oeuvres de Miguel apparaissent p. 178</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/couverture_catalogue_ivry.jpg,sites/default/files/media/images_thumb/couverture_catalogue_ivry.jpg,sites/default/files/media/images_thumb/couverture_catalogue_ivry.jpg</field>
-		<field name="documents">sites/default/files/media/documents/cp_fernand_leger_1.pdf,sites/default/files/media/documents/catalogue_fernand_leger.pdf,sites/default/files/media/documents/invitation_fernand_leger_2.pdf</field>
+		<field name="featured_image">media/images_thumb/couverture_catalogue_ivry.jpg,media/images_thumb/couverture_catalogue_ivry.jpg,media/images_thumb/couverture_catalogue_ivry.jpg</field>
+		<field name="documents">media/documents/cp_fernand_leger_1.pdf,media/documents/catalogue_fernand_leger.pdf,media/documents/invitation_fernand_leger_2.pdf</field>
 	</row>
 
 	<row>
@@ -831,8 +831,8 @@ Les oeuvres de Miguel apparaissent p. 178</field>
 		<field name="field_expo_note_value" xsi:nil="true" />
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2018-cb-monomc1.jpg,sites/default/files/media/images/2018-cb-monomc2.jpg,sites/default/files/media/images/2018-cb-monomc3_0.jpg,sites/default/files/media/images/2018-cb-monomc4.jpg,sites/default/files/media/images/2018-cb-monomc5.jpg,sites/default/files/media/images/2018-cb-monomc6.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2018-cb-monomc.jpg,sites/default/files/media/images_thumb/2018-cb-monomc.jpg,sites/default/files/media/images_thumb/2018-cb-monomc.jpg,sites/default/files/media/images_thumb/2018-cb-monomc.jpg,sites/default/files/media/images_thumb/2018-cb-monomc.jpg,sites/default/files/media/images_thumb/2018-cb-monomc.jpg</field>
+		<field name="gallery_images">media/images/2018-cb-monomc1.jpg,media/images/2018-cb-monomc2.jpg,media/images/2018-cb-monomc3_0.jpg,media/images/2018-cb-monomc4.jpg,media/images/2018-cb-monomc5.jpg,media/images/2018-cb-monomc6.jpg</field>
+		<field name="featured_image">media/images_thumb/2018-cb-monomc.jpg,media/images_thumb/2018-cb-monomc.jpg,media/images_thumb/2018-cb-monomc.jpg,media/images_thumb/2018-cb-monomc.jpg,media/images_thumb/2018-cb-monomc.jpg,media/images_thumb/2018-cb-monomc.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -850,7 +850,7 @@ Les oeuvres de Miguel apparaissent p. 178</field>
 		<field name="field_expo_sous_titre_value">Anthropométrie</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/1990-cb-anthropometrie_0.png</field>
+		<field name="featured_image">media/images_thumb/1990-cb-anthropometrie_0.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -870,7 +870,7 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cdrom_ricard.jpg</field>
+		<field name="featured_image">media/images_thumb/cdrom_ricard.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -888,7 +888,7 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_sous_titre_value">Noël à Trévarez</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/noel_a_trevarez.jpg</field>
+		<field name="featured_image">media/images_thumb/noel_a_trevarez.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -906,7 +906,7 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/1987-cb-imagesnouvelles.png</field>
+		<field name="featured_image">media/images_thumb/1987-cb-imagesnouvelles.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -926,7 +926,7 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/1990-cb-interconnexions.png</field>
+		<field name="featured_image">media/images_thumb/1990-cb-interconnexions.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -944,7 +944,7 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2019-cb-oeilmachine.png</field>
+		<field name="featured_image">media/images_thumb/2019-cb-oeilmachine.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -961,8 +961,8 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_note_value">Ce catalogue a été réalisé à l'occasion de l'exposition &quot;Œnologie&quot; au chateau Pichon Longueville.</field>
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1991-cb-oenologie2.jpg,sites/default/files/media/images/1991-cb-oenologie1.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1991-cb-oenologie.png,sites/default/files/media/images_thumb/1991-cb-oenologie.png</field>
+		<field name="gallery_images">media/images/1991-cb-oenologie2.jpg,media/images/1991-cb-oenologie1.jpg</field>
+		<field name="featured_image">media/images_thumb/1991-cb-oenologie.png,media/images_thumb/1991-cb-oenologie.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -979,8 +979,8 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_note_value">Dans le cadre de l'exposition &quot;Oro negro&quot; au Museo de Arte Alvar y Carmen T. de Carrillo Gil en 1996 (Méxique). Oro Negro est un ensemble de pièces / installations en relation avec l'univers du forage et de l'exploitation pétrolière pour 5 grands musées d'art contemporain d'Amérique du sud (au Venezuela, en Colombie et au Mexique). Oro Negro révèle toutes les richesses réelles et imaginaires de l'or noir. Des labyrinthes, des paysages artificiels, des arborescences et des cartographies sismiques du sous-sol évoquent le monde des énergies, des technologies, et leurs réseaux performants recréés magiquement grâce au virtuel. </field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1996-cb-oronoir3.jpg,sites/default/files/media/images/1996-cb-oronoir2.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1996-cb-oronoir1.jpg,sites/default/files/media/images_thumb/1996-cb-oronoir1.jpg</field>
+		<field name="gallery_images">media/images/1996-cb-oronoir3.jpg,media/images/1996-cb-oronoir2.jpg</field>
+		<field name="featured_image">media/images_thumb/1996-cb-oronoir1.jpg,media/images_thumb/1996-cb-oronoir1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -997,8 +997,8 @@ Cd-Rom : Windows 95 ou supérieur</field>
 		<field name="field_expo_note_value">Le catalogue a été réalisé à l'occasion de l'exposition &quot;Téléscopages&quot; à la Comédie de Caen du 2 Novembre au 10 Décembre 1989, Caen et en préfiguration de l'exposition au réservoir - CHU de Bicêtre en 1990 (France).</field>
 		<field name="field_expo_sous_titre_value">De la peinture, la photographie, l'analogie au numérique</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1989-cb-revolution2.jpg,sites/default/files/media/images/scan0012-3.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1989-cb-revolution1.jpg,sites/default/files/media/images_thumb/1989-cb-revolution1.jpg</field>
+		<field name="gallery_images">media/images/1989-cb-revolution2.jpg,media/images/scan0012-3.jpg</field>
+		<field name="featured_image">media/images_thumb/1989-cb-revolution1.jpg,media/images_thumb/1989-cb-revolution1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1017,7 +1017,7 @@ Publié à l'occasion de l'exposition Segunda Natureza dans l'espace culturel Ma
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_bresil.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_bresil.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1035,7 +1035,7 @@ Publié à l'occasion de l'exposition Segunda Natureza dans l'espace culturel Ma
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/mono_flammarion.jpg</field>
+		<field name="featured_image">media/images_thumb/mono_flammarion.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1054,7 +1054,7 @@ Elle rend compte de son œuvre à la fois expérimentale et pluridisciplinaire, 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/mono_monografik.jpg</field>
+		<field name="featured_image">media/images_thumb/mono_monografik.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1073,8 +1073,8 @@ Texte de Miguel Matos</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_prates.jpg,sites/default/files/media/images_thumb/cat_prates.jpg</field>
-		<field name="documents">sites/default/files/media/documents/catalogue_0.pdf,sites/default/files/media/documents/couverture_prates.pdf</field>
+		<field name="featured_image">media/images_thumb/cat_prates.jpg,media/images_thumb/cat_prates.jpg</field>
+		<field name="documents">media/documents/catalogue_0.pdf,media/documents/couverture_prates.pdf</field>
 	</row>
 
 	<row>
@@ -1091,7 +1091,7 @@ Texte de Miguel Matos</field>
 		<field name="field_expo_sous_titre_value">De l'estampe traditionnelle à l'estampe numérique?</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/19992000-cb-nouvellesdelestampe.jpg</field>
+		<field name="featured_image">media/images_thumb/19992000-cb-nouvellesdelestampe.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1109,7 +1109,7 @@ Texte de Miguel Matos</field>
 		<field name="field_expo_sous_titre_value">Lo sguardo di... Miguel Chevalier</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/ondepixel.jpg</field>
+		<field name="featured_image">media/images_thumb/ondepixel.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1127,8 +1127,8 @@ Texte de Miguel Matos</field>
 Oro Negro est un ensemble de pièces / installations en relation avec l'univers du forage et de l'exploitation pétrolière pour 5 grands musées d'art contemporain d'Amérique du sud (au Venezuela, en Colombie et au Mexique). Oro Negro révèle toutes les richesses réelles et imaginaires de l'or noir. Des labyrinthes, des paysages artificiels, des arborescences et des cartographies sismiques du sous-sol évoquent le monde des énergies, des technologies, et leurs réseaux performants recréés magiquement grâce au virtuel.</field>
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1994-cb-oronegro3.jpg,sites/default/files/media/images/1994-cb-oronegro2.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1994-cb-oronegro1.jpg,sites/default/files/media/images_thumb/1994-cb-oronegro1.jpg</field>
+		<field name="gallery_images">media/images/1994-cb-oronegro3.jpg,media/images/1994-cb-oronegro2.jpg</field>
+		<field name="featured_image">media/images_thumb/1994-cb-oronegro1.jpg,media/images_thumb/1994-cb-oronegro1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1145,8 +1145,8 @@ Oro Negro est un ensemble de pièces / installations en relation avec l'univers 
 		<field name="field_expo_note_value">Oro Negro est un ensemble de pièces / installations en relation avec l'univers du forage et de l'exploitation pétrolière pour 5 grands musées d'art contemporain d'Amérique du sud (au Venezuela, en Colombie et au Mexique). Oro Negro révèle toutes les richesses réelles et imaginaires de l'or noir. Des labyrinthes, des paysages artificiels, des arborescences et des cartographies sismiques du sous-sol évoquent le monde des énergies, des technologies, et leurs réseaux performants recréés magiquement grâce au virtuel.</field>
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1993-cb-oronegro3.jpg,sites/default/files/media/images/1993-cb-oronegro2.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/1993-cb-oronegro1.jpg,sites/default/files/media/images_thumb/1993-cb-oronegro1.jpg</field>
+		<field name="gallery_images">media/images/1993-cb-oronegro3.jpg,media/images/1993-cb-oronegro2.jpg</field>
+		<field name="featured_image">media/images_thumb/1993-cb-oronegro1.jpg,media/images_thumb/1993-cb-oronegro1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1164,7 +1164,7 @@ Oro Negro est un ensemble de pièces / installations en relation avec l'univers 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/1996-e-mexicocity_0.jpg</field>
+		<field name="featured_image">media/images_thumb/1996-e-mexicocity_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1184,7 +1184,7 @@ Oro Negro est un ensemble de pièces / installations en relation avec l'univers 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/10livret1.jpg</field>
+		<field name="featured_image">media/images_thumb/10livret1.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1202,7 +1202,7 @@ Oro Negro est un ensemble de pièces / installations en relation avec l'univers 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_lafayette.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_lafayette.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1221,7 +1221,7 @@ Oro Negro est un ensemble de pièces / installations en relation avec l'univers 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_vitry.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_vitry.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1238,8 +1238,8 @@ Oro Negro est un ensemble de pièces / installations en relation avec l'univers 
 		<field name="field_expo_note_value" xsi:nil="true" />
 		<field name="field_expo_sous_titre_value">Dialogue avec les collections 2</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/2004-vd-voyagesdvd2_0.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2010-cb-paysagevideo.jpg</field>
+		<field name="gallery_images">media/images/2004-vd-voyagesdvd2_0.jpg</field>
+		<field name="featured_image">media/images_thumb/2010-cb-paysagevideo.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1311,7 +1311,7 @@ Michel Viso (vétérinaire</field>
 		<field name="field_expo_sous_titre_value">96 propositions spatiales/33 impressions spatiales</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2009-e-pariscnes_0.jpg</field>
+		<field name="featured_image">media/images_thumb/2009-e-pariscnes_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1328,8 +1328,8 @@ Michel Viso (vétérinaire</field>
 		<field name="field_expo_note_value">Outil de préparation au bac. A p.213 il y a la reproduction d'une &quot;Thermographie&quot; de Miguel Chevalier.</field>
 		<field name="field_expo_sous_titre_value">terminale</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">sites/default/files/media/images/1986-ap-thermographielphil.jpg</field>
-		<field name="featured_image">sites/default/files/media/images_thumb/2001-cb-philosophie.jpg</field>
+		<field name="gallery_images">media/images/1986-ap-thermographielphil.jpg</field>
+		<field name="featured_image">media/images_thumb/2001-cb-philosophie.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1347,7 +1347,7 @@ Michel Viso (vétérinaire</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2017-cb-pixelsenvitrine.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-pixelsenvitrine.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1365,7 +1365,7 @@ Michel Viso (vétérinaire</field>
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/power_pixels.jpg</field>
+		<field name="featured_image">media/images_thumb/power_pixels.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1384,7 +1384,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2_oi_futuro.jpg</field>
+		<field name="featured_image">media/images_thumb/2_oi_futuro.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1405,7 +1405,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/13livret5.jpg</field>
+		<field name="featured_image">media/images_thumb/13livret5.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1426,7 +1426,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/12livret2.jpg</field>
+		<field name="featured_image">media/images_thumb/12livret2.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1446,7 +1446,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/11livret3.jpg</field>
+		<field name="featured_image">media/images_thumb/11livret3.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1464,7 +1464,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/couverture_eustache.png</field>
+		<field name="featured_image">media/images_thumb/couverture_eustache.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1482,7 +1482,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/power_pixel_2018.jpg</field>
+		<field name="featured_image">media/images_thumb/power_pixel_2018.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1500,7 +1500,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/power_pixel_2020_0.jpg</field>
+		<field name="featured_image">media/images_thumb/power_pixel_2020_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1518,7 +1518,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value">The place where activism becomes attitude</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/reddesert.jpg</field>
+		<field name="featured_image">media/images_thumb/reddesert.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1536,7 +1536,7 @@ Ce catalogue a été crée dans le cadre des expositions &quot;Oi Futuro Flameng
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/couv.jpg</field>
+		<field name="featured_image">media/images_thumb/couv.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1555,7 +1555,7 @@ Dans le cadre de l’exposition Seconde Nature 2007, aux Anciennes écuries des 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_trelaze.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_trelaze.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1573,7 +1573,7 @@ Dans le cadre de l’exposition Seconde Nature 2007, aux Anciennes écuries des 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/16cat_lcl.jpg</field>
+		<field name="featured_image">media/images_thumb/16cat_lcl.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1592,7 +1592,7 @@ Dans le cadre de l’exposition Seconde Nature 2007, aux Anciennes écuries des 
 		<field name="field_expo_sous_titre_value">edible gems</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/2016-e-mudamluxembourg_0.png</field>
+		<field name="featured_image">media/images_thumb/2016-e-mudamluxembourg_0.png</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1610,7 +1610,7 @@ Dans le cadre de l’exposition Seconde Nature 2007, aux Anciennes écuries des 
 		<field name="field_expo_sous_titre_value">100 Years of Art and Freedom</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/metamorphoses.jpg</field>
+		<field name="featured_image">media/images_thumb/metamorphoses.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1628,7 +1628,7 @@ Dans le cadre de l’exposition Seconde Nature 2007, aux Anciennes écuries des 
 		<field name="field_expo_sous_titre_value">-</field>
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/espaceculturellv_0.jpg</field>
+		<field name="featured_image">media/images_thumb/espaceculturellv_0.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -1646,7 +1646,7 @@ Dans le cadre de l’exposition Seconde Nature 2007, aux Anciennes écuries des 
 		<field name="field_expo_sous_titre_value" xsi:nil="true" />
 		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
 		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">sites/default/files/media/images_thumb/cat_pittsburg.jpg</field>
+		<field name="featured_image">media/images_thumb/cat_pittsburg.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
