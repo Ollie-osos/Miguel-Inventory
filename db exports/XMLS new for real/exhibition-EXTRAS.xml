@@ -107,3 +107,35 @@ Partie du catalogue consacrée à Miguel Chevalier: https://imrm.ucca.org.cn/wor
 		<field name="featured_image">media/images_thumb/etlvdnpq.jpeg,media/images_thumb/etlvdnpq.jpeg</field>
 		<field name="documents">media/documents/200923_imrm_press_release_fr.pdf,media/documents/200923_imrm_press_release_fr.pdf</field>
 	</row>
+
+    <row>
+		<field name="title">Power Pixels 2013</field>
+		<field name="field_expo_lieu_value">Wood Street Galleries, Pittsburgh (USA)</field>
+		<field name="field_expo_type_value">perso</field>
+		<field name="field_expo_dates_value">2013-10-14T00:00:00</field>
+		<field name="field_expo_dates_value2">2013-10-14T00:00:00</field>
+		<field name="field_expo_curator_value" xsi:nil="true" />
+		<field name="field_expo_code_value">2013-E-PITTSBURGH</field>
+		<field name="field_expo_note_value" xsi:nil="true" />
+		<field name="field_expo_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images" xsi:nil="true" />
+		<field name="featured_image">media/images_thumb/2013-e-pittsburgh.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+
+	<row>
+		<field name="title">Power Pixels 2020</field>
+		<field name="field_expo_lieu_value">Wood Street Galleries, 601 Wood Street, Pittsburgh PA 15222, USA</field>
+		<field name="field_expo_type_value">perso</field>
+		<field name="field_expo_dates_value">2020-01-24T00:00:00</field>
+		<field name="field_expo_dates_value2">2020-04-05T00:00:00</field>
+		<field name="field_expo_curator_value" xsi:nil="true" />
+		<field name="field_expo_code_value">2020-E-PITTSBURGH</field>
+		<field name="field_expo_note_value" xsi:nil="true" />
+		<field name="field_expo_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images">media/images/739a0103.jpg,media/images/739a0202.jpg,media/images/oscillations-2020-miguel-chevalier-2.jpg,media/images/unnamed_1.jpg</field>
+		<field name="featured_image">media/images_thumb/unnamed.jpg,media/images_thumb/unnamed.jpg,media/images_thumb/unnamed.jpg,media/images_thumb/unnamed.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
