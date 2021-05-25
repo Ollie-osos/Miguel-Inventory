@@ -1,0 +1,17 @@
+<row>
+		<field name="title">Artists &amp; Robots</field>
+		<field name="field_biblio_auteur_value">Textes de Jérôme Neutres, Maurice Fréchuret, Edward A. Shanken, Edmond Couchot</field>
+		<field name="field_biblio_editeur_value">Rmn - Grand Palais</field>
+		<field name="field_biblio_pp_value">215 p.</field>
+		<field name="field_biblio_code_value">2017-CB-ARTISTS&amp;ROBOTS</field>
+		<field name="field_biblio_collection_value" xsi:nil="true" />
+		<field name="field_biblio_langues_value">Anglais/Russe</field>
+		<field name="field_biblio_isbn_value">978-2-7118-7036-3</field>
+		<field name="field_biblio_prix_value" xsi:nil="true" />
+		<field name="field_expo_note_value">Catalogue issu à l'occasion de l'exposition &quot;Artists &amp; Robots&quot; organisée par la Réunion des musées nationaux - Grand palais et &quot;Astana EXPO-2017&quot;, qui a été présentée au Contemporary Art Center de Astana du 10 juin au 10 septembre 2017.</field>
+		<field name="field_expo_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images">media/images/2017-cb-artistsrobotsv.jpg</field>
+		<field name="featured_image">media/images_thumb/2017-cb-artistesrobots.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>

@@ -1,0 +1,109 @@
+<row>
+		<field name="title">Art Paris Art Fair 2019</field>
+		<field name="field_expo_lieu_value">Grand Palais, Paris (France)</field>
+		<field name="field_expo_type_value">groupe</field>
+		<field name="field_expo_dates_value">2019-05-05T00:00:00</field>
+		<field name="field_expo_dates_value2">2019-05-08T00:00:00</field>
+		<field name="field_expo_curator_value">Galerie Lélia Mordoch</field>
+		<field name="field_expo_code_value">2019-E-PARISGRANDPALAIS</field>
+		<field name="field_expo_note_value" xsi:nil="true" />
+		<field name="field_expo_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images" xsi:nil="true" />
+		<field name="featured_image">media/images_thumb/2019-te-jdah2_0.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+
+    <row>
+		<field name="title">Art Paris Art Fair 2018</field>
+		<field name="field_expo_lieu_value">Grand Palais, Avenue Winston Churchill, 75008 Paris, France</field>
+		<field name="field_expo_type_value">groupe</field>
+		<field name="field_expo_dates_value">2018-04-05T00:00:00</field>
+		<field name="field_expo_dates_value2">2018-04-08T00:00:00</field>
+		<field name="field_expo_curator_value">Galerie Leïla Mordoch</field>
+		<field name="field_expo_code_value">2018-E-PARISGP</field>
+		<field name="field_expo_note_value" xsi:nil="true" />
+		<field name="field_expo_sous_titre_value">20 years</field>
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images" xsi:nil="true" />
+		<field name="featured_image">media/images_thumb/2018-e-parisgp.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+
+	
+
+	<row>
+		<field name="title">Art Paris Art Fair 2020</field>
+		<field name="field_expo_lieu_value">Grand Palais, Paris (FRA)</field>
+		<field name="field_expo_type_value">groupe</field>
+		<field name="field_expo_dates_value">2020-09-10T00:00:00</field>
+		<field name="field_expo_dates_value2">2020-09-13T00:00:00</field>
+		<field name="field_expo_curator_value" xsi:nil="true" />
+		<field name="field_expo_code_value">2020-E-PARISGRANDPALAIS</field>
+		<field name="field_expo_note_value">Vernissage 09/09/2020</field>
+		<field name="field_expo_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images">media/images/739a9995.jpg,media/images/739a9982.jpg,media/images/739a9976.jpg,media/images/739a0023.jpg,media/images/739a0012.jpg</field>
+		<field name="featured_image">media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+
+    <row>
+		<field name="title">Croissances &amp; Mutations</field>
+		<field name="field_expo_lieu_value">Espace Landowski, 28 avenue André Morizet, 92104 Boulogne-Billancourt (FRA)</field>
+		<field name="field_expo_type_value">perso</field>
+		<field name="field_expo_dates_value">1998-12-05T00:00:00</field>
+		<field name="field_expo_dates_value2">1999-01-31T00:00:00</field>
+		<field name="field_expo_curator_value">Frank Popper, Espace Landowski</field>
+		<field name="field_expo_code_value">1998-E-BOULOGNEBILLANCOURT</field>
+		<field name="field_expo_note_value">Installation de réalité virtuelle interactive, Atau Tanaka (musique) et Mâa (logiciel AAAseed),
+Commande faite à l'artiste par la vielle de Boulogne-Billancourt à l'occasion de l'inauguration de l'Espace Landowski.
+Les journées inaugurales eurent lieu le 5 décembre de 10h à 18h et le 6 décembre de 13h à 18h.
+L'exposition était censée voyager en Europe en partenariat avec le Ministère des Affaires Etrangères (AFAA).</field>
+		<field name="field_expo_sous_titre_value">Art virtuel, Créations interactives et multisensorielles</field>
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images">media/images/1998-e-croissmutprojet.jpg,media/images/1998-e-croissmutprojet.jpg,media/images/1999-e-boulognebillancourt.jpg,media/images/1999-e-boulognebillancourt.jpg,media/images/img347.jpg,media/images/img347.jpg,media/images/1999-e-boulogneespacelandowsky.jpg,media/images/1999-e-boulogneespacelandowsky.jpg,media/images/1998-e-croissmutaffiche_0.jpg,media/images/1998-e-croissmutaffiche_0.jpg,media/images/1998-e-croissmuttourbillon_0.jpg,media/images/1998-e-croissmuttourbillon_0.jpg,media/images/1998-e-croissmutci.jpg,media/images/1998-e-croissmutci.jpg,media/images/img346.jpg,media/images/img346.jpg</field>
+		<field name="featured_image">media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,sites/default/fi</field>
+		<field name="documents">media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,</field>
+	</row>
+
+    	<row>
+		<field name="title">Images nouvelles</field>
+		<field name="field_expo_lieu_value">Granit, Centre d'art contemporain, 1 fg de Montbéliard 90000, Belfort</field>
+		<field name="field_expo_type_value">perso</field>
+		<field name="field_expo_dates_value">1987-01-17T00:00:00</field>
+		<field name="field_expo_dates_value2">1987-03-10T00:00:00</field>
+		<field name="field_expo_curator_value">Etienne Gamelon</field>
+		<field name="field_expo_code_value">1987-E-BELFORT</field>
+		<field name="field_expo_note_value">Le vernissage eut lieu le samedi 17 janvier à 18h30.</field>
+		<field name="field_expo_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images">media/images/1987-e-belfortv.png,media/images/1987-e-belfort-d.jpg,media/images/1987-e-belfort-c.jpg,media/images/1987-e-belfort-b.jpg,media/images/1987-e-belfort-a.jpg</field>
+		<field name="featured_image">media/images_thumb/1987-e-belfort.png,media/images_thumb/1987-e-belfort.png,media/images_thumb/1987-e-belfort.png,media/images_thumb/1987-e-belfort.png,media/images_thumb/1987-e-belfort.png</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+
+	<row>
+		<field name="title">Immaterial / Re-material: A Brief History of Computing Art</field>
+		<field name="field_expo_lieu_value">UCCA Center for Contemporary Art, Beijing (CHINE)</field>
+		<field name="field_expo_type_value">groupe</field>
+		<field name="field_expo_dates_value">2020-09-29T00:00:00</field>
+		<field name="field_expo_dates_value2">2021-01-17T00:00:00</field>
+		<field name="field_expo_curator_value">Jérôme Neutres</field>
+		<field name="field_expo_code_value">2020-E-BEIJING</field>
+		<field name="field_expo_note_value">UCCA presents “Immaterial / Re-material,” a group exhibition tracing the history, present, and future of computing art through more than 70 artworks by more than 30 artists from around the world, ranging from the pioneers of the 1960s to today’s emerging voices.
+
+Participating artists include aaajiao (b. 1984, Xi’an), Memo Akten (b. 1975, Istanbul), Refik Anadol (b. 1985, Istanbul), Michel Bret (b. 1941, Lyon) and Edmond Couchot (b. 1932, Paris), Celyn Bricker (b. 1989, Liverpool) and Faye Lu (b. 1988, Jilin, China), Miguel Chevalier (b. 1959, Mexico City), Harold Cohen (1928-2016, London), Elias Crespin (b. 1965, Caracas), Fei Yining (b. 1990, Harbin) and Chuck Kuan (b. 1993, Qingdao), John Gerrard (b. 1974, Dublin), Ryoji Ikeda (b. 1966, Gifu, Japan), Peter Kogler (b. 1959, Innsbruck, Austria), Lin Ke (b. 1984, Wenzhou, China), Liu Wa (b. 1994, Beijing), Lu Yang (b. 1984, Shanghai), Laurent Mignonneau (b. 1967, Angoulême, France) and Christa Sommerer (b. 1964, Ohlsdorf, Austria), Manfred Mohr (b. 1938, Pforzheim, Germany), Vera Molnar (b. 1924, Budapest), Leonel Moura (b. 1948, Lisbon), Frieder Nake (b. 1938, Stuttgart, Germany), Michel Paysant (b. 1955, Bouzonville, France), Quayola (b. 1982, Rome), Alan Rath (b. 1959, Cincinnati), Casey Reas (b. 1972, Ohio, USA), Daniel Rozin (b. 1961, Jerusalem), Charles Sandison (b. 1969, Haltwhistle, United Kingdom),  Leo Villareal (b. 1967, Albuquerque, USA), Wang Yuyang (b. 1979, Harbin), and Yang Yongliang (b. 1980, Shanghai).
+
+
+Présentation de l'exposition: https://ucca.org.cn/en/exhibition/immaterial-re-material-a-brief-history-of-computing-art//
+
+Catalogue de l'exposition: https://imrm.ucca.org.cn/
+
+Partie du catalogue consacrée à Miguel Chevalier: https://imrm.ucca.org.cn/works/2/?artist=%E7%B1%B3%E6%A0%BC%E5%B0%94%C2%B7%E8%88%8D%E7%93%A6%E5%88%A9%E8%80%B6</field>
+		<field name="field_expo_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="gallery_images">media/images/whzlpwcw.jpeg,media/images/330399-4aaace-d1542a.banner.jpg</field>
+		<field name="featured_image">media/images_thumb/etlvdnpq.jpeg,media/images_thumb/etlvdnpq.jpeg</field>
+		<field name="documents">media/documents/200923_imrm_press_release_fr.pdf,media/documents/200923_imrm_press_release_fr.pdf</field>
+	</row>

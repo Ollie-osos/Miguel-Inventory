@@ -923,40 +923,6 @@ http://leliamordoch.com</field>
 	</row>
 
 	<row>
-		<field name="title">Art Paris Art Fair 2018</field>
-		<field name="field_expo_lieu_value">Grand Palais, Avenue Winston Churchill, 75008 Paris, France</field>
-		<field name="field_expo_type_value">groupe</field>
-		<field name="field_expo_dates_value">2018-04-05T00:00:00</field>
-		<field name="field_expo_dates_value2">2018-04-08T00:00:00</field>
-		<field name="field_expo_curator_value">Galerie Leïla Mordoch</field>
-		<field name="field_expo_code_value">2018-E-PARISGP</field>
-		<field name="field_expo_note_value" xsi:nil="true" />
-		<field name="field_expo_sous_titre_value">20 years</field>
-		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images" xsi:nil="true" />
-		<field name="featured_image">media/images_thumb/2018-e-parisgp.jpg</field>
-		<field name="documents" xsi:nil="true" />
-	</row>
-
-	
-
-	<row>
-		<field name="title">Art Paris Art Fair 2020</field>
-		<field name="field_expo_lieu_value">Grand Palais, Paris (FRA)</field>
-		<field name="field_expo_type_value">groupe</field>
-		<field name="field_expo_dates_value">2020-09-10T00:00:00</field>
-		<field name="field_expo_dates_value2">2020-09-13T00:00:00</field>
-		<field name="field_expo_curator_value" xsi:nil="true" />
-		<field name="field_expo_code_value">2020-E-PARISGRANDPALAIS</field>
-		<field name="field_expo_note_value">Vernissage 09/09/2020</field>
-		<field name="field_expo_sous_titre_value" xsi:nil="true" />
-		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">media/images/739a9995.jpg,media/images/739a9982.jpg,media/images/739a9976.jpg,media/images/739a0023.jpg,media/images/739a0012.jpg</field>
-		<field name="featured_image">media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg,media/images_thumb/img-e1594290558597.jpeg</field>
-		<field name="documents" xsi:nil="true" />
-	</row>
-
-	<row>
 		<field name="title">Art Rio 2020</field>
 		<field name="field_expo_lieu_value">Marina da Glória, Rio de Janeiro (BRA)</field>
 		<field name="field_expo_type_value">groupe</field>
@@ -1618,25 +1584,6 @@ Rosaces Digitales est une création de réalité virtuel générative inédite r
 		<field name="gallery_images" xsi:nil="true" />
 		<field name="featured_image">media/images_thumb/2017-e-pariswagner.jpg</field>
 		<field name="documents" xsi:nil="true" />
-	</row>
-
-	<row>
-		<field name="title">Croissances &amp; Mutations</field>
-		<field name="field_expo_lieu_value">Espace Landowski, 28 avenue André Morizet, 92104 Boulogne-Billancourt (FRA)</field>
-		<field name="field_expo_type_value">perso</field>
-		<field name="field_expo_dates_value">1998-12-05T00:00:00</field>
-		<field name="field_expo_dates_value2">1999-01-31T00:00:00</field>
-		<field name="field_expo_curator_value">Frank Popper, Espace Landowski</field>
-		<field name="field_expo_code_value">1998-E-BOULOGNEBILLANCOURT</field>
-		<field name="field_expo_note_value">Installation de réalité virtuelle interactive, Atau Tanaka (musique) et Mâa (logiciel AAAseed),
-Commande faite à l'artiste par la vielle de Boulogne-Billancourt à l'occasion de l'inauguration de l'Espace Landowski.
-Les journées inaugurales eurent lieu le 5 décembre de 10h à 18h et le 6 décembre de 13h à 18h.
-L'exposition était censée voyager en Europe en partenariat avec le Ministère des Affaires Etrangères (AFAA).</field>
-		<field name="field_expo_sous_titre_value">Art virtuel, Créations interactives et multisensorielles</field>
-		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
-		<field name="gallery_images">media/images/1998-e-croissmutprojet.jpg,media/images/1998-e-croissmutprojet.jpg,media/images/1999-e-boulognebillancourt.jpg,media/images/1999-e-boulognebillancourt.jpg,media/images/img347.jpg,media/images/img347.jpg,media/images/1999-e-boulogneespacelandowsky.jpg,media/images/1999-e-boulogneespacelandowsky.jpg,media/images/1998-e-croissmutaffiche_0.jpg,media/images/1998-e-croissmutaffiche_0.jpg,media/images/1998-e-croissmuttourbillon_0.jpg,media/images/1998-e-croissmuttourbillon_0.jpg,media/images/1998-e-croissmutci.jpg,media/images/1998-e-croissmutci.jpg,media/images/img346.jpg,media/images/img346.jpg</field>
-		<field name="featured_image">media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,media/images_thumb/1999-e-boulognebillancourt_0.jpg,sites/default/fi</field>
-		<field name="documents">media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,media/documents/1998-e-croissmut4interfaces.pdf,media/documents/1998-e-croissmutconcept_0.pdf,</field>
 	</row>
 
 	<row>
