@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<rows>
+<row>
+	<field name="title">Pixacantha Baudelairis 2009</field>
+	<field name="field_oeuvre_code_value">2009-FF-PIXACANTHA(V)</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Graine de l'Herbarius n°8 de la version Française, sur fond bleu de Herzlyia. Vidéo de 60 minutes.
+Miguel Chevalier poursuit son jardin virtuel et présente une nouvelle génération de fleurs. Véritables tableaux vivants qui se génèrent à l'infini, les graines virtuelles de la série « Fractal Flowers » présentées sur écran LCD, dévoilent des formes poussées à l'extrême de leur géométrisation, évoluant aux frontières de l'univers minéral, animal ou robotique. En regard, seront présentées une série de sculptures matérialisant ces graines virtuelles grâce aux imprimantes 3D.
+Ces imprimantes 3D permettent désormais de « rematérialiser » le virtuel. Une véritable révolution pour le domaine de la sculpture est en marche, dont le monde artistique n’a pas encore perçu toutes les conséquences que cela va entrainer dans un futur proche. </field>
+	<field name="field_oeuvre_dimensions_value">122,77 x 70 x 3 cm</field>
+	<field name="field_oeuvres_elem_techniques_value">Installée sur un shuttle fourni pendant le montage de Terra Incognita au Musée de l'Image et du Son en Septembre 2010. 
+1 écran LCD 55 pouces, 1 vidéo sur clé USB lors de l'exposition &quot;Power Pixels&quot;, 2013, Enghien-les-Bains.</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value">Graine échangée à Frédéric Guernerey de pigmentum à Sao Paulo en échange de toutes les impressions réalisées pour l'expo de Brasilia. (?)
+</field>
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">-</field>
+	<field name="field_oeuvre_collection_value">Frédéric Guernerey</field>
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Pixacantha Baudelairis, Miguel Chevalier, 2009, Vidéo de 60 minutes, Ecran LCD 55 pouces (122,77 x 70 x 3 cm), Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">48,33 x 27,55 x 1,8 in</field>
+	<field name="field_sous_titre_value">Fond bleu</field>
+	<field name="field_oeuvre_date_value">2009</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Oeuvre de réalité virtuelle - Vidéo</field>
+	<field name="localisation">Vendu</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Fractal Flowers</field>
+	<field name="gallery_images" xsi:nil="true" />
+	<field name="featured_image">media/images_thumb/2009-ff-pixacantha.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>

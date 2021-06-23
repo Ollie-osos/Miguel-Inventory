@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<rows>
+
+    <row>
+        <field name="title">The Origin of the World</field>
+        <field name="field_oeuvre_code_value">2014-OM-OWSHANGAI</field>
+        <field name="field_oeuvre_realisee_value">oui</field>
+        <field name="field_oeuvre_description_value">The Origin of the World s’inspire de la biologie, des micro-organismes et des automates cellulaires. Des cellules se multiplient en abondance, se divisent, fusionnent dans un rythme tantôt lent, tantôt rapide. Chaque cellule fonctionne de manière autonome, mais coordonnée avec les autres, tels des automates cellulaires. Tout s'agrège, se désagrège, et se déforme à une vitesse infinie. Ces univers organiques se mêlent parfois à des univers constructivistes de pixels. Ces tableaux de méga pixels noir et blanc instables glissent progressivement vers des spirales de couleurs vives et saturées qui tourbillonnent. Monde organique ou pixellisé, cet univers artificiel semble retrouver celui de la vie. C'est un nouveau « baroque technologique » qui donne forme à l'informe. Nous sommes face à un monde vivant intriguant, en perpétuel renouvellement. Le déplacement du spectateur crée des perturbations, des ondulations, voir des turbulences dans la trajectoire des cellules. Les courbes sinueuses qui ondulent, renouent avec les années 70. Elles créent des expériences visuelles inédites qui ne sont pas sans rappeler les univers psychédéliques. </field>
+        <field name="field_oeuvre_dimensions_value">38 x 3 m</field>
+        <field name="field_oeuvres_elem_techniques_value">2 PC, 6 vidéoprojecteurs, 4 caméras infrarouge, 4 enceintes.
+    Projection elliptique.
+    
+    </field>
+        <field name="field_oeuvre_edition_value">Oeuvre unique</field>
+        <field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+        <field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+        <field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+        <field name="field_oeuvre_notes_value" xsi:nil="true" />
+        <field name="field_oeuvre_memo_value" xsi:nil="true" />
+        <field name="field_oeuvre_emplacement_value">-</field>
+        <field name="field_oeuvre_collection_value" xsi:nil="true" />
+        <field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+        <field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+        <field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+        <field name="field_oeuvre_publiable_value">0</field>
+        <field name="field_oeuvres_notice_value" xsi:nil="true" />
+        <field name="field_oeuvres_legende_value">The Origin of the World, Miguel Chevalier, 2014, Installation de réalité virtuelle générative et interactive, Projection elliptique : 38 x 3 m, Oeuvre unique</field>
+        <field name="field_oeuvres_dim_feet_value">124.67 x 9.84 ft</field>
+        <field name="field_sous_titre_value" xsi:nil="true" />
+        <field name="field_oeuvre_date_value">2014</field>
+        <field name="field_courtesy_value">Puerta Roja Gallery, Hong Kong (China) et Louise Alexander Gallery Porto Cervo, (Italie)</field>
+        <field name="field_oeuvre_adresse_web_url">http://www.miguel-chevalier.com/fr/origin-world</field>
+        <field name="category">Installation de réalité virtuelle interactive et générative</field>
+        <field name="localisation">Inconnue</field>
+        <field name="logicel">Logiciel Cyrille Henry et Antoine Villeret</field>
+        <field name="series">Origine du Monde</field>
+        <field name="gallery_images">media/images/2014-om-owshangai8.jpg,media/images/2014-om-owshangai7.jpg,media/images/2014-om-owshangai6_0.jpg,media/images/2014-om-owshangai5_0.jpg,media/images/2014-om-owshangai4.jpg,media/images/2014-om-owshangai3.jpg,media/images/2014-pm-owshangai2_0.jpg,media/images/2014-om-owshangai1.jpg</field>
+        <field name="featured_image">media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg</field>
+        <field name="documents" xsi:nil="true" />
+    </row>
+    
+    
+    
+
+</rows>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<rows>
+
+<row>
+	<field name="title">Nez 1,2,3</field>
+	<field name="field_oeuvre_code_value">1991-OE-NEZ1</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Entre le sacré et le profane, Oenologie explore tous les univers du vin. L'exposition fonctionnait comme un parcours initiatique au Château Pichon-Longueville Comtesse de Lalande (Bordeaux). Les oeuvres occupaient le cuvier &quot;high tech&quot; en inox dont la gestion est entièrement informatisée pour la vinification. Une série de pièces séquentielles était installée sur les mezzanines surplombant les cuves et retraçait l'élaboration de ce grand cru. Une sorte de mythologie virtuelle à la Bacchus du présent viticole.</field>
+	<field name="field_oeuvre_dimensions_value">104,5 x 114,5 x 12,5 cm</field>
+	<field name="field_oeuvres_elem_techniques_value">Cibachrome sous Plexiglas, aluminium laqué noir.
+L'oeuvre se compose de 3 éléments: 1991-OE-NEZ(1/3), 1991-OE-NEZ(2/3), 1991-OE-NEZ(3/3)</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value">Galerie Jade (Colmar)</field>
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">Ivry sur Seine</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Nez 1,2,3, Miguel Chevalier, 1991, Cybachrome sous Plexiglas monté sur aluminium laqué noir, 3 x (100 x 100 x 20 cm), Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">41,14 x 45,07 x 4,92 inch</field>
+	<field name="field_sous_titre_value">Tryptique</field>
+	<field name="field_oeuvre_date_value">1991</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Tirage photographique Cibachrome</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Oenologie</field>
+	<field name="gallery_images">media/images/1991-oe-nez1_0.jpg,media/images/1991-oe-nez2_0.jpg,media/images/1991-oe-nez3.jpg</field>
+	<field name="featured_image">media/images_thumb/1991-oe-nez123.jpg,media/images_thumb/1991-oe-nez123.jpg,media/images_thumb/1991-oe-nez123.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
+</rows>

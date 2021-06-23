@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rows>
+<row>
+	<field name="title">Pixel Snow application iPhone</field>
+	<field name="field_oeuvre_code_value">2009-DX-IPHONE</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value" xsi:nil="true" />
+	<field name="field_oeuvre_dimensions_value">-</field>
+	<field name="field_oeuvres_elem_techniques_value">Application pour iPhone et iPod Touch</field>
+	<field name="field_oeuvre_edition_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">-</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value" xsi:nil="true" />
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2009</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Création pour iPhone</field>
+	<field name="localisation">Inconnue</field>
+	<field name="logicel">Emmanuel Icart</field>
+	<field name="series">Digital Cristaux</field>
+	<field name="gallery_images">media/images/img_4029.jpg,media/images/img_4046.jpg</field>
+	<field name="featured_image">media/images_thumb/img_4020.jpg,media/images_thumb/img_4020.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
+</rows>

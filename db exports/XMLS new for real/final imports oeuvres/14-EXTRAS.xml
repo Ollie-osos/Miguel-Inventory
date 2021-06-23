@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rows>
+<row>
+	<field name="title">Pixels Liquides 2012</field>
+	<field name="field_oeuvre_code_value">2012-PL-PLBXPROVENCE</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Une peau de pixels colorée évolue de façon autonome sur les murs. Le déplacement du spectateur crée une traînée de couleur qui se mélange et fuse avec la « peinture lumière » en trame de fond, avant de s'effacer lentement jusqu'au prochain passage d’un visiteur. Sortant du rapport au tableau pour faire corps avec l'écran, Miguel Chevalier met au point la technique du « dripping électronique », une peinture de la lumière en perpétuel mouvement où le spectateur devient par son corps un pinceau numérique. Pixels Liquides est un hommage à la peinture des années 50 de Jackson Pollock, de Sam Francis, de Pierre Soulages et s’inscrit dans la continuité de « l’Action painting ». </field>
+	<field name="field_oeuvre_dimensions_value">7000 m2</field>
+	<field name="field_oeuvres_elem_techniques_value">L'œuvre comprend 70 vidéoprojecteurs et 20 hautparleurs.</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value">L'installation a été accompagné par la musique générative originale de Jacopo Baboni Schilingi.</field>
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Pixels Liquides, Miguel Chevalier, 2012, Installation de réalité virtuelle interactive et générative, 7000 m2, Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">75347 sq. ft</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2012</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation de réalité virtuelle interactive et générative</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel">Logiciel : Cyrille Henry</field>
+	<field name="series">Pixels Liquides</field>
+	<field name="gallery_images">media/images/2012-pl-bxprovence4.jpg,media/images/2012-pl-plbxprovence3.jpg,media/images/2012-pl-plbxprovence2_0.jpg,media/images/2012-pl-plbxprovence1.jpg</field>
+	<field name="featured_image">media/images_thumb/2012-pl-plbxprovence.jpg,media/images_thumb/2012-pl-plbxprovence.jpg,media/images_thumb/2012-pl-plbxprovence.jpg,media/images_thumb/2012-pl-plbxprovence.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
+
+</rows>

@@ -68,22 +68,29 @@
 
   <hr>
   <div class="row">
-    <div class="columns col-md-12">
-      <h2>Informations De Base</h2>
-    </div>
+    <?php if (get_field('start_date') || get_field('end_date') || get_field('type_of_exhibition')) { ?>
+      <div class="columns col-md-12">
+        <h2>Informations De Base</h2>
+      </div>
+    <?php } ?>
 
+    <?php if (get_field('start_date')) { ?>
+      <div class="col-md-12">
+        <h5>Date</h5>
+      </div>
+      <div class="col-md-4"><strong>Date de début</strong></div>
+      <div class="col-md-8"><span><?php the_field('start_date'); ?></span></div>
+    <?php } ?>
 
-    <div class="col-md-12">
-      <h5>Date</h5>
-    </div>
+    <?php if (get_field('end_date')) { ?>
+      <div class="col-md-4"><strong>Date de fin</strong></div>
+      <div class="col-md-8"><span><?php the_field('end_date'); ?></span></div>
+    <?php } ?>
 
-    <div class="col-md-4"><strong>Date de début</strong></div>
-    <div class="col-md-8"><span><?php the_field(' start_date'); ?></span></div>
-    <div class="col-md-4"><strong>Date de fin</strong></div>
-    <div class="col-md-8"><span><?php the_field(' end_date'); ?></span></div>
-
-    <div class="col-md-4"><strong>Type d'exposition</strong></div>
-    <div class="col-md-8"><span><?php the_field(' type_of_exhibition'); ?></span></div>
+    <?php if (get_field('type_of_exhibition')) { ?>
+      <div class="col-md-4"><strong>Type d'exposition</strong></div>
+      <div class="col-md-8"><span><?php the_field('type_of_exhibition'); ?></span></div>
+    <?php } ?>
 
 
     <div class="col-md-12">
@@ -121,6 +128,7 @@
     <div class="col-md-4"><strong>URL</strong></div>
     <div class="col-md-8"><span><?php the_field('url'); ?></span></div>
     <?php } ?>
+
     <?php
     if (have_rows('affiliated_works')) :
     ?>
@@ -138,12 +146,13 @@
 
     <?php endif; ?>
 
-
-    <div class="columns col-md-12">
-      <h2>Historique</h2>
-    </div>
-    <div class="col-md-4"><strong>Réferences bibliographiques</strong></div>
-    <div class="col-md-8"><span><?php the_field('bibliographic_category'); ?></span></div>
+    <?php if (get_field('bibliographic_category')) { ?>
+      <div class="columns col-md-12">
+        <h2>Historique</h2>
+      </div>
+      <div class="col-md-4"><strong>Réferences bibliographiques</strong></div>
+      <div class="col-md-8"><span><?php the_field('bibliographic_category'); ?></span></div>
+    <?php } ?>
 
 
 

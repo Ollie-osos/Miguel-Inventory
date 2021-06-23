@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rows>
+
+<row>
+	<field name="title">Pixel Snow 9</field>
+	<field name="field_oeuvre_code_value">2018-DX-DC9</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Cette série de dessins série de dessins réalisés au robot représente de grands flocons très graphique issus du programme informatique. D’une finesse  rappelant la dentelle, ils présentent une infinité de variations. Cette œuvre capte la beauté de la nature, source intarissable pour l’imaginaire. Elle illustre la constance du désir de son appropriation par l’homme et explorent sur un mode poétique et métaphorique, la question du lien entre nature et artifice. Entre réalité et fiction, ces formes créent fascination et méditation sur un monde recréé de toutes pièces.</field>
+	<field name="field_oeuvre_dimensions_value">31,5 x 31,5 x 3 cm</field>
+	<field name="field_oeuvres_elem_techniques_value">Impression sur Dibond mat et brillant</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value">150</field>
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value">1500</field>
+	<field name="field_oeuvre_notes_value">La pièce est titrée et signée par l'artiste et comporte un numéro d'inventaire au dos. Emballée 28/08/2020</field>
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine, Bâtiment Jean Jaurès (Salle 3, Etagère 1: R1, L3)</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Pixel Snow 9, Miguel Chevalier, 2018, Impression sur Dibond mat et brillant, 31,5 x 31,5 x 3 cm, Œuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">12,40 x 12,40 x 1,80 in</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2018</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Impression</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Digital Cristaux</field>
+	<field name="gallery_images" xsi:nil="true" />
+	<field name="featured_image">media/images_thumb/2018-dx-dc9.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>

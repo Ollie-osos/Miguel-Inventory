@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<rows>
+
+<row>
+	<field name="title">Paravent binaire</field>
+	<field name="field_oeuvre_code_value">1989-EB-PARAVENTBIN</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value" xsi:nil="true" />
+	<field name="field_oeuvre_dimensions_value">230 x 230 x 15 cm</field>
+	<field name="field_oeuvres_elem_techniques_value">Cibachrome sous Plexiglas, structure en aluminium</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">Collection particulière</field>
+	<field name="field_oeuvre_collection_value">Collection Denyse Durand-Ruel</field>
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Paravent binaire, Miguel Chevalier, 1989, Cibachrome sous Plexiglas, structure en aluminium, 230 x 230 x 15 cm, Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">90,75 x 90,75 x 5 inch</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">1989</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Impression</field>
+	<field name="localisation">Vendu</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Etat Binaire</field>
+	<field name="gallery_images" xsi:nil="true" />
+	<field name="featured_image">media/images_thumb/1989-eb-paraventbin.jpg</field>
+	<field name="documents">media/documents/paravent_binaire_durandruel.pdf</field>
+</row>
+</rows>

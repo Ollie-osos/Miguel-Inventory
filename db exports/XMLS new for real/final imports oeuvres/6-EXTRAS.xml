@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<rows>
+
+<row>
+	<field name="title">Oscillations</field>
+	<field name="field_oeuvre_code_value">2013-PX-OSCILLATIONS</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value" xsi:nil="true" />
+	<field name="field_oeuvre_dimensions_value">-</field>
+	<field name="field_oeuvres_elem_techniques_value">Broche digitale</field>
+	<field name="field_oeuvre_edition_value">Edition de 8 et 4 épreuves d'artiste</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value">2000</field>
+	<field name="field_oeuvre_notes_value">Edition 2 / 8 vendue</field>
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">Editeur?</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Oscillations, Miguel Chevalier, 2013, Broche digitale, Edition de 8 et 4 épreuves d'artiste</field>
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2013</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Bijoux</field>
+	<field name="localisation">Vendu</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Pixels</field>
+	<field name="gallery_images" xsi:nil="true" />
+	<field name="featured_image">media/images_thumb/2013-px-oscillations.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>

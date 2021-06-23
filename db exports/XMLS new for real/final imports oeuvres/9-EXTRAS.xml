@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<rows>
+
+<row>
+	<field name="title">Particules binaires, 2018</field>
+	<field name="field_oeuvre_code_value">2018-EB-PBIN1</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Cette installation se compose de centaines de &quot;1&quot; et de &quot;0&quot; chromés, gonflés à l'hélium. Ces deux chiffres sont la représentation symbolique de deux états logiques de l'intimité du fonctionnement de la machine-ordinateur. Ces signes gèrent des milliards de données. Ils trament notre environnement, notamment tous les réseaux de transmission et de télécommunication qui contrôlent les images et les sons. Ils constituent cette nébuleuse qu'on appelle l'information. Des ventilateurs font tourner et se disperser ces 0 et 1 gonflables dans l'espace. Ces éléments tels des particules, évoluent à différentes hauteurs et forment un tourbillon de bulles d'air binaire qui flottent.</field>
+	<field name="field_oeuvre_dimensions_value">21 x 19 x 10 m</field>
+	<field name="field_oeuvres_elem_techniques_value">Installation constituée de 200 gonflables en forme de 0 et de 1</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Particules binaires, Miguel Chevalier, 2018, Installation constituée de 200 gonflables en forme de 0 et de 1, 21 x 19 x 10 m, Œuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">68,90 x 62,33 x 32,80 ft</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2018</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Etat Binaire</field>
+	<field name="gallery_images">media/images/739a9855.jpg,media/images/739a9841.jpg,media/images/739a9848.jpg</field>
+	<field name="featured_image">media/images_thumb/739a9850.jpg,media/images_thumb/739a9850.jpg,media/images_thumb/739a9850.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>

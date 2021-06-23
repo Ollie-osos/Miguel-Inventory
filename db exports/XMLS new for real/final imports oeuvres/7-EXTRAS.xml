@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<rows>
+
+<row>
+	<field name="title">Oscillations 2020</field>
+	<field name="field_oeuvre_code_value">2020-CM-OSCILLATIONS</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Grâce à logiciel génératif, une vague est produite en temps réel avec les amplitudes de la music de Michel Redolfis. Ces spectres de son variés génèrent des paysages imaginaires à l'infini. Ces paysages, qui défilent sous nos yeux présentent une infinité de variations: solide ou filaire, plat ou abrupte, noir et blanc ou coloré. L'image et la musique se répondent dans une fusion de nature émotionelle qui créent une véritable synésthesie.</field>
+	<field name="field_oeuvre_dimensions_value"> Dimensions variables</field>
+	<field name="field_oeuvres_elem_techniques_value">Oeuvre de réalité virtuelle générative. Musique par Michel Redolfis</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">Wood Street Galleries (Pittsburgh)</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Oscillations, 2020, oeuvre de réalité virtuelle générative, </field>
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2020</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation de réalité virtuelle générative</field>
+	<field name="localisation">Prêt</field>
+	<field name="logicel">Cyrille Henri</field>
+	<field name="series">Complex Meshes</field>
+	<field name="gallery_images">media/images/739a9949.jpg,media/images/739a9868.jpg,media/images/739a0029.jpg,media/images/739a0001.jpg</field>
+	<field name="featured_image">media/images_thumb/739a9819_0.jpg,media/images_thumb/739a9819_0.jpg,media/images_thumb/739a9819_0.jpg,media/images_thumb/739a9819_0.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
+</rows>

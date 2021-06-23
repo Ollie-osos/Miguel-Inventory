@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rows>
+<row>
+	<field name="title">The Origin of the World</field>
+	<field name="field_oeuvre_code_value">2013-OM-OWPITTSBURGH</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">L'Origine du Monde s'inspire de la biologie et des micro-organismes. Des cellules se multiplient en abondance, se divisent, fusionnent dans un rythme rapide. Chaque cellule fonctionne de manière autonome, mais coordonnée avec les autres. Nous sommes face à un monde vivant intriguant, en perpétuel renouvellement. Les couleurs vives et saturées, les courbes sinueuses qui ondulent, créent des expériences visuelles inédites, proche des paradis artificiels. </field>
+	<field name="field_oeuvre_dimensions_value">25 x 4 m</field>
+	<field name="field_oeuvres_elem_techniques_value">2 pc, 5 vidéoprojecteurs, 2 caméras infrarouges</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value">0</field>
+	<field name="field_oeuvre_val_assurance_value">0</field>
+	<field name="field_oeuvre_prix_vente_value">0</field>
+	<field name="field_oeuvre_notes_value">L'installation a été présenté à la Woodstreet gallery de Pittsburgh (USA) du 25 janvier au 07 avril 2013.  L'oeuvre était accompagnée par la musique originale composée par Jacopo Baboni Schilingi.</field>
+	<field name="field_oeuvre_memo_value">-</field>
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+	<field name="field_oeuvre_collection_value">-</field>
+	<field name="field_oeuvre_cout_prod_dol_value">0</field>
+	<field name="field_oeuvre_val_assurance_dol_value">0</field>
+	<field name="field_oeuvre_prix_vente_dol_value">0</field>
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value">-</field>
+	<field name="field_oeuvres_legende_value">The Origin of the World, Miguel Chevalier, 2013, Installation de réalité virtuelle générative et interactive, 25 x 4 m, Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">83,02 x 13,12 ft</field>
+	<field name="field_sous_titre_value">-</field>
+	<field name="field_oeuvre_date_value">2013</field>
+	<field name="field_courtesy_value">-</field>
+	<field name="field_oeuvre_adresse_web_url">http://www.miguel-chevalier.com/fr/lorigine-du-monde</field>
+	<field name="category">Installation de réalité virtuelle interactive et générative</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel">Logiciel Cyrille Henry et Antoine Villeret</field>
+	<field name="series">Origine du Monde</field>
+	<field name="gallery_images">media/images/2013-e-woodstreetpittsburgh.jpg,media/images/2013-e-woodstreetpittsburgh.jpg,media/images/2013-om-owpittsburgh6.jpg,media/images/2013-om-owpittsburgh6.jpg,media/images/2013-om-owpittsvurgh5_0.jpg,media/images/2013-om-owpittsvurgh5_0.jpg,media/images/2013-om-owpittburgh4.jpg,media/images/2013-om-owpittburgh4.jpg,media/images/2013-om-owpittsburgh3_0.jpg,media/images/2013-om-owpittsburgh3_0.jpg,media/images/2013-om-owpittsburgh2_0.jpg,media/images/2013-om-owpittsburgh2_0.jpg,media/images/2013-om-owpittsburgh1.jpg,media/images/2013-om-owpittsburgh1.jpg</field>
+	<field name="featured_image">media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg,media/images_thumb/2013-om-owpittsburgh.jpg</field>
+	<field name="documents">media/documents/miguel_chevalier_pittsbugh_booklet.pdf,media/documents/miguel_chevalier_pittsbugh_invitation.pdf,media/documents/miguel_chevalier_pittsbugh_booklet.pdf,media/documents/miguel_chevalier_pittsbugh_invitation.pdf,media/documents/miguel_chevalier_pittsbugh_booklet.pdf,media/documents/miguel_chevalier_pittsbugh_invitation.pdf,media/documents/miguel_chevalier_pittsbugh_booklet.pdf,media/documents/miguel_chevalier_pittsbugh_invitation.pdf,media/documents/miguel_chevalier_pittsbugh_booklet.pdf,media/documents/miguel_chevalier_pittsbugh_invitation.pdf,media/documents/miguel_chevalier_pittsbugh_booklet.pdf,media/documents/miguel_chevalier_pittsbugh_invitation.pdf,media/documents/miguel_chevalier_pittsbugh_booklet.pdf,media/docum</field>
+</row>
+
+
+</rows>

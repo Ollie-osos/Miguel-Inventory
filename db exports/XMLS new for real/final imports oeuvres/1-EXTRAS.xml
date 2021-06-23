@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<rows>
+
+<row>
+	<field name="title">In-Out</field>
+	<field name="field_oeuvre_code_value">2017-TN-IN-OUT/PARADISARTIFICIELS1</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value"></field>
+	<field name="field_oeuvre_dimensions_value">8m diamètre</field>
+	<field name="field_oeuvres_elem_techniques_value">-</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">-</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">In-Out/Paradis artificiels, Miguel Chevalier, 2017, Installation de réalité virtuelle générative, Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value">Paradis artificiels</field>
+	<field name="field_oeuvre_date_value">2017</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url">http://www.miguel-chevalier.com/fr/out-paradis-artificiels?</field>
+	<field name="category">Installation de réalité virtuelle générative</field>
+	<field name="localisation">Inconnue</field>
+	<field name="logicel">Claude Micheli</field>
+	<field name="series">Trans-Natures</field>
+	<field name="gallery_images">media/images/739a6435.jpg,media/images/739a6391.jpg,media/images/739a6311.jpg,media/images/739a6351.jpg,media/images/739a6299.jpg,media/images/739a6251.jpg,media/images/739a6267.jpg,media/images/739a6416.jpg</field>
+	<field name="featured_image">media/images_thumb/739a6240.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>

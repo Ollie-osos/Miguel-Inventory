@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<rows>
+
+
+<row>
+	<field name="title">Onde Pixel, 2016</field>
+	<field name="field_oeuvre_code_value">2016-VP-ONDEPIXEL</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">« Onda Pixel » est un tapis géant de lumière de 20 m x 20 m, projeté sur le sol à l'intérieur du Pavilion d’UniCredit dessiné par Michele de Lucchi. Cette installation numérique met à l'honneur une sélection des oeuvres d'art de la collection d’UniCredit.
+
+« Onda Pixel » se compose de différents tableaux virtuels qui se succèdent les uns après les autres, composés de motifs symboliques liés à l'univers digital : On/Off, 0 et 1 (représentation symbolique du code binaire), les symboles @, wifi, la clef USB, des trames de pixels …
+
+Pour cette création présentée dans le Pavilion UniCredit, Miguel Chevalier a dessiné de nouveaux tableaux/motifs inspirés de plusieurs oeuvres abstraites et cinétique de la collection d’UniCredit qui ont retenues son attention, telles que des artistes Enrico Castellani, Victor Vasarely ou Julian Hoeber.
+Miguel Chevalier a trouvé dans ces œuvres abstraites, une grammaire assimilable à son propre langage plastique. Cette installation croise notamment les recherches de Vasarely, « art combinatoire » dont les éléments peuvent être codifiés ou programmés pour composer des œuvres à l'infini.
+Ces nouveaux tableaux/motifs très graphiques répétés par milliers forment une vague qui ondule sur le sol, qui se forme et se déforme à l’infini, créant des univers sans cesse renouvelés sur la musique du compositeur italien Jacopo Baboni Schilingi.
+
+Grâce à des capteurs de présence, cette création est interactive. Cet univers fluide réagit visuellement selon les déplacements des visiteurs, tout en modifiant les partitions de musique générative du compositeur Jacopo Baboni Schillingi. Leurs mouvements modifient la trajectoire des éléments qui s'entrechoquent de manière aléatoire, amplifient sous leurs pieds la déformation de ces motifs pixélisés et la composition musicale. Le visiteur devient acteur et spectateur. Il fait et défait l’oeuvre. Les motifs s'enchevêtrent, se superposent, dessinant de nouvelles compositions toujours plus surprenantes.
+
+Cette interaction génère une surface oscillante alternant entre un environnement apaisant et un environnement dynamique, variant des alignements rigoureux à des formes plus chaotiques.
+Les univers créés font également référence à l’abstraction géométrique ou l'art minimal. Les formes qui flottent créent d’impressionnantes illusions d’optique qui perturbent les perceptions des visiteurs. Cette création s'inscrit également dans la continuité de l’art cinétique et optique dont les recherches des artistes tels que Vasarely, sur la géométrisation des formes, le mouvement et l’illusion d’optique, préfigurent l'art numérique et la trame de pixels. Le sol devient une toile virtuelle. Le pixel, devient l’équivalent de la touche picturale.
+
+Au sol, les visiteurs sont immergés dans l'image et dans la lumière. Depuis les balcons des mezzanines, les visiteurs ont une vue aérienne des personnes qui interagissent au sol, permettant d’avoir une autre lecture de l’oeuvre.
+
+En complément de l'installation réalisée à l'intérieur du Pavilion, une création vidéo « L’Onda dei Pixels 2, 2016” est diffusée le soir sur les deux écrans de leds à l'extérieur du Pavilion.
+A la tombée de la nuit, ces deux grands écrans se relèveront pour laisser place à deux entrées de part et d'autre du bâtiment. Les visiteurs qui se promènent, interpellés par l'oeuvre vidéo haute en couleur sur l'écran de leds, seront ainsi invités à découvrir l'installation intérieure. Tel un kaléidoscope géant, ce monde de couleurs et de formes en mouvement transporte les visiteurs dans un voyage imaginaire et poétique de jeu et d'illusions optiques. Cette installation suscitera la surprise et proposera une expérience sensorielle inédite et intense.</field>
+	<field name="field_oeuvre_dimensions_value">20 x 20 m</field>
+	<field name="field_oeuvres_elem_techniques_value">L'oeuvre comprend 2 caméras infra-rouges, 4 vidéo-projecteurs 20000 Lumens, 1 ordinateur.</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">-</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Onde Pixel, Miguel Chevalier, 2016, Oeuvre de réalité virtuelle interactive et générative, 20 x 20 m, Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">65,60 x 65,60 ft</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2016</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url">http://www.miguel-chevalier.com/fr/onde-pixel?</field>
+	<field name="category">Installation de réalité virtuelle interactive et générative</field>
+	<field name="localisation">Inconnue</field>
+	<field name="logicel">Logiciel : Cyrille Henry et Antoine Villeret</field>
+	<field name="series">Vague des Pixels</field>
+	<field name="gallery_images">media/images/2016-vp-ondepixel1_0.jpg,media/images/2016-vp-ondepixel2_0.jpg,media/images/2016-vp-ondepixel3_0.jpg,media/images/2016-vp-ondepixel4.jpg,media/images/2016-vp-ondepixel5_0.jpg,media/images/2016-vp-ondepixel6.jpg</field>
+	<field name="featured_image">media/images_thumb/2016-vp-ondepixels.jpg,media/images_thumb/2016-vp-ondepixels.jpg,media/images_thumb/2016-vp-ondepixels.jpg,media/images_thumb/2016-vp-ondepixels.jpg,media/images_thumb/2016-vp-ondepixels.jpg,media/images_thumb/2016-vp-ondepixels.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>

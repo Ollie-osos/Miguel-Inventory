@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<rows>
+
+
+<row>
+	<field name="title">Nouvelle Atlantide, 2018</field>
+	<field name="field_oeuvre_code_value">2018-MC-NATLANTIDE</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Nouvelle Atlantide 2018 est une ville imaginaire constituée de bâtiments filaires qui défilent sous nos yeux. Sans début, ni fin, sans centre ou pluricentrée, cette ville se développe de manière matricielle et se transforme perpétuellement. Par le biais d'un iPad, le spectateur peut explorer différentes villes, se déplacer de gauche à droite, du haut en bas. Nouvelle Atlantide télescope les époques et nous projette dans une ville à l'urbanisme effréné. Cette ville n'est plus qu'un immense réseau, impossible à parcourir et à connaître en totalité, une architecture du cyberespace. Cette ville évoque l'Atlantide, île située au delà des Colonnes d'Hercule lors de la Protohistoire grecque. Après avoir connu un âge d'or vertueux, l'Atlantide se transforme progressivement en une thalassocratie conquérante dont l'expansion est stoppée par Athènes. L'île est alors engloutie par les flots dans un cataclysme provoqué à l'instigation de Zeus. Entre fiction et réalité, Nouvelle Atlantide nous invite à lire et à vivre la ville autrement grâce à un imaginaire sans limites. </field>
+	<field name="field_oeuvre_dimensions_value">3,60 x 9,50 m</field>
+	<field name="field_oeuvres_elem_techniques_value">Installation de réalité virtuelle générative et interactive</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Nouvelle Atlantide, Miguel Chevalier, 2018, Installation de réalité virtuelle générative et interactive, 3,60 x 9,50 m, Œuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">11,8 x 31,16 ft</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2018</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation de réalité virtuelle interactive et générative</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel">Claude Micheli</field>
+	<field name="series">Meta-Cité</field>
+	<field name="gallery_images">media/images/739a9797.jpg</field>
+	<field name="featured_image">media/images_thumb/739a9806.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>

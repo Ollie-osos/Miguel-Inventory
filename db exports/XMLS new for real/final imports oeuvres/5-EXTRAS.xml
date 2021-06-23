@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<rows>
+
+<row>
+	<field name="title">Ondes de Pixel 2019</field>
+	<field name="field_oeuvre_code_value">2019-PL-PL3</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Des ondes de lumière se créent et se propagent sur la surface de l’écran de leds. Ces ondes sont générées aléatoirement en temps réel. Des micro-organismes de pixels se diffusent, se heurtent, se mélangent dans un rythme tantôt lent, tantôt rapide. Nous sommes face à une peinture dynamique qui évolue sans cesse. Ces images flux sont la métaphore des milliards de données qui trament notre environnement, se créent et s’échangent en permanence.
+Miguel Chevalier travaille ici la lumière numérique en tant que matière artistique pour créer des expériences et sensations nouvelles au-delà du phénomène optique.</field>
+	<field name="field_oeuvre_dimensions_value">dimension de l'écran 256 x 64 cm</field>
+	<field name="field_oeuvres_elem_techniques_value">Oeuvre de réalité virtuelle générative présentée sur un écran de Leds (256 x 64 cm) fixé au mur.
+
+</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value">8000</field>
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value">50000</field>
+	<field name="field_oeuvre_notes_value">Oeuvre vendue avec écran de Leds, platine de fixation murale en métal, cadre en bois peint en noir, ordinateur.</field>
+	<field name="field_oeuvre_memo_value">Pour le transport :
+1 flycase 72 cm x 60 cm x 91 cm de haut
+1 paquet avec platine en métal et bois - 256 x 64 x 18 cm</field>
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine, Bâtiment Prudhon, grande salle</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value">Nécessite de l'électricité.</field>
+	<field name="field_oeuvres_legende_value">Pixels Liquides 3, Miguel Chevalier, 2019, Oeuvre de réalité virtuelle générative sur écran de Leds, Œuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2019</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation de réalité virtuelle générative</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel">Cyrille Henri</field>
+	<field name="series">Pixels Liquides</field>
+	<field name="gallery_images">media/images/ondes_pixels_02.jpg,media/images/ondes_pixels_01.jpg</field>
+	<field name="featured_image">media/images_thumb/2019-pl-pl3.jpg,media/images_thumb/2019-pl-pl3.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+</rows>
