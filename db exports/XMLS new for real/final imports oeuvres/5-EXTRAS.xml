@@ -37,8 +37,6 @@ Miguel Chevalier travaille ici la lumière numérique en tant que matière artis
 	<field name="localisation">Atelier</field>
 	<field name="logicel">Cyrille Henri</field>
 	<field name="series">Pixels Liquides</field>
-	<field name="gallery_images">media/images/ondes_pixels_02.jpg,media/images/ondes_pixels_01.jpg</field>
-	<field name="featured_image">media/images_thumb/2019-pl-pl3.jpg,media/images_thumb/2019-pl-pl3.jpg</field>
 	<field name="documents" xsi:nil="true" />
 </row>
 </rows>

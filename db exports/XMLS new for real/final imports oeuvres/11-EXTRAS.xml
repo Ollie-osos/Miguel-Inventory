@@ -31,8 +31,7 @@
 	<field name="localisation">Atelier</field>
 	<field name="logicel" xsi:nil="true" />
 	<field name="series">Fractal Flowers</field>
-	<field name="gallery_images">media/images/schema_oeuvre7.jpg</field>
-	<field name="featured_image">media/images_thumb/complet.jpg</field>
+	
 	<field name="documents" xsi:nil="true" />
 </row>
 </rows>

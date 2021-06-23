@@ -33,8 +33,278 @@
 	<field name="localisation">Atelier</field>
 	<field name="logicel">Claude Micheli</field>
 	<field name="series">Meta-Cité</field>
-	<field name="gallery_images">media/images/739a9797.jpg</field>
-	<field name="featured_image">media/images_thumb/739a9806.jpg</field>
 	<field name="documents" xsi:nil="true" />
 </row>
+
+<row>
+	<field name="title">Ondes de Pixel 2019</field>
+	<field name="field_oeuvre_code_value">2019-PL-PL3</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Des ondes de lumière se créent et se propagent sur la surface de l’écran de leds. Ces ondes sont générées aléatoirement en temps réel. Des micro-organismes de pixels se diffusent, se heurtent, se mélangent dans un rythme tantôt lent, tantôt rapide. Nous sommes face à une peinture dynamique qui évolue sans cesse. Ces images flux sont la métaphore des milliards de données qui trament notre environnement, se créent et s’échangent en permanence.
+Miguel Chevalier travaille ici la lumière numérique en tant que matière artistique pour créer des expériences et sensations nouvelles au-delà du phénomène optique.</field>
+	<field name="field_oeuvre_dimensions_value">dimension de l'écran 256 x 64 cm</field>
+	<field name="field_oeuvres_elem_techniques_value">Oeuvre de réalité virtuelle générative présentée sur un écran de Leds (256 x 64 cm) fixé au mur.
+
+</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value">8000</field>
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value">50000</field>
+	<field name="field_oeuvre_notes_value">Oeuvre vendue avec écran de Leds, platine de fixation murale en métal, cadre en bois peint en noir, ordinateur.</field>
+	<field name="field_oeuvre_memo_value">Pour le transport :
+1 flycase 72 cm x 60 cm x 91 cm de haut
+1 paquet avec platine en métal et bois - 256 x 64 x 18 cm</field>
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine, Bâtiment Prudhon, grande salle</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value">Nécessite de l'électricité.</field>
+	<field name="field_oeuvres_legende_value">Pixels Liquides 3, Miguel Chevalier, 2019, Oeuvre de réalité virtuelle générative sur écran de Leds, Œuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2019</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation de réalité virtuelle générative</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel">Cyrille Henri</field>
+	<field name="series">Pixels Liquides</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
+<row>
+	<field name="title">Oscillations 2020</field>
+	<field name="field_oeuvre_code_value">2020-CM-OSCILLATIONS</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Grâce à logiciel génératif, une vague est produite en temps réel avec les amplitudes de la music de Michel Redolfis. Ces spectres de son variés génèrent des paysages imaginaires à l'infini. Ces paysages, qui défilent sous nos yeux présentent une infinité de variations: solide ou filaire, plat ou abrupte, noir et blanc ou coloré. L'image et la musique se répondent dans une fusion de nature émotionelle qui créent une véritable synésthesie.</field>
+	<field name="field_oeuvre_dimensions_value"> Dimensions variables</field>
+	<field name="field_oeuvres_elem_techniques_value">Oeuvre de réalité virtuelle générative. Musique par Michel Redolfis</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">Wood Street Galleries (Pittsburgh)</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Oscillations, 2020, oeuvre de réalité virtuelle générative, </field>
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2020</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation de réalité virtuelle générative</field>
+	<field name="localisation">Prêt</field>
+	<field name="logicel">Cyrille Henri</field>
+	<field name="series">Complex Meshes</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+<row>
+	<field name="title">Particules binaires, 2018</field>
+	<field name="field_oeuvre_code_value">2018-EB-PBIN1</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">Cette installation se compose de centaines de &quot;1&quot; et de &quot;0&quot; chromés, gonflés à l'hélium. Ces deux chiffres sont la représentation symbolique de deux états logiques de l'intimité du fonctionnement de la machine-ordinateur. Ces signes gèrent des milliards de données. Ils trament notre environnement, notamment tous les réseaux de transmission et de télécommunication qui contrôlent les images et les sons. Ils constituent cette nébuleuse qu'on appelle l'information. Des ventilateurs font tourner et se disperser ces 0 et 1 gonflables dans l'espace. Ces éléments tels des particules, évoluent à différentes hauteurs et forment un tourbillon de bulles d'air binaire qui flottent.</field>
+	<field name="field_oeuvre_dimensions_value">21 x 19 x 10 m</field>
+	<field name="field_oeuvres_elem_techniques_value">Installation constituée de 200 gonflables en forme de 0 et de 1</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Particules binaires, Miguel Chevalier, 2018, Installation constituée de 200 gonflables en forme de 0 et de 1, 21 x 19 x 10 m, Œuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">68,90 x 62,33 x 32,80 ft</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2018</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Etat Binaire</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+<row>
+	<field name="title">Pixel Snow application iPhone</field>
+	<field name="field_oeuvre_code_value">2009-DX-IPHONE</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value" xsi:nil="true" />
+	<field name="field_oeuvre_dimensions_value">-</field>
+	<field name="field_oeuvres_elem_techniques_value">Application pour iPhone et iPod Touch</field>
+	<field name="field_oeuvre_edition_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">-</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value" xsi:nil="true" />
+	<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2009</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Création pour iPhone</field>
+	<field name="localisation">Inconnue</field>
+	<field name="logicel">Emmanuel Icart</field>
+	<field name="series">Digital Cristaux</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+<row>
+	<field name="title">Pixels Liquides 2018</field>
+	<field name="field_oeuvre_code_value">2018-PL-PLBORDEAUX</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value" xsi:nil="true" />
+	<field name="field_oeuvre_dimensions_value">12 x 5 m</field>
+	<field name="field_oeuvres_elem_techniques_value">Installation de réalité générative et interactive</field>
+	<field name="field_oeuvre_edition_value">Œuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Pixels Liquides, Miguel Chevalier, 2018, Installation de réalité virtuelle générative et interactive, 12 x 5 m, Œuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">39,37 x 16,40 ft</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2018</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Installation de réalité virtuelle interactive et générative</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel">Cyrille Henri [nid:2546] et Antoine Villaret</field>
+	<field name="series">Pixels Liquides</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
+<row>
+	<field name="title">The Origin of the World</field>
+	<field name="field_oeuvre_code_value">2014-OM-OWSHANGAI</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value">The Origin of the World s’inspire de la biologie, des micro-organismes et des automates cellulaires. Des cellules se multiplient en abondance, se divisent, fusionnent dans un rythme tantôt lent, tantôt rapide. Chaque cellule fonctionne de manière autonome, mais coordonnée avec les autres, tels des automates cellulaires. Tout s'agrège, se désagrège, et se déforme à une vitesse infinie. Ces univers organiques se mêlent parfois à des univers constructivistes de pixels. Ces tableaux de méga pixels noir et blanc instables glissent progressivement vers des spirales de couleurs vives et saturées qui tourbillonnent. Monde organique ou pixellisé, cet univers artificiel semble retrouver celui de la vie. C'est un nouveau « baroque technologique » qui donne forme à l'informe. Nous sommes face à un monde vivant intriguant, en perpétuel renouvellement. Le déplacement du spectateur crée des perturbations, des ondulations, voir des turbulences dans la trajectoire des cellules. Les courbes sinueuses qui ondulent, renouent avec les années 70. Elles créent des expériences visuelles inédites qui ne sont pas sans rappeler les univers psychédéliques. </field>
+	<field name="field_oeuvre_dimensions_value">38 x 3 m</field>
+	<field name="field_oeuvres_elem_techniques_value">2 PC, 6 vidéoprojecteurs, 4 caméras infrarouge, 4 enceintes.
+Projection elliptique.
+
+</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">-</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">The Origin of the World, Miguel Chevalier, 2014, Installation de réalité virtuelle générative et interactive, Projection elliptique : 38 x 3 m, Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">124.67 x 9.84 ft</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">2014</field>
+	<field name="field_courtesy_value">Puerta Roja Gallery, Hong Kong (China) et Louise Alexander Gallery Porto Cervo, (Italie)</field>
+	<field name="field_oeuvre_adresse_web_url">http://www.miguel-chevalier.com/fr/origin-world</field>
+	<field name="category">Installation de réalité virtuelle interactive et générative</field>
+	<field name="localisation">Inconnue</field>
+	<field name="logicel">Logiciel Cyrille Henry et Antoine Villeret</field>
+	<field name="series">Origine du Monde</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
+
+<row>
+	<field name="title">Thermographie</field>
+	<field name="field_oeuvre_code_value">1986-AP-THERMOGRAPHIE(5)</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value" xsi:nil="true" />
+	<field name="field_oeuvre_dimensions_value">4 x  (47,50 x 47,50 x 2 cm)</field>
+	<field name="field_oeuvres_elem_techniques_value">Sérigraphie sur Formica</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine (Chambre bleue)</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">0</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Thermographie, Miguel Chevalier, 1986, Sérigraphie sur Formica, 4 x  (47,50 x 47,50 x 2 cm), Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">4 x (18,70 x 18,70 x 0,78 in)</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">1986</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Sérigraphie</field>
+	<field name="localisation">Atelier</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series" xsi:nil="true" />
+	<field name="gallery_images">media/images/7cl116.jpg</field>
+	<field name="featured_image">media/images_thumb/1986-ap-thermographie5_0.jpg</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+<row>
+	<field name="title">Thermographie</field>
+	<field name="field_oeuvre_code_value">1987-AP-THERMOGRAPHIE</field>
+	<field name="field_oeuvre_realisee_value">oui</field>
+	<field name="field_oeuvre_description_value" xsi:nil="true" />
+	<field name="field_oeuvre_dimensions_value">100 x 100 x 20 cm</field>
+	<field name="field_oeuvres_elem_techniques_value">Cibachrome sous Plexiglas avec châssis en aluminium laqué noir</field>
+	<field name="field_oeuvre_edition_value">Oeuvre unique</field>
+	<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+	<field name="field_oeuvre_notes_value" xsi:nil="true" />
+	<field name="field_oeuvre_memo_value" xsi:nil="true" />
+	<field name="field_oeuvre_emplacement_value">-</field>
+	<field name="field_oeuvre_collection_value" xsi:nil="true" />
+	<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+	<field name="field_oeuvre_publiable_value">1</field>
+	<field name="field_oeuvres_notice_value" xsi:nil="true" />
+	<field name="field_oeuvres_legende_value">Thermographie, Miguel Chevalier, 1987, Cibachrome sous Plexiglas avec châssis en aluminium laqué noir, 100 x 100 x 20 cm, Oeuvre unique</field>
+	<field name="field_oeuvres_dim_feet_value">39,37 x 39,37 x 7,87 in</field>
+	<field name="field_sous_titre_value" xsi:nil="true" />
+	<field name="field_oeuvre_date_value">1987</field>
+	<field name="field_courtesy_value" xsi:nil="true" />
+	<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+	<field name="category">Tirage photographique Cibachrome</field>
+	<field name="localisation">Inconnue</field>
+	<field name="logicel" xsi:nil="true" />
+	<field name="series">Anthropométrie</field>
+	<field name="documents" xsi:nil="true" />
+</row>
+
 </rows>

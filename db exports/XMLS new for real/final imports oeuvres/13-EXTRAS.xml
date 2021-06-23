@@ -30,8 +30,6 @@
 	<field name="localisation">Inconnue</field>
 	<field name="logicel">Emmanuel Icart</field>
 	<field name="series">Digital Cristaux</field>
-	<field name="gallery_images">media/images/img_4029.jpg,media/images/img_4046.jpg</field>
-	<field name="featured_image">media/images_thumb/img_4020.jpg,media/images_thumb/img_4020.jpg</field>
 	<field name="documents" xsi:nil="true" />
 </row>
 

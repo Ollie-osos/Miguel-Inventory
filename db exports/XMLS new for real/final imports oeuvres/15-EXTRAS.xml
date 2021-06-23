@@ -30,8 +30,6 @@
 	<field name="localisation">Atelier</field>
 	<field name="logicel">Cyrille Henri [nid:2546] et Antoine Villaret</field>
 	<field name="series">Pixels Liquides</field>
-	<field name="gallery_images">media/images/739a9878.jpg</field>
-	<field name="featured_image">media/images_thumb/739a9864.jpg</field>
 	<field name="documents" xsi:nil="true" />
 </row>
 

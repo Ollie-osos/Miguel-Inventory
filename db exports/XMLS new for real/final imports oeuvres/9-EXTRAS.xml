@@ -32,8 +32,6 @@
 	<field name="localisation">Atelier</field>
 	<field name="logicel" xsi:nil="true" />
 	<field name="series">Etat Binaire</field>
-	<field name="gallery_images">media/images/739a9855.jpg,media/images/739a9841.jpg,media/images/739a9848.jpg</field>
-	<field name="featured_image">media/images_thumb/739a9850.jpg,media/images_thumb/739a9850.jpg,media/images_thumb/739a9850.jpg</field>
 	<field name="documents" xsi:nil="true" />
 </row>
 </rows>

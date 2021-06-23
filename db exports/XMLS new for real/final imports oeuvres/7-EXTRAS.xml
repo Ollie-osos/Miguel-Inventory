@@ -32,8 +32,6 @@
 	<field name="localisation">Prêt</field>
 	<field name="logicel">Cyrille Henri</field>
 	<field name="series">Complex Meshes</field>
-	<field name="gallery_images">media/images/739a9949.jpg,media/images/739a9868.jpg,media/images/739a0029.jpg,media/images/739a0001.jpg</field>
-	<field name="featured_image">media/images_thumb/739a9819_0.jpg,media/images_thumb/739a9819_0.jpg,media/images_thumb/739a9819_0.jpg,media/images_thumb/739a9819_0.jpg</field>
 	<field name="documents" xsi:nil="true" />
 </row>
 

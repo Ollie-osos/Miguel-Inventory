@@ -32,8 +32,6 @@
 	<field name="localisation">Inconnue</field>
 	<field name="logicel">Claude Micheli</field>
 	<field name="series">Trans-Natures</field>
-	<field name="gallery_images">media/images/739a6435.jpg,media/images/739a6391.jpg,media/images/739a6311.jpg,media/images/739a6351.jpg,media/images/739a6299.jpg,media/images/739a6251.jpg,media/images/739a6267.jpg,media/images/739a6416.jpg</field>
-	<field name="featured_image">media/images_thumb/739a6240.jpg</field>
 	<field name="documents" xsi:nil="true" />
 </row>
 </rows>

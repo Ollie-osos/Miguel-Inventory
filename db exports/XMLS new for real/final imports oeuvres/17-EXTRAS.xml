@@ -34,8 +34,6 @@
         <field name="localisation">Inconnue</field>
         <field name="logicel">Logiciel Cyrille Henry et Antoine Villeret</field>
         <field name="series">Origine du Monde</field>
-        <field name="gallery_images">media/images/2014-om-owshangai8.jpg,media/images/2014-om-owshangai7.jpg,media/images/2014-om-owshangai6_0.jpg,media/images/2014-om-owshangai5_0.jpg,media/images/2014-om-owshangai4.jpg,media/images/2014-om-owshangai3.jpg,media/images/2014-pm-owshangai2_0.jpg,media/images/2014-om-owshangai1.jpg</field>
-        <field name="featured_image">media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg,media/images_thumb/2014-om-owshangai.jpg</field>
         <field name="documents" xsi:nil="true" />
     </row>
     
