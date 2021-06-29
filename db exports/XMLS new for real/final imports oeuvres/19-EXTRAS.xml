@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<rows>
+	<row>
+		<field name="title">Pixels Liquides 2018</field>
+		<field name="field_oeuvre_code_value">2018-PL-PLBORDEAUX</field>
+		<field name="field_oeuvre_realisee_value">oui</field>
+		<field name="field_oeuvre_description_value" xsi:nil="true" />
+		<field name="field_oeuvre_dimensions_value">12 x 5 m</field>
+		<field name="field_oeuvres_elem_techniques_value">Installation de réalité générative et interactive</field>
+		<field name="field_oeuvre_edition_value">Œuvre unique</field>
+		<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+		<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+		<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+		<field name="field_oeuvre_notes_value" xsi:nil="true" />
+		<field name="field_oeuvre_memo_value" xsi:nil="true" />
+		<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+		<field name="field_oeuvre_collection_value" xsi:nil="true" />
+		<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_publiable_value">1</field>
+		<field name="field_oeuvres_notice_value" xsi:nil="true" />
+		<field name="field_oeuvres_legende_value">Pixels Liquides, Miguel Chevalier, 2018, Installation de réalité virtuelle générative et interactive, 12 x 5 m, Œuvre unique</field>
+		<field name="field_oeuvres_dim_feet_value">39,37 x 16,40 ft</field>
+		<field name="field_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_date_value">2018</field>
+		<field name="field_courtesy_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="category">Installation de réalité virtuelle interactive et générative</field>
+		<field name="localisation">Atelier</field>
+		<field name="logicel">Cyrille Henri [nid:2546] et Antoine Villaret</field>
+		<field name="series">Pixels Liquides</field>
+		<field name="gallery_images">media/images/739a9878.jpg</field>
+		<field name="featured_image">media/images_thumb/739a9864.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+
+    <row>
+		<field name="title">Fractal Seaweeds, 2018</field>
+		<field name="field_oeuvre_code_value">2018-AB-FSEAWEEDS1</field>
+		<field name="field_oeuvre_realisee_value">oui</field>
+		<field name="field_oeuvre_description_value">Fractal Seaweeds s'inspire de la faune et flore sous-marine, tels que les algue, les anémones... Des plantes aquatiques et des coraux géants de différentes couleurs et formes se génèrent à l'infini. Les formes se développent aléatoirement, s'épanouissent avant de disparaître sous les yeux des visiteurs. Ces véritables &quot;fleurs de mer&quot; dévoilent des formes poussées à l'extrême de leur géométrisation. Cet univers aquatique intriguant réagit au passage des visiteurs. Le gigantisme de ces organismes, leur capacité à suivre du regard le visiteur quand il se déplace, crée un étrange et mystérieux, voire troublant dialogue avec lui. Les formes se courbent comme pour faire une révérence et l'accueillir dans la virtualité de de cet intriguant récif. Elles déploient alors leurs plus belles couleurs, leurs plus incroyables formes, s'observent entre elles, se penchent vers lui comme pour regarder de plus près sa réalité, pour enfin disparaître sous son regard fasciné et ému de ce rapport si vivant avec un objet virtuel qu'il ne reverra jamais.</field>
+		<field name="field_oeuvre_dimensions_value">9 x 6 m</field>
+		<field name="field_oeuvres_elem_techniques_value">Installation de réalité virtuelle générative et interactive</field>
+		<field name="field_oeuvre_edition_value">Œuvre unique</field>
+		<field name="field_oeuvre_cout_prod_value" xsi:nil="true" />
+		<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+		<field name="field_oeuvre_prix_vente_value" xsi:nil="true" />
+		<field name="field_oeuvre_notes_value" xsi:nil="true" />
+		<field name="field_oeuvre_memo_value" xsi:nil="true" />
+		<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine</field>
+		<field name="field_oeuvre_collection_value" xsi:nil="true" />
+		<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_publiable_value">1</field>
+		<field name="field_oeuvres_notice_value" xsi:nil="true" />
+		<field name="field_oeuvres_legende_value">Fractal Seaweeds, Miguel Chevalier, 2018, Installation de réalité virtuelle générative et interactive, 9 x 6 m, Œuvre unique</field>
+		<field name="field_oeuvres_dim_feet_value">29,50 x 19,70 ft</field>
+		<field name="field_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_date_value">2018</field>
+		<field name="field_courtesy_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="category">Installation de réalité virtuelle interactive et générative</field>
+		<field name="localisation">Atelier</field>
+		<field name="logicel">Cyrille Henri [nid:2546] et Antoine Villaret</field>
+		<field name="series">Abysses</field>
+		<field name="gallery_images">media/images/739a9721.jpg,media/images/739a9713.jpg,media/images/739a9712.jpg,media/images/739a9699.jpg</field>
+		<field name="featured_image">media/images_thumb/739a9713.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+    <row>
+		<field name="title">Extra-Natural 2020</field>
+		<field name="field_oeuvre_code_value">2020-EN-ENV3</field>
+		<field name="field_oeuvre_realisee_value">oui</field>
+		<field name="field_oeuvre_description_value" xsi:nil="true" />
+		<field name="field_oeuvre_dimensions_value">Dimension de l’écran : 61 cm de large x 13 cm de profondeur x 224 cm de haut (poids 38 kg)</field>
+		<field name="field_oeuvres_elem_techniques_value">Oeuvre de réalité virtuelle - vidéo de 60 minutes sur un écran LG 88 pouces ultra stretch fixé au mur. L’oeuvre sur clé USB criptée sur Raspberry Pi. Nécessite de l'électricité</field>
+		<field name="field_oeuvre_edition_value" xsi:nil="true" />
+		<field name="field_oeuvre_cout_prod_value">10800</field>
+		<field name="field_oeuvre_val_assurance_value" xsi:nil="true" />
+		<field name="field_oeuvre_prix_vente_value">45000</field>
+		<field name="field_oeuvre_notes_value">Vendu avec écran LG 88 pouces ultra stretch, platine de fixation murale et l’oeuvre sur clé USB criptée sur Raspberry Pi.
+Dimension du carton de transport :
+227 cm de long x 23,50 cm de large x 86 cm de haut
+Poids du colis : 54 Kilos</field>
+		<field name="field_oeuvre_memo_value" xsi:nil="true" />
+		<field name="field_oeuvre_emplacement_value">La Fabrika, Ivry-sur-Seine, Bâtiment Prudhon, grande salle</field>
+		<field name="field_oeuvre_collection_value" xsi:nil="true" />
+		<field name="field_oeuvre_cout_prod_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_val_assurance_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_prix_vente_dol_value" xsi:nil="true" />
+		<field name="field_oeuvre_publiable_value">0</field>
+		<field name="field_oeuvres_notice_value" xsi:nil="true" />
+		<field name="field_oeuvres_legende_value" xsi:nil="true" />
+		<field name="field_oeuvres_dim_feet_value" xsi:nil="true" />
+		<field name="field_sous_titre_value" xsi:nil="true" />
+		<field name="field_oeuvre_date_value">2020</field>
+		<field name="field_courtesy_value" xsi:nil="true" />
+		<field name="field_oeuvre_adresse_web_url" xsi:nil="true" />
+		<field name="category">Oeuvre de réalité virtuelle - Vidéo</field>
+		<field name="localisation">Atelier</field>
+		<field name="logicel">Cyrille Henri</field>
+		<field name="series">Extra-Natural</field>
+		<field name="gallery_images">media/images/739a0027.jpg,media/images/739a0033.jpg,media/images/739a0012_0.jpg</field>
+		<field name="featured_image">media/images_thumb/739a0008.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+
+</rows>

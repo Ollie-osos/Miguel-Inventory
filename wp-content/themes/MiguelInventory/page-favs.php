@@ -135,10 +135,10 @@ $html = 	"
     		</head>
     		<body>
 			<header>
-				<img height='243px' src='".get_site_url()."/wp-content/uploads/2021/03/entête.png'>
+				<img height='243px' src='".get_site_url()."/pdf-assets/entête.png'>
 			</header>
 					<footer>
-		<img height='44px' src='".get_site_url()."/wp-content/uploads/2021/03/footer.png'>
+		<img height='44px' src='".get_site_url()."/pdf-assets/footer.png'>
 
 		</footer>
 
