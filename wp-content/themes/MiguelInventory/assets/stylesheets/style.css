@@ -11882,6 +11882,18 @@ div#st-1 {
 #table td {
   width: 20%;
 }
+.main ul {
+  margin-left: 0;
+  padding-left: 15px;
+  list-style: square;
+}
+.main ul li > a {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
 h1.page-header {
   margin-bottom: 60px;
 }
@@ -12223,8 +12235,13 @@ p {
 }
 
 .navbar-nav li a {
-  padding: 6px 15px;
+  padding: 6px 15px 6px 0;
   font-weight: bold;
+}
+
+nav#navbar {
+  padding-left: 10px;
+  margin-top: 28px;
 }
 
 .single strong {
@@ -12309,15 +12326,12 @@ img.attachment-thumbnail.default-featured-img {
 }
 
 .archive-result {
-  padding-bottom: 10px;
   border-bottom: thin solid black;
-  margin-bottom: 15px;
-  padding-top: 20px;
+  padding: 10px 0;
 }
-.archive-result h4 {
-  font-weight: normal;
-  text-decoration: underline;
-  margin-top: 5px;
+
+.cat-tags-container {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

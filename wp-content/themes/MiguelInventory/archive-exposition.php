@@ -15,7 +15,7 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
-$img = get_field('main_image');
+
 get_header(); ?>
 
 <div id="page" class="main col-sm-12 col-md-12">
@@ -58,19 +58,19 @@ get_header(); ?>
 	$(".postform").change(function() {
 		var end = this.value;
 		var tag_val = $('#my_tags').val();
-		var realised_val = $('#type_exp').val();
+		var type_exp = $('#type_exp').val();
 
 		var url = window.location.href;
 
 		var tag = '';
-		var realised = '';
+		var expo = '';
 
 		if (tag_val != 0)
 			tag = "t=" + tag_val;
-		if (realised_val != 0)
-			realised = "r=" + realised_val;
+		if (type_exp != 0)
+			expo = "r=" + type_exp;
 
-		window.location.href = window.location.href.replace(/[\?#].*|$/, "?" + tag + "&" + realised);
+		window.location.href = window.location.href.replace(/[\?#].*|$/, "?" + tag + "&" + expo);
 	});
 
 

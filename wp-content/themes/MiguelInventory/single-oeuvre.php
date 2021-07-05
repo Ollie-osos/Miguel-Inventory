@@ -1,19 +1,10 @@
-</div><?php
-      /**
-       * The template for displaying single oeuvres
-       */
+</div>
+<?php
+  /**
+   * The template for displaying single oeuvres
+   */
 
-      $description = get_field('description');
-      $curator = get_field('curator');
-      $url = get_field('url');
-      $bibliographic_category = get_field('bibliographic_category');
-
-      // globals
-      $main_image = get_field('main_image');
-      $images = get_field('images');
-      $vimeo = get_field('vimeo');
-
-      get_header(); ?>
+  get_header(); ?>
 
 <div id="page" class="col-md-12" role="main">
 
@@ -326,17 +317,11 @@
     <div class="row">
       <div class="col-md-12">
         <h2>Sous-Oeuvres</h2>
-        <?php
-        if (have_rows('affiliated_works')) :
-          while (have_rows('affiliated_works')) : the_row();
-            $works = get_sub_field('subworks');
-            echo "<a href='" . $works['url'] . "'>" . $works['title'] . "</a>";
-          endwhile;
-        endif; ?>
+        <?php get_template_part('/template-parts/affiliated-works'); ?>
       </div>
     </div>
   <?php endif; ?>
-  <?php get_template_part('/template-parts/media.tpl'); ?>
+  <?php get_template_part('/template-parts/media'); ?>
 
 </div>
 </div>

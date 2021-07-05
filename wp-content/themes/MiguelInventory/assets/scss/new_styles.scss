@@ -27,8 +27,13 @@
 }
 
 .navbar-nav li a {
-  padding: 6px 15px;
+  padding: 6px 15px 6px 0;
   font-weight: bold;
+}
+
+nav#navbar {
+  padding-left: 10px;
+  margin-top: 28px;
 }
 
 .single strong {
@@ -115,14 +120,10 @@ img.attachment-thumbnail.default-featured-img {
 }
 
 .archive-result {
-  padding-bottom: 10px;
   border-bottom: thin solid black;
-  margin-bottom: 15px;
-  // height: 180px;
-  padding-top: 20px;
-  h4{
-    font-weight: normal;
-    text-decoration: underline;
-    margin-top: 5px;
-  }
+  padding: 10px 0;
+}
+
+.cat-tags-container{
+  margin-top: 30px;
 }

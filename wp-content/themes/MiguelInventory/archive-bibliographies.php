@@ -15,7 +15,7 @@
  * @package FoundationPress
  * @since FoundationPress 1.0.0
  */
-$img = get_field('main_image');
+
 get_header(); ?>
 
 <div id="page" class="main col-sm-12 col-md-12">
@@ -33,7 +33,7 @@ get_header(); ?>
 		<button id='reset'>Reset</button>
 	</div>
 
-	<?php if (!is_user_logged_in()){ $filter = 'cf="publiable: 1"'; } ?>
+	<?php if (!is_user_logged_in()){ $filter = 'cf="publiable: 1"'; } else $filter = ''; ?>
 
 	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=bibliographies columns="image: Photo,title:Title,cf:author:Author,cf: publication_date:Date,category:Catégorie,cf:unique_bibliography_code:Code référence" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
 

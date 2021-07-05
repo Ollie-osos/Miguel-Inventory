@@ -32,13 +32,7 @@
       } ?>
     </div>
   </div>
-  <div class="row">
-    <div class="columns col-md-12">
-      <h2>OEUVRE PARENTE</h2>
-    </div>
-
-  </div>
-
+  
   <div class="row">
     <div class="columns col-md-6">
 
@@ -292,7 +286,18 @@
     <div class="col-md-8"><span><?php the_field('private_notes'); ?></span></div>
     <?php } ?>
 
-  <?php get_template_part('/template-parts/media.tpl'); ?>
+    <?php
+  if (have_rows('affiliated_works')) :
+  ?>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Oeuvre parente</h2>
+        <?php get_template_part('/template-parts/affiliated-works'); ?>
+      </div>
+    </div>
+  <?php endif; ?>
+
+  <?php get_template_part('/template-parts/media'); ?>
 
 </div>
 </div>

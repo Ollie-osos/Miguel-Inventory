@@ -135,13 +135,7 @@
 
       <div class="col-md-12">
         <h2>OEUVRES ET SOUS-OEUVRES</h2>
-        <?php
-        if (have_rows('affiliated_works')) :
-          while (have_rows('affiliated_works')) : the_row();
-            $works = get_sub_field('works');
-            echo "<a href='" . $works['url'] . "'>" . $works['title'] . "</a>";
-          endwhile;
-        endif; ?>
+        <?php get_template_part('/template-parts/affiliated-works'); ?>
       </div>
 
     <?php endif; ?>
@@ -174,7 +168,7 @@
 
   </div>
 
-  <?php get_template_part('/template-parts/media.tpl'); ?>
+  <?php get_template_part('/template-parts/media'); ?>
 
 </div>
 </div>
