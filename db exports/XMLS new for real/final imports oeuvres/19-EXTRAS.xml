@@ -30,8 +30,6 @@
 		<field name="localisation">Atelier</field>
 		<field name="logicel">Cyrille Henri [nid:2546] et Antoine Villaret</field>
 		<field name="series">Pixels Liquides</field>
-		<field name="gallery_images">media/images/739a9878.jpg</field>
-		<field name="featured_image">media/images_thumb/739a9864.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 
@@ -65,8 +63,6 @@
 		<field name="localisation">Atelier</field>
 		<field name="logicel">Cyrille Henri [nid:2546] et Antoine Villaret</field>
 		<field name="series">Abysses</field>
-		<field name="gallery_images">media/images/739a9721.jpg,media/images/739a9713.jpg,media/images/739a9712.jpg,media/images/739a9699.jpg</field>
-		<field name="featured_image">media/images_thumb/739a9713.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
     <row>
@@ -102,8 +98,6 @@ Poids du colis : 54 Kilos</field>
 		<field name="localisation">Atelier</field>
 		<field name="logicel">Cyrille Henri</field>
 		<field name="series">Extra-Natural</field>
-		<field name="gallery_images">media/images/739a0027.jpg,media/images/739a0033.jpg,media/images/739a0012_0.jpg</field>
-		<field name="featured_image">media/images_thumb/739a0008.jpg</field>
 		<field name="documents" xsi:nil="true" />
 	</row>
 

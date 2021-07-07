@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rows>
+	<row>
+		<field name="title">Pixels Liquides 2018</field>
+
+		<field name="gallery_images">media/images/739a9878.jpg</field>
+		<field name="featured_image">media/images_thumb/739a9864.jpg</field>
+	</row>
+
+    <row>
+		<field name="title">Fractal Seaweeds, 2018</field>
+		<field name="gallery_images">media/images/739a9721.jpg,media/images/739a9713.jpg,media/images/739a9712.jpg,media/images/739a9699.jpg</field>
+		<field name="featured_image">media/images_thumb/739a9713.jpg</field>
+		<field name="documents" xsi:nil="true" />
+	</row>
+    <row>
+		<field name="title">Extra-Natural 2020</field>
+
+		<field name="gallery_images">media/images/739a0027.jpg,media/images/739a0033.jpg,media/images/739a0012_0.jpg</field>
+		<field name="featured_image">media/images_thumb/739a0008.jpg</field>
+	</row>
+
+</rows>
