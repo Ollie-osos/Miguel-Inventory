@@ -6,17 +6,19 @@
         max-width: 100%;
     }
 }
-  
-  #navbar{
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+#navbar{
     height: auto;
     z-index: 100;
     width: 100%;
-    position: fixed;
     background-color: white;
     display: block;
     padding-top: 18px;
     padding-bottom: 14px;
-    top: 0;
     @include respond-to(md){
         position: relative;
         margin-top: 20px;
@@ -62,17 +64,17 @@
         &.is-open{
             display: inline-block;
         }
-        @include respond-to(md){
-            display: block;
-            position: relative;
-            top: 60px;
-            width: auto;
-            margin-left: 10px;
-            text-align: left;
-            &.is-open{
-                display: block;
-            }
-        }
+        // @include respond-to(md){
+        //     display: block;
+        //     position: relative;
+        //     top: 60px;
+        //     width: auto;
+        //     margin-left: 10px;
+        //     text-align: left;
+        //     &.is-open{
+        //         display: block;
+        //     }
+        // }
         li{
             border-bottom: thin solid #999;
             background-color: $black;
@@ -91,25 +93,24 @@
                     text-decoration: underline;
                 }
             }
-            @include respond-to(md){
-                text-align: center;
-                display: inline-block;
-                border-bottom: none;
-                background-color: transparent;
-                padding: 10px 5px;
-                a:link, a:visited{ 
-                    font-family: Roboto,Helvetica,Arial,Sans-serif;
-                    color: #000;
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 400;
-                    text-transform: uppercase;
-                    &:hover{
-                        text-decoration: underline;
-                    }
-                }
-            }
-            
+            // @include respond-to(md){
+            //     text-align: center;
+            //     display: inline-block;
+            //     border-bottom: none;
+            //     background-color: transparent;
+            //     padding: 10px 5px;
+            //     a:link, a:visited{ 
+            //         font-family: Roboto,Helvetica,Arial,Sans-serif;
+            //         color: #000;
+            //         font-size: 14px;
+            //         font-style: normal;
+            //         font-weight: 400;
+            //         text-transform: uppercase;
+            //         &:hover{
+            //             text-decoration: underline;
+            //         }
+            //     }
+            // }
         }
     }
     #menu-icon{

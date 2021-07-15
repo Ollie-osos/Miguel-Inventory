@@ -28,6 +28,7 @@ get_header(); ?>
       <hr class="top-title">
     </div>
     <div class="col-md-2 text-right" id="selection-tools"> 
+      <?php echo do_shortcode('[favorite_button]'); ?>
       <?php if (function_exists('pf_show_link')) {
         echo pf_show_link();
       } ?>
@@ -66,7 +67,7 @@ get_header(); ?>
   </div>
 
   <hr>
-  <div class="row">
+  <div class="row main-single">
     <div class="col-md-12">
       <h2>Informations De Base</h2>
     </div>
@@ -139,7 +140,7 @@ get_header(); ?>
     
     <?php if (get_field('url')) { ?>
       <div class="col-md-4"><strong>URL</strong></div>
-      <div class="col-md-8"><span><?php the_field('url'); ?></span></div>
+      <div class="col-md-8"><span><a href="<?php the_field('url'); ?>" target="_blank" rel="noopener noreferrer"><?php the_field('url'); ?></a></span></div>
     <?php } ?>
     
 

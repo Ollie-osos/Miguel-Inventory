@@ -1,5 +1,5 @@
 <?php if (get_field('repeater_document') || get_field('repeater_audio') || get_field('images') || get_field('vimeo')) { ?> 
-  <div class="media row">
+  <div class="media row main-single">
     <div class="col-sm-12">
       <h2>Mediateque</h2>
       <!-- In here, documents only show if is_user_logged_in() and type is not exhibition. -->

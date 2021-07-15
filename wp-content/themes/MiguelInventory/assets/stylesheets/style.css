@@ -11403,16 +11403,18 @@ a:hover, a:focus {
   }
 }
 
+.navbar-nav {
+  flex-direction: row;
+}
+
 #navbar {
   height: auto;
   z-index: 100;
   width: 100%;
-  position: fixed;
   background-color: white;
   display: block;
   padding-top: 18px;
   padding-bottom: 14px;
-  top: 0;
 }
 @media (min-width: 768px) {
   #navbar {
@@ -11465,19 +11467,6 @@ a:hover, a:focus {
 #navbar ul#menu-main-menu.is-open {
   display: inline-block;
 }
-@media (min-width: 768px) {
-  #navbar ul#menu-main-menu {
-    display: block;
-    position: relative;
-    top: 60px;
-    width: auto;
-    margin-left: 10px;
-    text-align: left;
-  }
-  #navbar ul#menu-main-menu.is-open {
-    display: block;
-  }
-}
 #navbar ul#menu-main-menu li {
   border-bottom: thin solid #999;
   background-color: #000000;
@@ -11496,26 +11485,6 @@ a:hover, a:focus {
 #navbar ul#menu-main-menu li a:link.active, #navbar ul#menu-main-menu li a:visited.active {
   font-weight: bold;
   text-decoration: underline;
-}
-@media (min-width: 768px) {
-  #navbar ul#menu-main-menu li {
-    text-align: center;
-    display: inline-block;
-    border-bottom: none;
-    background-color: transparent;
-    padding: 10px 5px;
-  }
-  #navbar ul#menu-main-menu li a:link, #navbar ul#menu-main-menu li a:visited {
-    font-family: Roboto, Helvetica, Arial, Sans-serif;
-    color: #000;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-  #navbar ul#menu-main-menu li a:link:hover, #navbar ul#menu-main-menu li a:visited:hover {
-    text-decoration: underline;
-  }
 }
 #navbar #menu-icon {
   position: absolute;
@@ -11894,6 +11863,17 @@ div#st-1 {
   margin-top: 1rem;
 }
 
+.main-single h2 {
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+.main-single h2 h5:first-child {
+  margin-top: 10px;
+}
+.main-single h5 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
 h1.page-header {
   margin-bottom: 60px;
 }
@@ -12031,6 +12011,7 @@ p {
   float: left;
   height: 100%;
   min-height: 1px;
+  max-height: 300px;
   display: none;
 }
 [dir=rtl] .slick-slide {

@@ -42,15 +42,11 @@ get_sidebar(); ?>
 			</div>
 		</div>
 
-
 		<br>
 		<input type="submit" class="btn btn-dark" value="Download">
 	</form>
 
-
 	<?php echo do_shortcode('[user_favorites include_links="true" include_buttons="true" include_thumbnails="true"]'); ?>
-
-
 
 </div>
 

@@ -27,6 +27,7 @@
       <hr class="top-title">
     </div>
     <div class="col-md-2 text-right" id="selection-tools"> 
+      <?php echo do_shortcode('[favorite_button]'); ?>
       <?php if (function_exists('pf_show_link')) {
         echo pf_show_link();
       } ?>
@@ -75,7 +76,7 @@
   </div>
 
   <hr>
-  <div class="row">
+  <div class="row main-single">
     <div class="columns col-md-12">
       <h2>Informations De Base</h2>
     </div>
@@ -118,7 +119,7 @@
       <div class="col-md-8"><span><?php the_field('dimensions_box'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('weight_kg') || get_field('weight_packaged') || get_field('type_of_packaging') || get_field('technical_elements') || get_field('etat') || get_field('description') || get_field('edition') || get_field('logicel') || get_field('courtesy') || get_field('url')) { ?>
+    <?php if (get_field('weight_kg') || get_field('weight_packaged') || get_field('type_of_packaging') || get_field('technical_elements') || get_field('etat') || get_field('description') || get_field('logicel') || get_field('courtesy') || get_field('url')) { ?>
       <div class="col-md-12">
         <h5>Poids</h5>
       </div>
@@ -144,9 +145,13 @@
       <div class="col-md-8"><span><?php the_field('technical_elements'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('etat')) { ?>
-      <div class="col-md-4"><strong>Etat</strong></div>
-      <div class="col-md-8"><span><?php the_field('etat'); ?></span></div>
+    <?php if (get_field('etat')) { 
+      $field = get_field_object('etat');
+      $value = get_field('etat');
+      $label = $field['choices'][ $value ];
+    ?>
+      <div class="col-md-4"><strong>Etât</strong></div>
+      <div class="col-md-8"><span><?php echo $label; ?></span></div>
     <?php } ?>
 
     <?php if (get_field('description')) { ?>
@@ -166,7 +171,12 @@
 
     <?php if (get_field('url')) { ?>
       <div class="col-md-4"><strong>URL</strong></div>
-      <div class="col-md-8"><span><?php the_field('url'); ?></span></div>
+      <div class="col-md-8"><span><a href="<?php the_field('url'); ?>" target="_blank" rel="noopener noreferrer"><?php the_field('url'); ?></a></span></div>
+    <?php } ?>
+
+    <?php if (get_field('chemin')) { ?>
+      <div class="col-md-4"><strong>Chemin du fichier</strong></div>
+      <div class="col-md-8"><span><?php the_field('chemin'); ?></span></div>
     <?php } ?>
 
 
@@ -231,9 +241,13 @@
       </div>
     <?php } ?>
 
-    <?php if (get_field('localisation')) { ?>
+    <?php if (get_field('localisation')) { 
+      $field = get_field_object('localisation');
+      $value = get_field('localisation');
+      $localisation = $field['choices'][ $value ];
+      ?>
       <div class="col-md-4"><strong>Localisation</strong></div>
-      <div class="col-md-8"><span><?php the_field('localisation'); ?></span></div>
+      <div class="col-md-8"><span><?php echo $localisation; ?></span></div>
     <?php } ?>
 
     <?php if (get_field('emplacement') && is_user_logged_in()) { ?>
@@ -248,15 +262,15 @@
       <div class="col-md-8"><span><?php the_field(''); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('collection') && is_user_logged_in()) { ?>
+    <?php if (get_field('anonyme') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Collection</strong></div>
       <div class="col-md-8"><span><?php the_field('collection'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('anonyme') && is_user_logged_in()) { ?>
-      <div class="col-md-4"><strong>Anonyme</strong></div>
-      <div class="col-md-8"><span><?php the_field('anonyme'); ?></span></div>
-    <?php } ?>
+    <?php //if (get_field('anonyme') && is_user_logged_in()) { ?>
+      <!-- <div class="col-md-4"><strong>Anonyme</strong></div>
+      <div class="col-md-8"><span><?php the_field('anonyme'); ?></span></div> -->
+    <?php //} ?>
 
 
 
@@ -289,7 +303,7 @@
     <?php
   if (have_rows('affiliated_works')) :
   ?>
-    <div class="row">
+    <div class="row main-single">
       <div class="col-md-12">
         <h2>Oeuvre parente</h2>
         <?php get_template_part('/template-parts/affiliated-works'); ?>

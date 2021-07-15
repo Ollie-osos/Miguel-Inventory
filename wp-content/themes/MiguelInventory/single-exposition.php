@@ -27,6 +27,7 @@
       <hr class="top-title">
     </div>
     <div class="col-md-2 text-right" id="selection-tools"> 
+      <?php echo do_shortcode('[favorite_button]'); ?>
       <?php if (function_exists('pf_show_link')) {
         echo pf_show_link();
       } ?>
@@ -67,7 +68,7 @@
   </div>
 
   <hr>
-  <div class="row">
+  <div class="row main-single">
     <?php if (get_field('start_date') || get_field('end_date') || get_field('type_of_exhibition')) { ?>
       <div class="columns col-md-12">
         <h2>Informations De Base</h2>
@@ -87,11 +88,14 @@
       <div class="col-md-8"><span><?php the_field('end_date'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('type_of_exhibition')) { ?>
+    <?php if (get_field('type_of_exhibition')) { 
+      $field = get_field_object('type_of_exhibition');
+      $value = get_field('type_of_exhibition');
+      $type_of_exhibition = $field['choices'][ $value ];
+    ?>
       <div class="col-md-4"><strong>Type d'exposition</strong></div>
-      <div class="col-md-8"><span><?php the_field('type_of_exhibition'); ?></span></div>
+      <div class="col-md-8"><span><?php echo $type_of_exhibition; ?></span></div>
     <?php } ?>
-
 
     <div class="col-md-12">
       <h5>Lieu</h5>
@@ -126,7 +130,7 @@
 
     <?php if (get_field('url')) { ?>
     <div class="col-md-4"><strong>URL</strong></div>
-    <div class="col-md-8"><span><?php the_field('url'); ?></span></div>
+    <div class="col-md-8"><span><a href="<?php the_field('url'); ?>" target="_blank" rel="noopener noreferrer"><?php the_field('url'); ?></a></span></div>
     <?php } ?>
 
     <?php

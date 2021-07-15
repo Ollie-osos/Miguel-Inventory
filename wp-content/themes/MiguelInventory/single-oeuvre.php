@@ -80,7 +80,7 @@
   </div>
 
   <hr>
-  <div class="row">
+  <div class="row main-single">
     <div class="columns col-md-12">
       <h2>Informations De Base</h2>
     </div>
@@ -155,9 +155,13 @@
       <div class="col-md-8"><span><?php the_field('technical_elements'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('etat')) { ?>
-      <div class="col-md-4"><strong>Etat</strong></div>
-      <div class="col-md-8"><span><?php the_field('etat'); ?></span></div>
+    <?php if (get_field('etat')) { 
+      $field = get_field_object('etat');
+      $value = get_field('etat');
+      $etat = $field['choices'][ $value ];
+    ?>
+      <div class="col-md-4"><strong>Etât</strong></div>
+      <div class="col-md-8"><span><?php echo $etat; ?></span></div>
     <?php } ?>
 
     <?php if (get_field('description')) { ?>
@@ -165,9 +169,13 @@
       <div class="col-md-8"><span><?php the_field('description'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('edition')) { ?>
+    <?php if (get_field('edition')) { 
+      $field = get_field_object('edition');
+      $value = get_field('edition');
+      $edition = $field['choices'][ $value ];
+    ?>
       <div class="col-md-4"><strong>Edition</strong></div>
-      <div class="col-md-8"><span><?php the_field('edition'); ?></span></div>
+      <div class="col-md-8"><span><?php echo $edition; ?></span></div>
     <?php } ?>
 
     <?php if (get_field('logicel')) { ?>
@@ -182,7 +190,12 @@
 
     <?php if (get_field('url')) { ?>
       <div class="col-md-4"><strong>URL</strong></div>
-      <div class="col-md-8"><span><?php the_field('url'); ?></span></div>
+      <div class="col-md-8"><span><a href="<?php the_field('url'); ?>" target="_blank" rel="noopener noreferrer"><?php the_field('url'); ?></a></span></div>
+    <?php } ?>
+
+    <?php if (get_field('chemin')) { ?>
+      <div class="col-md-4"><strong>Chemin du fichier</strong></div>
+      <div class="col-md-8"><span><?php the_field('chemin'); ?></span></div>
     <?php } ?>
     
     <?php if (is_user_logged_in()) { ?>
@@ -246,9 +259,13 @@
       </div>
     <?php } ?>
 
-    <?php if (get_field('localisation')) { ?>
+    <?php if (get_field('localisation')) { 
+      $field = get_field_object('localisation');
+      $value = get_field('localisation');
+      $localisation = $field['choices'][ $value ];
+      ?>
       <div class="col-md-4"><strong>Localisation</strong></div>
-      <div class="col-md-8"><span><?php the_field('localisation'); ?></span></div>
+      <div class="col-md-8"><span><?php echo $localisation; ?></span></div>
     <?php } ?>
 
     <?php if (get_field('emplacement') && is_user_logged_in()) { ?>
@@ -262,15 +279,15 @@
       <div class="col-md-8"><span><?php the_field(''); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('collection') && is_user_logged_in()) { ?>
+    <?php if (get_field('anonyme') && is_user_logged_in()) { ?>
       <div class="col-md-4"><strong>Collection</strong></div>
       <div class="col-md-8"><span><?php the_field('collection'); ?></span></div>
     <?php } ?>
 
-    <?php if (get_field('anonyme') && is_user_logged_in()) { ?>
-      <div class="col-md-4"><strong>Anonyme</strong></div>
-      <div class="col-md-8"><span><?php the_field('anonyme'); ?></span></div>
-    <?php } ?>
+    <?php //if (get_field('anonyme') && is_user_logged_in()) { ?>
+      <!-- <div class="col-md-4"><strong>Anonyme</strong></div>
+      <div class="col-md-8"><span><?php the_field('anonyme'); ?></span></div> -->
+    <?php //} ?>
 
 
     <?php if (get_field('affiliated_exhibitions') || get_field('public_notes') || get_field('private_notes')) { ?>
@@ -314,7 +331,7 @@
   <?php
   if (have_rows('affiliated_works')) :
   ?>
-    <div class="row">
+    <div class="row main-single">
       <div class="col-md-12">
         <h2>Sous-Oeuvres</h2>
         <?php get_template_part('/template-parts/affiliated-works'); ?>

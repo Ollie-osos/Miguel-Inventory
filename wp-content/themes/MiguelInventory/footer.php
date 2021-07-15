@@ -13,7 +13,7 @@
 </div>
 </div>
 
-<footer class="footer container">
+<footer class="footer container-fluid">
 	<div id="back-top">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/up-arrow.svg" alt="Scroll To Top">
 	</div>

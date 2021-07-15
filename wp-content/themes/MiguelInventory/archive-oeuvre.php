@@ -57,7 +57,7 @@ get_header(); ?>
 
 	?>
 
-	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: Photo,title:Title,publiable:Publiable,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:work_realised:Oeuvre réalisée,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
+	<?php echo do_shortcode('[posts_table rows_per_page="10" post_type=oeuvre columns="image: Photo,title:Title,publiable:Publiable,cf:creation_date:Date,category:Catégorie,cf:localisation,tags:Série,cf:logicel,cf:unique_work_code:Numéro d\'inventaire,cf:edition" search_box="top" ' . $filter . ' tag="' . get_query_var('t') . '" category=' . get_query_var('c') . ']'); ?>
 </div>
 
 <script>

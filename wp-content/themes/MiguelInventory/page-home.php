@@ -30,7 +30,7 @@ get_sidebar(); ?>
 
 	<h5>Réferences Bibliographiques</h5>
 
-	<?php echo do_shortcode('[posts_table post_limit="5" post_type=bibliographies columns="image: Photo,cf:author:Author,title:Title,cf: publication_date:Date,cf:editor:Editeur,cf:unique_bibliography_code:Code référence" sort_by="cf:unique_bibliography_code" sort_order="desc" lazy_load="true" rows_per_page="3"]'); ?>
+	<?php echo do_shortcode('[posts_table post_limit="5" post_type=bibliographies columns="image: Photo,title:Title,cf:author:Author,cf: publication_date:Date,cf:editor:Editeur,cf:unique_bibliography_code:Code référence" sort_by="cf:publication_date" sort_order="desc" lazy_load="true" rows_per_page="3"]'); ?>
 
 </div>
 
